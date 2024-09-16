@@ -223,6 +223,12 @@
       <email>alex@compuguy.dev</email>
       <shell>/bin/sh</shell>
       <uid>2000</uid>
+      <apikeys>
+        <item>
+          <key>qbhwGdRXGGd7lVVXzKNtlcZDvIF6m2u213ejjQHpOj2KkKibfCJAMjr64s6OVBfwc8bEOS95qwlQbVzr</key>
+          <secret>$6$$B4XGBsoqyC4Jt.t9LeX9IP5XGCktVnfFGF1MUBBteUGwsh1zlN8fTY0ugU7gnGwzKzsObYP85A53GhceG/dMb/</secret>
+        </item>
+      </apikeys>
     </user>
     <nextuid>2001</nextuid>
     <nextgid>2000</nextgid>
@@ -776,8 +782,8 @@ M1mWstUgz2yGjcrwAAABFhbGV4Z0BDb21wdUdhbWU5OQ==&#xD;
   </widgets>
   <revision>
     <username>root@192.168.1.101</username>
-    <description>/diag_backup.php made changes</description>
-    <time>1726447958.9494</time>
+    <description>/system_usermanager.php?act=edit&amp;userid=1 made changes</description>
+    <time>1726448029.1671</time>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
