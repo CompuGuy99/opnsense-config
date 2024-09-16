@@ -272,7 +272,7 @@
     <firmware version="1.0.1">
       <mirror/>
       <flavour/>
-      <plugins>os-git-backup,os-nut</plugins>
+      <plugins>os-git-backup,os-nut,os-theme-cicada</plugins>
       <type/>
       <subscription/>
       <reboot/>
@@ -748,9 +748,9 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
     <column_count>2</column_count>
   </widgets>
   <revision>
-    <username>root@192.168.1.101</username>
-    <description>/diag_backup.php made changes</description>
-    <time>1726448290.3593</time>
+    <username>(system)</username>
+    <description>/usr/local/opnsense/scripts/firmware/register.php made changes</description>
+    <time>1726448354.7755</time>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
