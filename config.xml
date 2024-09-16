@@ -298,7 +298,7 @@
     <backup>
       <git version="1.0.0">
         <enabled>1</enabled>
-        <url>ssh://git@github.com/CompuGuy99/opnsense-config.git</url>
+        <url>ssh://git@github.com:CompuGuy99/opnsense-config.git</url>
         <branch>main</branch>
         <privkey>-----BEGIN OPENSSH PRIVATE KEY-----&#xD;
 b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAABlwAAAAdzc2gtcn&#xD;
@@ -777,7 +777,7 @@ M1mWstUgz2yGjcrwAAABFhbGV4Z0BDb21wdUdhbWU5OQ==&#xD;
   <revision>
     <username>root@192.168.1.101</username>
     <description>/diag_backup.php made changes</description>
-    <time>1726447828.7866</time>
+    <time>1726447833.938</time>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
