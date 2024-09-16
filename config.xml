@@ -339,7 +339,7 @@ CpDLGF8x4vAXuTa3izckRQU3pLhJ2y88Dj8OSTjqOAJXYVB/6dxNcumCek+elZvkpJVHMp&#xD;
 M1mWstUgz2yGjcrwAAABFhbGV4Z0BDb21wdUdhbWU5OQ==&#xD;
 -----END OPENSSH PRIVATE KEY-----&#xD;
 </privkey>
-        <user>compuguy99</user>
+        <user>CompuGuy99</user>
         <password/>
       </git>
     </backup>
@@ -777,7 +777,7 @@ M1mWstUgz2yGjcrwAAABFhbGV4Z0BDb21wdUdhbWU5OQ==&#xD;
   <revision>
     <username>root@192.168.1.101</username>
     <description>/diag_backup.php made changes</description>
-    <time>1726447752.2317</time>
+    <time>1726447759.3704</time>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
