@@ -300,9 +300,36 @@
         <enabled>1</enabled>
         <url>https://github.com/CompuGuy99/opnsense-config</url>
         <branch>main</branch>
-        <privkey/>
+        <privkey>-----BEGIN RSA PRIVATE KEY-----&#xD;
+MIIEogIBAAKCAQEAgV/5Gnv7yEf7mHNUu5e6txwmUS7//gkdlKPSylkoaz7Nhv3F&#xD;
+NpRXeU3Sq3jx57LMxh6qk4p9zkcRWCUGh0jq1UK0T8caJ3gUsCuYQ/Plm3n5RquM&#xD;
+1Ep9b0uYq6tMLcBl4CS+AVM61CMz97LQaPW4LbnQE5Z4EytNPNlwP6W2QZ8FRxRo&#xD;
+E9HypIrf+yg1IiwOsLy0OE5fjIqw5O8IfScAUY0cfRVCp0PTbAzV8hEe/73c5a0C&#xD;
+dShrJnmDj24OJ0vhcNRbDUL7mNGsek1QXtARfudThRBUnFxHQxETpu8dTtR1zdLl&#xD;
+iD/xedr2a20CWuafddvF1jTvSHtlaGmemmlSxQIDAQABAoIBAAYsRR99YPMadCe/&#xD;
+AQD+aVtJTY68FlzRpIauFmWvQV10nqvdOeazx0SzcOTbnXc3scuWNP9bMUuBWpOB&#xD;
+GMGluga46w+PaXEOqrYJLne3kHINrNYxY0PR1hBUZBF01+qq7nF2b1Zy2TC8CUO9&#xD;
+VXJcnxAXeJUmrc4EV+gaW9+9kWeqE/zvyYqJbaVIo3EkvIUpDIUNFk4XH4BvouXF&#xD;
+5o5XT9uEt7iqKBvCCGYEZ6d02KNTE85HNjY1xqOfDXdHSM65F1WyCR+z9v4ctwu4&#xD;
+4jeskMCg6Qs7o5b5k345TmXjmKJtd32ZQQrCcuiD/c2sS2kslgDu5hum2rN5mjyd&#xD;
+IiGqSIECgYEA4QVPE2mJEX+XDu/jUUQhtUaBGKYmq7jmv3tWDB9OYUiMXLCMyv9A&#xD;
+awDV2kKTbFGRhwzIrKfiZbQqSzCudG1qanHhur8t1uzzwNWXOGY8cXlaPd+slgNM&#xD;
+8NxkvBaC8/3povBm4RYYxWb33x9G1WUy2g09a8vqkBmKm+tHZThurWUCgYEAky+y&#xD;
+TF65L9e6XjOdf5aF/tx4Z/rUJiZlskJRUyBf2aqP/3XtWMyYuLoRwqKYydW9EQyh&#xD;
+fbf9K+RLXYLKZmT+CCokvnQkzgyTkl82I7ba0KKZzQSLtd6iQGUiWB8JTeixCCfH&#xD;
+VEQFeEuhKVX3GEpvep78k/UXAw4rLqjSGLvq6eECgYBwOiOcPPB957LBYmdvapmd&#xD;
+PZK5ZnS3BLshGTRrS1neLz7CI9O0kuXf+ESwXLAGQBBi2L9lTT4fF2JYqej4bHG8&#xD;
+sRux9hO4s+lGbcDEAkl3Ft0pKtt63h6LqoAbRub9JdBW0aud61Vjbt2FTKYZXCWm&#xD;
+lx/hGYzdXb/Bz/CFzUV1+QKBgEof0i5t4dt7TGtWmTIBL1hL1gOfqanQ2pRsm6I+&#xD;
+gqcPI9fmnvKCj0MwyfL4ifPTxZTJhKbYuxKYtW/Rh3cL03dvKfQUb9ipMsSbWJuh&#xD;
+4g8CZGyApo+gIJxHkoVIlBn9XvKZfeQtIYgUpoQ3u+oqynu5h8BHxSAPyaWE9dHp&#xD;
+CYRhAoGAcbuzMn+A246TFaogPTw2ZQjMB1YvPvQZXgKeikx6a/5fdGg1M4fS9BJl&#xD;
+kpwNLftdejQ4VQxoRUOz8y9AKS4Vex5V38h5WqS2f7iesgxUZ9V7LsFqXr3644Hu&#xD;
+xZm4ad8WIyxkbvYQDrm05JLAcYGjEaIwpIoCRaOwz3Wxl7Z1pcY=&#xD;
+-----END RSA PRIVATE KEY-----&#xD;
+</privkey>
         <user>compuguy99</user>
-        <password>GithubforU@2019</password>
+        <password/>
       </git>
     </backup>
   </system>
@@ -739,7 +766,7 @@
   <revision>
     <username>root@192.168.1.101</username>
     <description>/diag_backup.php made changes</description>
-    <time>1726447470.2505</time>
+    <time>1726447608.8878</time>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
