@@ -265,6 +265,7 @@
       <keys/>
       <keysig/>
       <enabled>enabled</enabled>
+      <passwordauth>1</passwordauth>
     </ssh>
     <rrdbackup>-1</rrdbackup>
     <netflowbackup>-1</netflowbackup>
@@ -780,7 +781,7 @@ M1mWstUgz2yGjcrwAAABFhbGV4Z0BDb21wdUdhbWU5OQ==&#xD;
   </widgets>
   <revision>
     <username>root@192.168.1.101</username>
-    <time>1726448065.0943</time>
+    <time>1726448090.6268</time>
     <description>/system_advanced_admin.php made changes</description>
   </revision>
   <OPNsense>
