@@ -264,6 +264,7 @@
       <macs/>
       <keys/>
       <keysig/>
+      <enabled>enabled</enabled>
     </ssh>
     <rrdbackup>-1</rrdbackup>
     <netflowbackup>-1</netflowbackup>
@@ -779,8 +780,8 @@ M1mWstUgz2yGjcrwAAABFhbGV4Z0BDb21wdUdhbWU5OQ==&#xD;
   </widgets>
   <revision>
     <username>root@192.168.1.101</username>
-    <description>/system_usermanager.php?act=edit&amp;userid=1 made changes</description>
-    <time>1726448035.6699</time>
+    <time>1726448065.0943</time>
+    <description>/system_advanced_admin.php made changes</description>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
