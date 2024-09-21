@@ -595,17 +595,17 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
       <poolopts/>
       <associated-rule-id>nat_66cbb22004f3b6.97325333</associated-rule-id>
       <target>syncthing</target>
-      <local-port>30039</local-port>
+      <local-port>50413</local-port>
       <source>
         <any>1</any>
       </source>
       <destination>
         <network>wanip</network>
-        <port>30039</port>
+        <port>50413</port>
       </destination>
       <updated>
-        <username>root@192.168.1.101</username>
-        <time>1724625601.8959</time>
+        <username>alexg@192.168.1.101</username>
+        <time>1726880572.3771</time>
         <description>/firewall_nat_edit.php made changes</description>
       </updated>
       <created>
@@ -724,7 +724,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
       <ipprotocol>inet</ipprotocol>
       <destination>
         <address>syncthing</address>
-        <port>30039</port>
+        <port>50413</port>
       </destination>
       <descr/>
       <category/>
@@ -746,9 +746,9 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
     <column_count>2</column_count>
   </widgets>
   <revision>
-    <username>root@192.168.1.101</username>
-    <time>1726880511.6312</time>
-    <description>user "alexg" changed</description>
+    <username>alexg@192.168.1.101</username>
+    <time>1726880572.4386</time>
+    <description>/firewall_nat_edit.php made changes</description>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
