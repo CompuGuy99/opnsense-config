@@ -737,7 +737,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
       <interface>opt1</interface>
       <ipprotocol>inet</ipprotocol>
       <statetype>keep state</statetype>
-      <descr>Default allow LAN IPv6 to any rule</descr>
+      <descr>Default allow Wifi to any rule</descr>
       <direction>in</direction>
       <log>1</log>
       <quick>1</quick>
@@ -749,7 +749,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
       </destination>
       <updated>
         <username>alexg@192.168.1.101</username>
-        <time>1726888673.0989</time>
+        <time>1726936565.8207</time>
         <description>/firewall_rules_edit.php made changes</description>
       </updated>
       <created>
@@ -823,8 +823,8 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
   </widgets>
   <revision>
     <username>alexg@192.168.1.101</username>
-    <time>1726890816.0658</time>
-    <description>/firewall_rules.php made changes</description>
+    <time>1726936565.8886</time>
+    <description>/firewall_rules_edit.php made changes</description>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
