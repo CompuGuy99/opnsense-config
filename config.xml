@@ -732,21 +732,22 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
     </rule>
     <rule uuid="d0eea86d-dcee-4e37-8c12-3ebea831723c">
       <type>pass</type>
-      <interface>opt1</interface>
+      <interface>opt3</interface>
       <ipprotocol>inet</ipprotocol>
       <statetype>keep state</statetype>
-      <descr>Default Wifi Allow to any</descr>
+      <descr>Default NAS Allow to any</descr>
       <direction>in</direction>
+      <log>1</log>
       <quick>1</quick>
       <source>
-        <network>opt1</network>
+        <network>opt3</network>
       </source>
       <destination>
         <any>1</any>
       </destination>
       <updated>
-        <username>root@192.168.1.100</username>
-        <time>1724126777.0091</time>
+        <username>alexg@192.168.1.101</username>
+        <time>1726888278.9666</time>
         <description>/firewall_rules_edit.php made changes</description>
       </updated>
       <created>
@@ -754,7 +755,6 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
         <time>1724125818.1006</time>
         <description>/firewall_rules_edit.php made changes</description>
       </created>
-      <log>1</log>
     </rule>
     <rule uuid="4873a1a8-376b-4cca-900e-761627d923cf">
       <type>pass</type>
@@ -795,7 +795,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
   </widgets>
   <revision>
     <username>alexg@192.168.1.101</username>
-    <time>1726888256.0865</time>
+    <time>1726888279.0281</time>
     <description>/firewall_rules_edit.php made changes</description>
   </revision>
   <OPNsense>
