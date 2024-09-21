@@ -638,6 +638,48 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
     </rule>
   </nat>
   <filter>
+    <rule uuid="4afcd541-9e71-4ee3-98ed-fa4550aecc91">
+      <associated-rule-id>nat_66cba796ae55c6.13152258</associated-rule-id>
+      <source>
+        <any>1</any>
+      </source>
+      <interface>wan</interface>
+      <statetype>keep state</statetype>
+      <protocol>tcp/udp</protocol>
+      <ipprotocol>inet</ipprotocol>
+      <destination>
+        <address>syncthing</address>
+        <port>22000</port>
+      </destination>
+      <descr/>
+      <category/>
+      <created>
+        <username>root@192.168.1.101</username>
+        <time>1724622742.7141</time>
+        <description>/firewall_nat_edit.php made changes</description>
+      </created>
+    </rule>
+    <rule uuid="66d6f63a-c5bd-4c2a-b5bf-6ace371860fb">
+      <associated-rule-id>nat_66cbb22004f3b6.97325333</associated-rule-id>
+      <source>
+        <any>1</any>
+      </source>
+      <interface>wan</interface>
+      <statetype>keep state</statetype>
+      <protocol>tcp/udp</protocol>
+      <ipprotocol>inet</ipprotocol>
+      <destination>
+        <address>syncthing</address>
+        <port>50413</port>
+      </destination>
+      <descr/>
+      <category/>
+      <created>
+        <username>root@192.168.1.101</username>
+        <time>1724625440.0203</time>
+        <description>/firewall_nat_edit.php made changes</description>
+      </created>
+    </rule>
     <rule uuid="e2b00d3d-11f7-4209-94fd-7c6f69200e3c">
       <type>pass</type>
       <ipprotocol>inet</ipprotocol>
@@ -661,6 +703,32 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
       <destination>
         <any/>
       </destination>
+    </rule>
+    <rule uuid="4873a1a8-376b-4cca-900e-761627d923cf">
+      <type>pass</type>
+      <interface>lan</interface>
+      <ipprotocol>inet6</ipprotocol>
+      <statetype>keep state</statetype>
+      <descr>Default allow Nas IPv6 to any rule</descr>
+      <direction>in</direction>
+      <log>1</log>
+      <quick>1</quick>
+      <source>
+        <network>opt3</network>
+      </source>
+      <destination>
+        <any>1</any>
+      </destination>
+      <updated>
+        <username>alexg@192.168.1.101</username>
+        <time>1726888242.6797</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </updated>
+      <created>
+        <username>alexg@192.168.1.101</username>
+        <time>1726888242.6797</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </created>
     </rule>
     <rule uuid="506a48ef-d0f0-4fc4-b3d2-dd177e8c0586">
       <type>pass</type>
@@ -714,48 +782,6 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
       </created>
       <log>1</log>
     </rule>
-    <rule>
-      <associated-rule-id>nat_66cba796ae55c6.13152258</associated-rule-id>
-      <source>
-        <any>1</any>
-      </source>
-      <interface>wan</interface>
-      <statetype>keep state</statetype>
-      <protocol>tcp/udp</protocol>
-      <ipprotocol>inet</ipprotocol>
-      <destination>
-        <address>syncthing</address>
-        <port>22000</port>
-      </destination>
-      <descr/>
-      <category/>
-      <created>
-        <username>root@192.168.1.101</username>
-        <time>1724622742.7141</time>
-        <description>/firewall_nat_edit.php made changes</description>
-      </created>
-    </rule>
-    <rule>
-      <associated-rule-id>nat_66cbb22004f3b6.97325333</associated-rule-id>
-      <source>
-        <any>1</any>
-      </source>
-      <interface>wan</interface>
-      <statetype>keep state</statetype>
-      <protocol>tcp/udp</protocol>
-      <ipprotocol>inet</ipprotocol>
-      <destination>
-        <address>syncthing</address>
-        <port>50413</port>
-      </destination>
-      <descr/>
-      <category/>
-      <created>
-        <username>root@192.168.1.101</username>
-        <time>1724625440.0203</time>
-        <description>/firewall_nat_edit.php made changes</description>
-      </created>
-    </rule>
   </filter>
   <rrd>
     <enable/>
@@ -769,8 +795,8 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
   </widgets>
   <revision>
     <username>alexg@192.168.1.101</username>
-    <time>1726888188.1704</time>
-    <description>/services_dhcp.php made changes</description>
+    <time>1726888242.7424</time>
+    <description>/firewall_rules_edit.php made changes</description>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
