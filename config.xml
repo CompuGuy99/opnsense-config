@@ -704,32 +704,6 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
         <any/>
       </destination>
     </rule>
-    <rule uuid="4873a1a8-376b-4cca-900e-761627d923cf">
-      <type>pass</type>
-      <interface>lan</interface>
-      <ipprotocol>inet6</ipprotocol>
-      <statetype>keep state</statetype>
-      <descr>Default allow Nas IPv6 to any rule</descr>
-      <direction>in</direction>
-      <log>1</log>
-      <quick>1</quick>
-      <source>
-        <network>opt3</network>
-      </source>
-      <destination>
-        <any>1</any>
-      </destination>
-      <updated>
-        <username>alexg@192.168.1.101</username>
-        <time>1726888242.6797</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </updated>
-      <created>
-        <username>alexg@192.168.1.101</username>
-        <time>1726888242.6797</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </created>
-    </rule>
     <rule uuid="506a48ef-d0f0-4fc4-b3d2-dd177e8c0586">
       <type>pass</type>
       <interface>opt1</interface>
@@ -782,6 +756,32 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
       </created>
       <log>1</log>
     </rule>
+    <rule uuid="4873a1a8-376b-4cca-900e-761627d923cf">
+      <type>pass</type>
+      <interface>opt3</interface>
+      <ipprotocol>inet6</ipprotocol>
+      <statetype>keep state</statetype>
+      <descr>Default allow Nas IPv6 to any rule</descr>
+      <direction>in</direction>
+      <log>1</log>
+      <quick>1</quick>
+      <source>
+        <network>opt3</network>
+      </source>
+      <destination>
+        <any>1</any>
+      </destination>
+      <updated>
+        <username>alexg@192.168.1.101</username>
+        <time>1726888256.0243</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </updated>
+      <created>
+        <username>alexg@192.168.1.101</username>
+        <time>1726888242.6797</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </created>
+    </rule>
   </filter>
   <rrd>
     <enable/>
@@ -795,7 +795,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
   </widgets>
   <revision>
     <username>alexg@192.168.1.101</username>
-    <time>1726888242.7424</time>
+    <time>1726888256.0865</time>
     <description>/firewall_rules_edit.php made changes</description>
   </revision>
   <OPNsense>
