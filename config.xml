@@ -213,7 +213,7 @@
       <uid>0</uid>
     </user>
     <user>
-      <password>$2y$11$I1BVlPl.1SHMgPCZHsgfuOpg8LGY7G0EWPPD09.f68DszZRetdDg2</password>
+      <password>$2y$11$HT5QSwYZOoFLgQBKVUVyMeWpRQNHzCSshYEh.fDsbM6YPG6LvaMha</password>
       <scope>user</scope>
       <name>alexg</name>
       <descr>Alex Guymon</descr>
@@ -747,8 +747,8 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
   </widgets>
   <revision>
     <username>root@192.168.1.101</username>
-    <time>1726459271.0778</time>
-    <description>/system_general.php made changes</description>
+    <time>1726880511.6312</time>
+    <description>user "alexg" changed</description>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
