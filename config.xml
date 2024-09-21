@@ -411,6 +411,8 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
       <descr>NAS</descr>
       <enable>1</enable>
       <spoofmac/>
+      <ipaddr>192.168.8.1</ipaddr>
+      <subnet>24</subnet>
     </opt3>
   </interfaces>
   <dhcpd>
@@ -753,7 +755,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
   </widgets>
   <revision>
     <username>alexg@192.168.1.101</username>
-    <time>1726888084.1165</time>
+    <time>1726888127.5962</time>
     <description>/interfaces.php made changes</description>
   </revision>
   <OPNsense>
