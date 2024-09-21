@@ -406,6 +406,10 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
       <ipaddr>192.168.254.1</ipaddr>
       <subnet>24</subnet>
     </opt2>
+    <opt3>
+      <descr>NAS</descr>
+      <if>ix1</if>
+    </opt3>
   </interfaces>
   <dhcpd>
     <lan>
@@ -747,8 +751,8 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
   </widgets>
   <revision>
     <username>alexg@192.168.1.101</username>
-    <time>1726880574.4272</time>
-    <description>/firewall_nat.php made changes</description>
+    <time>1726888050.9576</time>
+    <description>/interfaces_assign.php made changes</description>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
