@@ -795,8 +795,8 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
   </widgets>
   <revision>
     <username>alexg@192.168.1.101</username>
-    <time>1726888279.0281</time>
-    <description>/firewall_rules_edit.php made changes</description>
+    <description>/api/unbound/settings/set made changes</description>
+    <time>1726888298.573</time>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
@@ -1220,7 +1220,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
         <enabled>1</enabled>
         <port>53</port>
         <stats>1</stats>
-        <active_interface>opt2,lan,wan,opt1</active_interface>
+        <active_interface>opt2,lan,opt3,wan,opt1</active_interface>
         <dnssec>0</dnssec>
         <dns64>1</dns64>
         <dns64prefix/>
@@ -1267,6 +1267,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
         <numqueriesperthread/>
         <outgoingrange/>
         <jostletimeout/>
+        <discardtimeout/>
         <cachemaxttl/>
         <cachemaxnegativettl/>
         <cacheminttl/>
