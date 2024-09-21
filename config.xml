@@ -711,8 +711,9 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
       <interface>opt1</interface>
       <ipprotocol>inet6</ipprotocol>
       <statetype>keep state</statetype>
-      <descr>Default allow LAN IPv6 to any rule</descr>
+      <descr>Default allow Wifi IPv6 to any rule</descr>
       <direction>in</direction>
+      <log>1</log>
       <quick>1</quick>
       <source>
         <network>opt1</network>
@@ -721,8 +722,8 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
         <any>1</any>
       </destination>
       <updated>
-        <username>root@192.168.1.100</username>
-        <time>1724126904.0736</time>
+        <username>alexg@192.168.1.101</username>
+        <time>1726936596.3372</time>
         <description>/firewall_rules_edit.php made changes</description>
       </updated>
       <created>
@@ -730,7 +731,6 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
         <time>1724126904.0736</time>
         <description>/firewall_rules_edit.php made changes</description>
       </created>
-      <log>1</log>
     </rule>
     <rule uuid="371ac510-71ed-41d8-a819-05d6028cb435">
       <type>pass</type>
@@ -823,7 +823,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
   </widgets>
   <revision>
     <username>alexg@192.168.1.101</username>
-    <time>1726936565.8886</time>
+    <time>1726936596.403</time>
     <description>/firewall_rules_edit.php made changes</description>
   </revision>
   <OPNsense>
