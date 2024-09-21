@@ -523,6 +523,20 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
       </staticmap>
       <pool/>
     </opt1>
+    <opt3>
+      <enable>1</enable>
+      <ddnsdomainalgorithm>hmac-md5</ddnsdomainalgorithm>
+      <numberoptions>
+        <item/>
+      </numberoptions>
+      <range>
+        <from>192.168.8.32</from>
+        <to>192.168.8.250</to>
+      </range>
+      <winsserver/>
+      <dnsserver/>
+      <ntpserver/>
+    </opt3>
   </dhcpd>
   <snmpd>
     <syslocation/>
@@ -755,8 +769,8 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
   </widgets>
   <revision>
     <username>alexg@192.168.1.101</username>
-    <time>1726888127.5962</time>
-    <description>/interfaces.php made changes</description>
+    <time>1726888188.1704</time>
+    <description>/services_dhcp.php made changes</description>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
