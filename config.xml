@@ -885,8 +885,8 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
   </widgets>
   <revision>
     <username>alexg@192.168.1.101</username>
-    <time>1731982407.7389</time>
-    <description>/firewall_nat_edit.php made changes</description>
+    <time>1731982409.7331</time>
+    <description>/firewall_nat.php made changes</description>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
