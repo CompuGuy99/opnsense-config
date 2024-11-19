@@ -656,7 +656,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
       <poolopts/>
       <associated-rule-id>nat_673bf1f41271c2.41888316</associated-rule-id>
       <target>syncthing</target>
-      <local-port>9645</local-port>
+      <local-port>32400</local-port>
       <source>
         <any>1</any>
       </source>
@@ -666,7 +666,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
       </destination>
       <updated>
         <username>alexg@192.168.1.101</username>
-        <time>1731981873.4707</time>
+        <time>1731982407.6769</time>
         <description>/firewall_nat_edit.php made changes</description>
       </updated>
       <created>
@@ -860,7 +860,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
       <ipprotocol>inet</ipprotocol>
       <destination>
         <address>syncthing</address>
-        <port>9645</port>
+        <port>32400</port>
       </destination>
       <floating>1</floating>
       <quick>yes</quick>
@@ -885,8 +885,8 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
   </widgets>
   <revision>
     <username>alexg@192.168.1.101</username>
-    <time>1731981874.6834</time>
-    <description>/firewall_nat.php made changes</description>
+    <time>1731982407.7389</time>
+    <description>/firewall_nat_edit.php made changes</description>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
