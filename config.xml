@@ -555,35 +555,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
   <nat>
     <outbound>
       <mode>hybrid</mode>
-      <rule>
-        <source>
-          <network>any</network>
-        </source>
-        <destination>
-          <any>1</any>
-        </destination>
-        <descr/>
-        <category/>
-        <interface>wan</interface>
-        <tag/>
-        <tagged/>
-        <poolopts/>
-        <poolopts_sourcehashkey/>
-        <ipprotocol>inet</ipprotocol>
-        <created>
-          <username>root@192.168.1.100</username>
-          <time>1723780654.5922</time>
-          <description>/firewall_nat_out_edit.php made changes</description>
-        </created>
-        <target>lanip</target>
-        <staticnatport>1</staticnatport>
-        <sourceport/>
-        <updated>
-          <username>root@192.168.1.100</username>
-          <time>1723780725.3862</time>
-          <description>/firewall_nat_out_edit.php made changes</description>
-        </updated>
-      </rule>
+      <rule/>
     </outbound>
     <rule>
       <protocol>tcp/udp</protocol>
@@ -885,7 +857,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
   </widgets>
   <revision>
     <username>alexg@192.168.1.101</username>
-    <time>1735504545.813</time>
+    <time>1735504552.2502</time>
     <description>/firewall_nat_out.php made changes</description>
   </revision>
   <OPNsense>
