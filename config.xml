@@ -864,9 +864,9 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
     <column_count>2</column_count>
   </widgets>
   <revision>
-    <username>alexg@192.168.1.101</username>
-    <time>1735505034.7214</time>
-    <description>/firewall_nat_out.php made changes</description>
+    <username>(system)</username>
+    <description>/usr/local/opnsense/mvc/script/run_migrations.php made changes</description>
+    <time>1735505276.6235</time>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
@@ -1058,12 +1058,13 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
           <http_port>8000</http_port>
         </general>
       </ctrl_agent>
-      <dhcp4 version="1.0.1">
+      <dhcp4 version="1.0.2">
         <general>
           <enabled>0</enabled>
           <interfaces/>
           <valid_lifetime>4000</valid_lifetime>
           <fwrules>1</fwrules>
+          <dhcp_socket_type>raw</dhcp_socket_type>
         </general>
         <ha>
           <enabled>0</enabled>
@@ -1299,7 +1300,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
       <queues/>
       <rules/>
     </TrafficShaper>
-    <unboundplus version="1.0.9">
+    <unboundplus version="1.0.11">
       <general>
         <enabled>1</enabled>
         <port>53</port>
@@ -1380,7 +1381,6 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
       <dots/>
       <hosts/>
       <aliases/>
-      <domains/>
     </unboundplus>
     <Nut version="1.0.4">
       <general>
