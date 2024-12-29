@@ -684,6 +684,37 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
         <description>/firewall_nat_edit.php made changes</description>
       </created>
     </rule>
+    <rule>
+      <protocol>udp</protocol>
+      <interface>wan</interface>
+      <category/>
+      <ipprotocol>inet</ipprotocol>
+      <descr/>
+      <tag/>
+      <tagged/>
+      <poolopts/>
+      <associated-rule-id>nat_6771b7097cdbe5.82578008</associated-rule-id>
+      <disabled>1</disabled>
+      <target>nswitch</target>
+      <local-port>45000</local-port>
+      <source>
+        <any>1</any>
+      </source>
+      <destination>
+        <address>nswitch</address>
+        <port>45000-65535</port>
+      </destination>
+      <updated>
+        <username>alexg@192.168.1.101</username>
+        <time>1735505673.5115</time>
+        <description>/firewall_nat_edit.php made changes</description>
+      </updated>
+      <created>
+        <username>alexg@192.168.1.101</username>
+        <time>1735505673.5115</time>
+        <description>/firewall_nat_edit.php made changes</description>
+      </created>
+    </rule>
   </nat>
   <filter>
     <rule uuid="4afcd541-9e71-4ee3-98ed-fa4550aecc91">
@@ -881,6 +912,28 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
         <description>/firewall_nat_edit.php made changes</description>
       </created>
     </rule>
+    <rule>
+      <associated-rule-id>nat_6771b7097cdbe5.82578008</associated-rule-id>
+      <source>
+        <any>1</any>
+      </source>
+      <interface>wan</interface>
+      <statetype>keep state</statetype>
+      <protocol>udp</protocol>
+      <ipprotocol>inet</ipprotocol>
+      <destination>
+        <address>nswitch</address>
+        <port>45000-65535</port>
+      </destination>
+      <disabled>1</disabled>
+      <descr/>
+      <category/>
+      <created>
+        <username>alexg@192.168.1.101</username>
+        <time>1735505673.5114</time>
+        <description>/firewall_nat_edit.php made changes</description>
+      </created>
+    </rule>
   </filter>
   <rrd>
     <enable/>
@@ -894,8 +947,8 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
   </widgets>
   <revision>
     <username>alexg@192.168.1.101</username>
-    <time>1735505596.3354</time>
-    <description>/firewall_nat_out.php made changes</description>
+    <time>1735505673.5758</time>
+    <description>/firewall_nat_edit.php made changes</description>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
