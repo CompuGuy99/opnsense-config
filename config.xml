@@ -864,9 +864,9 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
     <column_count>2</column_count>
   </widgets>
   <revision>
-    <username>(system)</username>
-    <description>/usr/local/opnsense/mvc/script/run_migrations.php made changes</description>
-    <time>1735505276.6235</time>
+    <username>alexg@192.168.1.101</username>
+    <description>/api/firewall/alias/addItem/ made changes</description>
+    <time>1735505499.1759</time>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
@@ -976,6 +976,18 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
             <counters>0</counters>
             <updatefreq/>
             <content>192.168.1.3</content>
+            <categories/>
+            <description/>
+          </alias>
+          <alias uuid="3a3a8951-8d90-4925-b833-a1db6b6a1b1a">
+            <enabled>1</enabled>
+            <name>nswitch</name>
+            <type>host</type>
+            <proto/>
+            <interface/>
+            <counters>0</counters>
+            <updatefreq/>
+            <content>192.168.4.8</content>
             <categories/>
             <description/>
           </alias>
