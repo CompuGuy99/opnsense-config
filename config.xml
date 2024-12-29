@@ -562,7 +562,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
   </snmpd>
   <nat>
     <outbound>
-      <mode>hybrid</mode>
+      <mode>automatic</mode>
       <rule/>
     </outbound>
     <rule>
@@ -865,8 +865,8 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
   </widgets>
   <revision>
     <username>alexg@192.168.1.101</username>
-    <time>1735504631.2147</time>
-    <description>/services_dhcp_edit.php made changes</description>
+    <time>1735504806.9908</time>
+    <description>/firewall_nat_out.php made changes</description>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
