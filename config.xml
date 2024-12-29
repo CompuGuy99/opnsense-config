@@ -554,7 +554,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
   </snmpd>
   <nat>
     <outbound>
-      <mode>automatic</mode>
+      <mode>hybrid</mode>
       <rule>
         <source>
           <network>any</network>
@@ -884,9 +884,9 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
     <column_count>2</column_count>
   </widgets>
   <revision>
-    <username>(system)</username>
-    <description>/usr/local/opnsense/mvc/script/run_migrations.php made changes</description>
-    <time>1732232769.4439</time>
+    <username>alexg@192.168.1.101</username>
+    <time>1735504542.9336</time>
+    <description>/firewall_nat_out.php made changes</description>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
