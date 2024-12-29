@@ -562,7 +562,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
   </snmpd>
   <nat>
     <outbound>
-      <mode>automatic</mode>
+      <mode>hybrid</mode>
       <rule/>
     </outbound>
     <rule>
@@ -865,8 +865,8 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
   </widgets>
   <revision>
     <username>alexg@192.168.1.101</username>
-    <description>/api/unbound/settings/set made changes</description>
-    <time>1735504996.4586</time>
+    <time>1735505031.7935</time>
+    <description>/firewall_nat_out.php made changes</description>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
