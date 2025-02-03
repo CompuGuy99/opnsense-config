@@ -1056,9 +1056,9 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
     <column_count>2</column_count>
   </widgets>
   <revision>
-    <username>alexg@192.168.4.39</username>
-    <time>1738553861.5162</time>
-    <description>/firewall_nat.php made changes</description>
+    <username>alexg@192.168.1.100</username>
+    <description>/api/unbound/settings/set made changes</description>
+    <time>1738556225.8316</time>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
@@ -1518,7 +1518,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
     </TrafficShaper>
     <unboundplus version="1.0.11">
       <general>
-        <enabled>1</enabled>
+        <enabled>0</enabled>
         <port>53</port>
         <stats>1</stats>
         <active_interface>opt2,lan,opt3,opt1</active_interface>
