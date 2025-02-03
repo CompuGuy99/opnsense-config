@@ -1057,8 +1057,8 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
   </widgets>
   <revision>
     <username>alexg@192.168.1.100</username>
-    <description>/api/unbound/settings/set made changes</description>
-    <time>1738556273.9538</time>
+    <description>/api/unbound/settings/addHostOverride/ made changes</description>
+    <time>1738556921.5805</time>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
@@ -1595,7 +1595,18 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
         <enabled>1</enabled>
       </forwarding>
       <dots/>
-      <hosts/>
+      <hosts>
+        <host uuid="2bb6dadc-5dd8-43c1-a1ba-5386ca517c34">
+          <enabled>1</enabled>
+          <hostname>torrent</hostname>
+          <domain>compuguy.dev</domain>
+          <rr>A</rr>
+          <mxprio/>
+          <mx/>
+          <server>192.168.1.4</server>
+          <description/>
+        </host>
+      </hosts>
       <aliases/>
     </unboundplus>
     <Nut version="1.0.4">
