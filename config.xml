@@ -752,6 +752,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
         <time>1738553817.3638</time>
         <description>/firewall_nat_edit.php made changes</description>
       </created>
+      <disabled>1</disabled>
     </rule>
     <rule>
       <protocol>tcp</protocol>
@@ -782,6 +783,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
         <time>1738553859.6988</time>
         <description>/firewall_nat_edit.php made changes</description>
       </created>
+      <disabled>1</disabled>
     </rule>
   </nat>
   <filter>
@@ -1022,6 +1024,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
         <time>1738553817.3637</time>
         <description>/firewall_nat_edit.php made changes</description>
       </created>
+      <disabled>1</disabled>
     </rule>
     <rule>
       <associated-rule-id>nat_67a03a03aa96f0.38194236</associated-rule-id>
@@ -1043,6 +1046,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
         <time>1738553859.6988</time>
         <description>/firewall_nat_edit.php made changes</description>
       </created>
+      <disabled>1</disabled>
     </rule>
   </filter>
   <rrd>
@@ -1057,8 +1061,8 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
   </widgets>
   <revision>
     <username>alexg@192.168.1.100</username>
-    <description>/api/unbound/settings/addHostOverride/ made changes</description>
-    <time>1738556921.5805</time>
+    <time>1738557046.2989</time>
+    <description>Firewall: NAT: Port Forward, toggle NAT rule</description>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
