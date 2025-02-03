@@ -1062,7 +1062,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
   <revision>
     <username>alexg@192.168.1.100</username>
     <description>/api/unbound/settings/addHostOverride/ made changes</description>
-    <time>1738559898.526</time>
+    <time>1738559922.3583</time>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
@@ -1619,6 +1619,16 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
           <mx/>
           <server>192.168.1.4</server>
           <description>tdarr client</description>
+        </host>
+        <host uuid="0d04a603-347f-4fed-acbf-7209a380e9eb">
+          <enabled>1</enabled>
+          <hostname>syncthing</hostname>
+          <domain>compuguy.dev</domain>
+          <rr>A</rr>
+          <mxprio/>
+          <mx/>
+          <server>192.168.1.4</server>
+          <description/>
         </host>
       </hosts>
       <aliases/>
