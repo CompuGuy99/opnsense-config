@@ -1061,8 +1061,8 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
   </widgets>
   <revision>
     <username>alexg@192.168.4.39</username>
-    <description>/api/trust/cert/add/ made changes</description>
-    <time>1738640999.4266</time>
+    <description>/api/unbound/settings/addHostOverride/ made changes</description>
+    <time>1738641075.3975</time>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
@@ -1623,6 +1623,16 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
         <host uuid="0d04a603-347f-4fed-acbf-7209a380e9eb">
           <enabled>1</enabled>
           <hostname>syncthing</hostname>
+          <domain>compuguy.dev</domain>
+          <rr>A</rr>
+          <mxprio/>
+          <mx/>
+          <server>192.168.1.4</server>
+          <description/>
+        </host>
+        <host uuid="8e68b6a4-5373-4086-b14e-113f7397ab47">
+          <enabled>1</enabled>
+          <hostname>deluge</hostname>
           <domain>compuguy.dev</domain>
           <rr>A</rr>
           <mxprio/>
