@@ -1071,8 +1071,8 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
   </widgets>
   <revision>
     <username>alexg@192.168.4.39</username>
-    <time>1739068911.3058</time>
-    <description>/system_general.php made changes</description>
+    <description>/api/unbound/settings/addHostOverride/ made changes</description>
+    <time>1739074576.4614</time>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
@@ -1653,6 +1653,16 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
         <host uuid="a958626a-9de3-4243-9714-53ffcda51c40">
           <enabled>1</enabled>
           <hostname>portainer</hostname>
+          <domain>compuguy.dev</domain>
+          <rr>A</rr>
+          <mxprio/>
+          <mx/>
+          <server>192.168.1.4</server>
+          <description/>
+        </host>
+        <host uuid="987fd4a6-997d-407c-9742-efa10744473f">
+          <enabled>1</enabled>
+          <hostname>sonarr</hostname>
           <domain>compuguy.dev</domain>
           <rr>A</rr>
           <mxprio/>
