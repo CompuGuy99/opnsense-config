@@ -314,6 +314,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
         <password/>
       </git>
     </backup>
+    <dnssearchdomain>compuguy.dev</dnssearchdomain>
   </system>
   <interfaces>
     <wan>
@@ -1070,8 +1071,8 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
   </widgets>
   <revision>
     <username>alexg@192.168.4.39</username>
-    <time>1739068827.2318</time>
-    <description>/services_dhcp_edit.php made changes</description>
+    <time>1739068911.3058</time>
+    <description>/system_general.php made changes</description>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
