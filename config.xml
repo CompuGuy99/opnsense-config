@@ -491,7 +491,6 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
         <cid>gluetun</cid>
         <ipaddr>192.168.1.8</ipaddr>
         <hostname>gluetun</hostname>
-        <domain>compuguy.dev</domain>
         <winsserver/>
         <dnsserver/>
         <ntpserver/>
@@ -1071,7 +1070,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
   </widgets>
   <revision>
     <username>alexg@192.168.4.39</username>
-    <time>1739068406.1733</time>
+    <time>1739068827.2318</time>
     <description>/services_dhcp_edit.php made changes</description>
   </revision>
   <OPNsense>
