@@ -1072,7 +1072,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
   <revision>
     <username>alexg@192.168.1.101</username>
     <description>/api/unbound/settings/addHostOverride/ made changes</description>
-    <time>1739161449.3086</time>
+    <time>1739162482.1583</time>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
@@ -1703,6 +1703,16 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
         <host uuid="2e01b211-b508-43e5-8b8f-2840308b7b1b">
           <enabled>1</enabled>
           <hostname>overseerr</hostname>
+          <domain>compuguy.dev</domain>
+          <rr>A</rr>
+          <mxprio/>
+          <mx/>
+          <server>192.168.1.4</server>
+          <description/>
+        </host>
+        <host uuid="51a2a7d1-ce88-41bb-8e4f-3359248eb5b9">
+          <enabled>1</enabled>
+          <hostname>mxserver</hostname>
           <domain>compuguy.dev</domain>
           <rr>A</rr>
           <mxprio/>
