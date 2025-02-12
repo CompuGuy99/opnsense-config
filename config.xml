@@ -686,7 +686,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
     </rule>
     <rule>
       <protocol>tcp</protocol>
-      <interface>lan,wan</interface>
+      <interface>lan,opt3,wan</interface>
       <category/>
       <ipprotocol>inet</ipprotocol>
       <descr/>
@@ -705,7 +705,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
       </destination>
       <updated>
         <username>alexg@192.168.1.101</username>
-        <time>1731982407.6769</time>
+        <time>1739333626.7708</time>
         <description>/firewall_nat_edit.php made changes</description>
       </updated>
       <created>
@@ -814,7 +814,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
       <source>
         <any>1</any>
       </source>
-      <interface>lan,wan</interface>
+      <interface>lan,opt3,wan</interface>
       <statetype>keep state</statetype>
       <protocol>tcp</protocol>
       <ipprotocol>inet</ipprotocol>
@@ -1083,8 +1083,8 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
   </widgets>
   <revision>
     <username>alexg@192.168.1.101</username>
-    <description>/api/firewall/alias/set made changes</description>
-    <time>1739333373.2566</time>
+    <time>1739333626.8387</time>
+    <description>/firewall_nat_edit.php made changes</description>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
