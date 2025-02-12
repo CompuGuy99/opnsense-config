@@ -1069,33 +1069,6 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
         <description>/firewall_rules_edit.php made changes</description>
       </created>
     </rule>
-    <rule uuid="4a49b0f1-4d81-4172-8d09-a89a88783619">
-      <type>pass</type>
-      <interface>opt3</interface>
-      <ipprotocol>inet</ipprotocol>
-      <statetype>keep state</statetype>
-      <descr>Allow access to DNS on gateway</descr>
-      <direction>in</direction>
-      <quick>1</quick>
-      <protocol>tcp/udp</protocol>
-      <source>
-        <network>opt3</network>
-      </source>
-      <destination>
-        <network>opt3ip</network>
-        <port>53</port>
-      </destination>
-      <updated>
-        <username>alexg@192.168.1.101</username>
-        <time>1739331267.8753</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </updated>
-      <created>
-        <username>alexg@192.168.1.101</username>
-        <time>1739331267.8753</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </created>
-    </rule>
   </filter>
   <rrd>
     <enable/>
@@ -1109,8 +1082,8 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
   </widgets>
   <revision>
     <username>alexg@192.168.1.101</username>
-    <time>1739331267.944</time>
-    <description>/firewall_rules_edit.php made changes</description>
+    <time>1739331317.4589</time>
+    <description>/firewall_rules.php made changes</description>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
