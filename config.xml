@@ -808,6 +808,29 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
     </rule>
   </nat>
   <filter>
+    <rule uuid="58ae067c-0dda-4a13-89a3-9582c5864773">
+      <associated-rule-id>nat_673bf1f41271c2.41888316</associated-rule-id>
+      <source>
+        <any>1</any>
+      </source>
+      <interface>lan,wan</interface>
+      <statetype>keep state</statetype>
+      <protocol>tcp</protocol>
+      <ipprotocol>inet</ipprotocol>
+      <destination>
+        <address>syncthing</address>
+        <port>32400</port>
+      </destination>
+      <floating>1</floating>
+      <quick>yes</quick>
+      <descr/>
+      <category/>
+      <created>
+        <username>alexg@192.168.1.101</username>
+        <time>1731981812.0756</time>
+        <description>/firewall_nat_edit.php made changes</description>
+      </created>
+    </rule>
     <rule uuid="4afcd541-9e71-4ee3-98ed-fa4550aecc91">
       <associated-rule-id>nat_66cba796ae55c6.13152258</associated-rule-id>
       <source>
@@ -849,6 +872,72 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
         <time>1724625440.0203</time>
         <description>/firewall_nat_edit.php made changes</description>
       </created>
+    </rule>
+    <rule uuid="34bc5b39-ac91-4b8e-bd64-1a0980ba6b8e">
+      <associated-rule-id>nat_6771b7097cdbe5.82578008</associated-rule-id>
+      <source>
+        <any>1</any>
+      </source>
+      <interface>wan</interface>
+      <statetype>keep state</statetype>
+      <protocol>udp</protocol>
+      <ipprotocol>inet</ipprotocol>
+      <destination>
+        <address>nswitch</address>
+        <port>45000-65535</port>
+      </destination>
+      <disabled>1</disabled>
+      <descr/>
+      <category/>
+      <created>
+        <username>alexg@192.168.1.101</username>
+        <time>1735505673.5114</time>
+        <description>/firewall_nat_edit.php made changes</description>
+      </created>
+    </rule>
+    <rule uuid="c72c7177-5a18-4df0-8492-17f188018a59">
+      <associated-rule-id>nat_67a039d958cb77.29374071</associated-rule-id>
+      <source>
+        <any>1</any>
+      </source>
+      <interface>wan</interface>
+      <statetype>keep state</statetype>
+      <protocol>tcp</protocol>
+      <ipprotocol>inet</ipprotocol>
+      <destination>
+        <address>proxy</address>
+        <port>80</port>
+      </destination>
+      <descr/>
+      <category/>
+      <created>
+        <username>alexg@192.168.4.39</username>
+        <time>1738553817.3637</time>
+        <description>/firewall_nat_edit.php made changes</description>
+      </created>
+      <disabled>1</disabled>
+    </rule>
+    <rule uuid="137a62a4-e7eb-4b30-8d21-33c4b257f2cf">
+      <associated-rule-id>nat_67a03a03aa96f0.38194236</associated-rule-id>
+      <source>
+        <any>1</any>
+      </source>
+      <interface>wan</interface>
+      <statetype>keep state</statetype>
+      <protocol>tcp</protocol>
+      <ipprotocol>inet</ipprotocol>
+      <destination>
+        <address>proxy</address>
+        <port>443</port>
+      </destination>
+      <descr/>
+      <category/>
+      <created>
+        <username>alexg@192.168.4.39</username>
+        <time>1738553859.6988</time>
+        <description>/firewall_nat_edit.php made changes</description>
+      </created>
+      <disabled>1</disabled>
     </rule>
     <rule uuid="e2b00d3d-11f7-4209-94fd-7c6f69200e3c">
       <type>pass</type>
@@ -980,94 +1069,32 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
         <description>/firewall_rules_edit.php made changes</description>
       </created>
     </rule>
-    <rule>
-      <associated-rule-id>nat_673bf1f41271c2.41888316</associated-rule-id>
-      <source>
-        <any>1</any>
-      </source>
-      <interface>lan,wan</interface>
-      <statetype>keep state</statetype>
-      <protocol>tcp</protocol>
+    <rule uuid="4a49b0f1-4d81-4172-8d09-a89a88783619">
+      <type>pass</type>
+      <interface>opt3</interface>
       <ipprotocol>inet</ipprotocol>
+      <statetype>keep state</statetype>
+      <descr>Allow access to DNS on gateway</descr>
+      <direction>in</direction>
+      <quick>1</quick>
+      <protocol>tcp/udp</protocol>
+      <source>
+        <network>opt3</network>
+      </source>
       <destination>
-        <address>syncthing</address>
-        <port>32400</port>
+        <network>opt3ip</network>
+        <port>53</port>
       </destination>
-      <floating>1</floating>
-      <quick>yes</quick>
-      <descr/>
-      <category/>
+      <updated>
+        <username>alexg@192.168.1.101</username>
+        <time>1739331267.8753</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </updated>
       <created>
         <username>alexg@192.168.1.101</username>
-        <time>1731981812.0756</time>
-        <description>/firewall_nat_edit.php made changes</description>
+        <time>1739331267.8753</time>
+        <description>/firewall_rules_edit.php made changes</description>
       </created>
-    </rule>
-    <rule>
-      <associated-rule-id>nat_6771b7097cdbe5.82578008</associated-rule-id>
-      <source>
-        <any>1</any>
-      </source>
-      <interface>wan</interface>
-      <statetype>keep state</statetype>
-      <protocol>udp</protocol>
-      <ipprotocol>inet</ipprotocol>
-      <destination>
-        <address>nswitch</address>
-        <port>45000-65535</port>
-      </destination>
-      <disabled>1</disabled>
-      <descr/>
-      <category/>
-      <created>
-        <username>alexg@192.168.1.101</username>
-        <time>1735505673.5114</time>
-        <description>/firewall_nat_edit.php made changes</description>
-      </created>
-    </rule>
-    <rule>
-      <associated-rule-id>nat_67a039d958cb77.29374071</associated-rule-id>
-      <source>
-        <any>1</any>
-      </source>
-      <interface>wan</interface>
-      <statetype>keep state</statetype>
-      <protocol>tcp</protocol>
-      <ipprotocol>inet</ipprotocol>
-      <destination>
-        <address>proxy</address>
-        <port>80</port>
-      </destination>
-      <descr/>
-      <category/>
-      <created>
-        <username>alexg@192.168.4.39</username>
-        <time>1738553817.3637</time>
-        <description>/firewall_nat_edit.php made changes</description>
-      </created>
-      <disabled>1</disabled>
-    </rule>
-    <rule>
-      <associated-rule-id>nat_67a03a03aa96f0.38194236</associated-rule-id>
-      <source>
-        <any>1</any>
-      </source>
-      <interface>wan</interface>
-      <statetype>keep state</statetype>
-      <protocol>tcp</protocol>
-      <ipprotocol>inet</ipprotocol>
-      <destination>
-        <address>proxy</address>
-        <port>443</port>
-      </destination>
-      <descr/>
-      <category/>
-      <created>
-        <username>alexg@192.168.4.39</username>
-        <time>1738553859.6988</time>
-        <description>/firewall_nat_edit.php made changes</description>
-      </created>
-      <disabled>1</disabled>
     </rule>
   </filter>
   <rrd>
@@ -1082,8 +1109,8 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
   </widgets>
   <revision>
     <username>alexg@192.168.1.101</username>
-    <time>1739329428.4235</time>
-    <description>/services_dhcp_edit.php made changes</description>
+    <time>1739331267.944</time>
+    <description>/firewall_rules_edit.php made changes</description>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
