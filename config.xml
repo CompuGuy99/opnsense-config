@@ -422,6 +422,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
     <lan>
       <enable>1</enable>
       <ddnsdomainalgorithm>hmac-md5</ddnsdomainalgorithm>
+      <ddnsupdate>1</ddnsupdate>
       <tftp>192.168.1.3</tftp>
       <bootfilename>netboot.xyz.kpxe</bootfilename>
       <netboot>1</netboot>
@@ -1082,8 +1083,8 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
   </widgets>
   <revision>
     <username>alexg@192.168.1.101</username>
-    <description>/api/firewall/alias/set made changes</description>
-    <time>1739332926.4766</time>
+    <time>1739333266.9106</time>
+    <description>/services_dhcp.php made changes</description>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
