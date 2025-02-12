@@ -375,6 +375,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
       <if>ix0</if>
       <descr>LAN</descr>
       <enable>1</enable>
+      <lock>1</lock>
       <spoofmac/>
       <ipaddr>192.168.1.1</ipaddr>
       <subnet>24</subnet>
@@ -1081,7 +1082,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
   </widgets>
   <revision>
     <username>alexg@192.168.1.101</username>
-    <time>1739328246.2975</time>
+    <time>1739328259.8212</time>
     <description>/interfaces.php made changes</description>
   </revision>
   <OPNsense>
