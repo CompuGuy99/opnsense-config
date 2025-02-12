@@ -686,7 +686,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
     </rule>
     <rule>
       <protocol>tcp</protocol>
-      <interface>lan,opt3,wan</interface>
+      <interface>wan</interface>
       <category/>
       <ipprotocol>inet</ipprotocol>
       <descr/>
@@ -705,7 +705,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
       </destination>
       <updated>
         <username>alexg@192.168.1.101</username>
-        <time>1739333626.7708</time>
+        <time>1739333724.3114</time>
         <description>/firewall_nat_edit.php made changes</description>
       </updated>
       <created>
@@ -814,7 +814,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
       <source>
         <any>1</any>
       </source>
-      <interface>lan,opt3,wan</interface>
+      <interface>wan</interface>
       <statetype>keep state</statetype>
       <protocol>tcp</protocol>
       <ipprotocol>inet</ipprotocol>
@@ -822,8 +822,6 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
         <address>syncthing</address>
         <port>32400</port>
       </destination>
-      <floating>1</floating>
-      <quick>yes</quick>
       <descr/>
       <category/>
       <created>
@@ -1083,8 +1081,8 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
   </widgets>
   <revision>
     <username>alexg@192.168.1.101</username>
-    <time>1739333628.2115</time>
-    <description>/firewall_nat.php made changes</description>
+    <time>1739333724.382</time>
+    <description>/firewall_nat_edit.php made changes</description>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
