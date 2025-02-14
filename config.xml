@@ -1080,9 +1080,9 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
     <column_count>2</column_count>
   </widgets>
   <revision>
-    <username>alexg@192.168.1.101</username>
-    <time>1739340839.547</time>
-    <description>/services_dhcp_edit.php made changes</description>
+    <username>alexg@192.168.4.39</username>
+    <time>1739512764.3717</time>
+    <description>/interfaces_bridge_edit.php made changes</description>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
@@ -1849,7 +1849,21 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
     <route/>
   </staticroutes>
   <bridges>
-    <bridged/>
+    <bridged>
+      <descr/>
+      <maxaddr/>
+      <timeout/>
+      <bridgeif>bridge0</bridgeif>
+      <maxage/>
+      <fwdelay/>
+      <hellotime/>
+      <priority/>
+      <proto>rstp</proto>
+      <holdcnt/>
+      <members>lan,opt3</members>
+      <ifpriority/>
+      <ifpathcost/>
+    </bridged>
   </bridges>
   <ppps>
     <ppp/>
