@@ -875,7 +875,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
     </rule>
     <rule>
       <protocol>tcp</protocol>
-      <interface>wan</interface>
+      <interface>opt4,wan</interface>
       <category/>
       <ipprotocol>inet</ipprotocol>
       <descr/>
@@ -894,7 +894,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
       </destination>
       <updated>
         <username>alexg@192.168.1.101</username>
-        <time>1739649505.8845</time>
+        <time>1739656836.81</time>
         <description>/firewall_nat_edit.php made changes</description>
       </updated>
       <created>
@@ -1062,7 +1062,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
       <source>
         <any>1</any>
       </source>
-      <interface>wan</interface>
+      <interface>opt4,wan</interface>
       <statetype>keep state</statetype>
       <protocol>tcp</protocol>
       <ipprotocol>inet</ipprotocol>
@@ -1077,7 +1077,8 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
         <time>1739649505.8845</time>
         <description>/firewall_nat_edit.php made changes</description>
       </created>
-      <log>1</log>
+      <floating>1</floating>
+      <quick>yes</quick>
     </rule>
     <rule uuid="e2b00d3d-11f7-4209-94fd-7c6f69200e3c">
       <type>pass</type>
@@ -1361,7 +1362,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
   </widgets>
   <revision>
     <username>alexg@192.168.1.101</username>
-    <time>1739656813.1987</time>
+    <time>1739656836.8802</time>
     <description>/firewall_nat_edit.php made changes</description>
   </revision>
   <OPNsense>
