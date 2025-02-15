@@ -1085,8 +1085,8 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
   </widgets>
   <revision>
     <username>alexg@192.168.1.101</username>
-    <description>/api/unbound/settings/delHostOverride/2bb6dadc-5dd8-43c1-a1ba-5386ca517c34 made changes</description>
-    <time>1739647302.6581</time>
+    <description>/api/interfaces/vlan_settings/addItem/ made changes</description>
+    <time>1739649314.4957</time>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
@@ -1825,7 +1825,14 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
     <vip/>
   </virtualip>
   <vlans version="1.0.0">
-    <vlan/>
+    <vlan uuid="7a22dbcf-a855-4278-8832-db2380615ba3">
+      <if>ix0</if>
+      <tag>47</tag>
+      <pcp>2</pcp>
+      <proto/>
+      <descr>DMZ</descr>
+      <vlanif>vlan0.47</vlanif>
+    </vlan>
   </vlans>
   <staticroutes version="1.0.0">
     <route/>
