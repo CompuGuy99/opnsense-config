@@ -425,6 +425,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
       <if>vlan0.47</if>
       <descr>PublicProxy</descr>
       <enable>1</enable>
+      <lock>1</lock>
       <spoofmac/>
       <ipaddr>192.168.7.1</ipaddr>
       <subnet>24</subnet>
@@ -1213,8 +1214,8 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
   </widgets>
   <revision>
     <username>alexg@192.168.1.101</username>
-    <time>1739650123.5188</time>
-    <description>/services_dhcp.php made changes</description>
+    <time>1739650407.5786</time>
+    <description>/interfaces.php made changes</description>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
