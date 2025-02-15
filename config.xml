@@ -1085,8 +1085,8 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
   </widgets>
   <revision>
     <username>alexg@192.168.1.101</username>
-    <description>/api/interfaces/vlan_settings/addItem/ made changes</description>
-    <time>1739649314.4957</time>
+    <description>/api/firewall/alias/addItem/ made changes</description>
+    <time>1739649410.8038</time>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
@@ -1232,6 +1232,18 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
             <counters>0</counters>
             <updatefreq/>
             <content>192.168.8.3</content>
+            <categories/>
+            <description/>
+          </alias>
+          <alias uuid="30210545-6640-4143-aa01-9ee9fbcabe8a">
+            <enabled>1</enabled>
+            <name>nginxproxy</name>
+            <type>mac</type>
+            <proto/>
+            <interface/>
+            <counters>0</counters>
+            <updatefreq/>
+            <content>BC:24:11:7E:73:B3</content>
             <categories/>
             <description/>
           </alias>
