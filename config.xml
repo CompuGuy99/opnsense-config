@@ -887,7 +887,8 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
       <target>proxy</target>
       <local-port>443</local-port>
       <source>
-        <any>1</any>
+        <address>internal_space</address>
+        <not>1</not>
       </source>
       <destination>
         <network>wanip</network>
@@ -895,7 +896,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
       </destination>
       <updated>
         <username>alexg@192.168.1.101</username>
-        <time>1739660646.0151</time>
+        <time>1739661411.4636</time>
         <description>/firewall_nat_edit.php made changes</description>
       </updated>
       <created>
@@ -1060,7 +1061,8 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
     <rule uuid="dd1a8622-c59a-4a9e-8779-a87478f0785a">
       <associated-rule-id>nat_67b0f1e1d7f237.78707600</associated-rule-id>
       <source>
-        <any>1</any>
+        <address>internal_space</address>
+        <not>1</not>
       </source>
       <interface>wan</interface>
       <statetype>keep state</statetype>
@@ -1360,7 +1362,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
   </widgets>
   <revision>
     <username>alexg@192.168.1.101</username>
-    <time>1739661394.8769</time>
+    <time>1739661411.5327</time>
     <description>/firewall_nat_edit.php made changes</description>
   </revision>
   <OPNsense>
