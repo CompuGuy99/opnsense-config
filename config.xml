@@ -1085,8 +1085,8 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
   </widgets>
   <revision>
     <username>alexg@192.168.1.101</username>
-    <description>/api/trust/cert/del/66664076-cd45-4728-a2c8-15687d417c2e made changes</description>
-    <time>1739644304.1885</time>
+    <description>/api/unbound/settings/setHostOverride/c446568b-e5ec-4e77-a00a-b1423207ea70 made changes</description>
+    <time>1739644498.9094</time>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
@@ -1719,7 +1719,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
         <host uuid="c446568b-e5ec-4e77-a00a-b1423207ea70">
           <enabled>1</enabled>
           <hostname>plex</hostname>
-          <domain>compuguy.local</domain>
+          <domain>int.compuguy.dev</domain>
           <rr>A</rr>
           <mxprio/>
           <mx/>
