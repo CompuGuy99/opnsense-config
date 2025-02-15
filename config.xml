@@ -1236,14 +1236,14 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
       <direction>in</direction>
       <quick>1</quick>
       <source>
-        <any>1</any>
+        <network>opt4</network>
       </source>
       <destination>
         <address>192.168.0.0/20</address>
       </destination>
       <updated>
         <username>alexg@192.168.1.101</username>
-        <time>1739650562.9957</time>
+        <time>1739650629.4157</time>
         <description>/firewall_rules_edit.php made changes</description>
       </updated>
       <created>
@@ -1265,7 +1265,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
   </widgets>
   <revision>
     <username>alexg@192.168.1.101</username>
-    <time>1739650608.5379</time>
+    <time>1739650629.4836</time>
     <description>/firewall_rules_edit.php made changes</description>
   </revision>
   <OPNsense>
