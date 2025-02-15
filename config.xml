@@ -1032,6 +1032,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
         <time>1738553859.6988</time>
         <description>/firewall_nat_edit.php made changes</description>
       </created>
+      <log>1</log>
     </rule>
     <rule uuid="c56a6e9a-4c76-40d5-947c-314a9eb10974">
       <associated-rule-id>nat_67b0f1c96a8bc4.84850855</associated-rule-id>
@@ -1361,7 +1362,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
   </widgets>
   <revision>
     <username>alexg@192.168.1.101</username>
-    <time>1739657159.3892</time>
+    <time>1739657160.5356</time>
     <description>/firewall_rules.php made changes</description>
   </revision>
   <OPNsense>
