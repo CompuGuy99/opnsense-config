@@ -1219,7 +1219,6 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
       <interface>opt4</interface>
       <ipprotocol>inet</ipprotocol>
       <statetype>keep state</statetype>
-      <descr>Allow to external networks</descr>
       <direction>in</direction>
       <log>1</log>
       <quick>1</quick>
@@ -1227,12 +1226,12 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
         <network>opt4</network>
       </source>
       <destination>
-        <address>internal_space</address>
+        <any>1</any>
         <not>1</not>
       </destination>
       <updated>
         <username>alexg@192.168.1.101</username>
-        <time>1739653429.8105</time>
+        <time>1739661986.2058</time>
         <description>/firewall_rules_edit.php made changes</description>
       </updated>
       <created>
@@ -1366,8 +1365,8 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
   </widgets>
   <revision>
     <username>alexg@192.168.1.101</username>
-    <description>/api/diagnostics/lvtemplate/addItem/ made changes</description>
-    <time>1739661768.6084</time>
+    <time>1739661986.2775</time>
+    <description>/firewall_rules_edit.php made changes</description>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
