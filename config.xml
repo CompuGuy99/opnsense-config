@@ -1085,8 +1085,8 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
   </widgets>
   <revision>
     <username>alexg@192.168.1.101</username>
-    <description>/api/unbound/settings/delHostOverride/2e01b211-b508-43e5-8b8f-2840308b7b1b made changes</description>
-    <time>1739647093.6224</time>
+    <description>/api/unbound/settings/delHostOverride/c446568b-e5ec-4e77-a00a-b1423207ea70 made changes</description>
+    <time>1739647098.9017</time>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
@@ -1700,16 +1700,6 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
           <enabled>1</enabled>
           <hostname>radarr</hostname>
           <domain>compuguy.dev</domain>
-          <rr>A</rr>
-          <mxprio/>
-          <mx/>
-          <server>192.168.1.4</server>
-          <description/>
-        </host>
-        <host uuid="c446568b-e5ec-4e77-a00a-b1423207ea70">
-          <enabled>1</enabled>
-          <hostname>plex</hostname>
-          <domain>int.compuguy.dev</domain>
           <rr>A</rr>
           <mxprio/>
           <mx/>
