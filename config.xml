@@ -194,7 +194,7 @@
   <system>
     <optimization>normal</optimization>
     <hostname>route</hostname>
-    <domain>compuguy.dev</domain>
+    <domain>int.compuguy.dev</domain>
     <group>
       <name>admins</name>
       <description>System Administrators</description>
@@ -1082,8 +1082,8 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
   </widgets>
   <revision>
     <username>alexg@192.168.1.101</username>
-    <time>1739641232.2319</time>
-    <description>/system_advanced_admin.php made changes</description>
+    <time>1739641321.6048</time>
+    <description>/system_general.php made changes</description>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
