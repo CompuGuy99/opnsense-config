@@ -450,7 +450,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
         <item/>
       </numberoptions>
       <range>
-        <from>192.168.1.20</from>
+        <from>192.168.1.10</from>
         <to>192.168.1.245</to>
       </range>
       <winsserver/>
@@ -1362,7 +1362,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
   </widgets>
   <revision>
     <username>alexg@192.168.1.101</username>
-    <time>1739662642.2907</time>
+    <time>1739662645.8458</time>
     <description>/wizard.php made changes</description>
   </revision>
   <OPNsense>
