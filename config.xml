@@ -1363,8 +1363,8 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
   </widgets>
   <revision>
     <username>alexg@192.168.1.101</username>
-    <time>1739662599.0133</time>
-    <description>/system_advanced_firewall.php made changes</description>
+    <time>1739662616.5824</time>
+    <description>/wizard.php made changes</description>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
