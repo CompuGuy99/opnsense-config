@@ -841,6 +841,36 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
         <description>/firewall_nat_edit.php made changes</description>
       </created>
     </rule>
+    <rule>
+      <protocol>tcp</protocol>
+      <interface>wan</interface>
+      <category/>
+      <ipprotocol>inet</ipprotocol>
+      <descr/>
+      <tag/>
+      <tagged/>
+      <poolopts/>
+      <associated-rule-id>nat_67b0f1e1d7f237.78707600</associated-rule-id>
+      <target>proxy</target>
+      <local-port>443</local-port>
+      <source>
+        <any>1</any>
+      </source>
+      <destination>
+        <network>wanip</network>
+        <port>443</port>
+      </destination>
+      <updated>
+        <username>alexg@192.168.1.101</username>
+        <time>1739649505.8845</time>
+        <description>/firewall_nat_edit.php made changes</description>
+      </updated>
+      <created>
+        <username>alexg@192.168.1.101</username>
+        <time>1739649505.8845</time>
+        <description>/firewall_nat_edit.php made changes</description>
+      </created>
+    </rule>
   </nat>
   <filter>
     <rule uuid="58ae067c-0dda-4a13-89a3-9582c5864773">
@@ -1123,6 +1153,27 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
         <description>/firewall_nat_edit.php made changes</description>
       </created>
     </rule>
+    <rule>
+      <associated-rule-id>nat_67b0f1e1d7f237.78707600</associated-rule-id>
+      <source>
+        <any>1</any>
+      </source>
+      <interface>wan</interface>
+      <statetype>keep state</statetype>
+      <protocol>tcp</protocol>
+      <ipprotocol>inet</ipprotocol>
+      <destination>
+        <address>proxy</address>
+        <port>443</port>
+      </destination>
+      <descr/>
+      <category/>
+      <created>
+        <username>alexg@192.168.1.101</username>
+        <time>1739649505.8845</time>
+        <description>/firewall_nat_edit.php made changes</description>
+      </created>
+    </rule>
   </filter>
   <rrd>
     <enable/>
@@ -1136,7 +1187,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
   </widgets>
   <revision>
     <username>alexg@192.168.1.101</username>
-    <time>1739649481.5049</time>
+    <time>1739649505.9532</time>
     <description>/firewall_nat_edit.php made changes</description>
   </revision>
   <OPNsense>
