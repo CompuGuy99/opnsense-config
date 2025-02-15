@@ -1095,7 +1095,6 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
         <any/>
       </destination>
       <log>1</log>
-      <disabled>1</disabled>
     </rule>
     <rule uuid="5a658e67-1ba7-4e1b-bb88-878d740f5df0">
       <type>pass</type>
@@ -1364,7 +1363,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
   </widgets>
   <revision>
     <username>alexg@192.168.1.101</username>
-    <time>1739662728.2919</time>
+    <time>1739662733.3102</time>
     <description>/firewall_rules.php made changes</description>
   </revision>
   <OPNsense>
