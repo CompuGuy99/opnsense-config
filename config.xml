@@ -856,7 +856,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
       <target>proxy</target>
       <local-port>80</local-port>
       <source>
-        <address>internal_space</address>
+        <any>1</any>
         <not>1</not>
       </source>
       <destination>
@@ -865,7 +865,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
       </destination>
       <updated>
         <username>alexg@192.168.1.101</username>
-        <time>1739661394.8078</time>
+        <time>1739662189.2749</time>
         <description>/firewall_nat_edit.php made changes</description>
       </updated>
       <created>
@@ -1041,7 +1041,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
     <rule uuid="c56a6e9a-4c76-40d5-947c-314a9eb10974">
       <associated-rule-id>nat_67b0f1c96a8bc4.84850855</associated-rule-id>
       <source>
-        <address>internal_space</address>
+        <any>1</any>
         <not>1</not>
       </source>
       <interface>wan</interface>
@@ -1059,7 +1059,6 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
         <time>1739649481.4364</time>
         <description>/firewall_nat_edit.php made changes</description>
       </created>
-      <log>1</log>
     </rule>
     <rule uuid="dd1a8622-c59a-4a9e-8779-a87478f0785a">
       <associated-rule-id>nat_67b0f1e1d7f237.78707600</associated-rule-id>
@@ -1364,8 +1363,8 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
   </widgets>
   <revision>
     <username>alexg@192.168.1.101</username>
-    <time>1739661994.1049</time>
-    <description>/firewall_rules_edit.php made changes</description>
+    <time>1739662189.347</time>
+    <description>/firewall_nat_edit.php made changes</description>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
