@@ -233,7 +233,7 @@
     <timeservers>0.opnsense.pool.ntp.org 1.opnsense.pool.ntp.org 2.opnsense.pool.ntp.org 3.opnsense.pool.ntp.org</timeservers>
     <webgui>
       <protocol>https</protocol>
-      <ssl-certref>66cbd8d5908b6</ssl-certref>
+      <ssl-certref>66beaef53a083</ssl-certref>
       <authmode>Local Database</authmode>
       <port/>
       <ssl-ciphers/>
@@ -264,6 +264,7 @@
       <macs/>
       <keys/>
       <keysig/>
+      <rekeylimit/>
     </ssh>
     <rrdbackup>-1</rrdbackup>
     <netflowbackup>-1</netflowbackup>
@@ -1080,9 +1081,9 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
     <column_count>2</column_count>
   </widgets>
   <revision>
-    <username>alexg@192.168.4.39</username>
-    <time>1739595305.1852</time>
-    <description>/interfaces.php made changes</description>
+    <username>alexg@192.168.1.101</username>
+    <time>1739641062.2707</time>
+    <description>/system_advanced_admin.php made changes</description>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
