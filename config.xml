@@ -1085,16 +1085,24 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
     </rule>
     <rule uuid="e2b00d3d-11f7-4209-94fd-7c6f69200e3c">
       <type>pass</type>
-      <ipprotocol>inet</ipprotocol>
-      <descr>Default allow LAN to any rule</descr>
       <interface>lan</interface>
+      <ipprotocol>inet</ipprotocol>
+      <statetype>keep state</statetype>
+      <descr>Default allow LAN to any rule</descr>
+      <direction>in</direction>
+      <log>1</log>
+      <quick>1</quick>
       <source>
         <network>lan</network>
       </source>
       <destination>
-        <any/>
+        <any>1</any>
       </destination>
-      <log>1</log>
+      <updated>
+        <username>alexg@192.168.1.101</username>
+        <time>1739663457.331</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </updated>
     </rule>
     <rule uuid="5a658e67-1ba7-4e1b-bb88-878d740f5df0">
       <type>pass</type>
@@ -1363,8 +1371,8 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
   </widgets>
   <revision>
     <username>alexg@192.168.1.101</username>
-    <time>1739662733.3102</time>
-    <description>/firewall_rules.php made changes</description>
+    <time>1739663457.3977</time>
+    <description>/firewall_rules_edit.php made changes</description>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
