@@ -1266,8 +1266,8 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
   </widgets>
   <revision>
     <username>alexg@192.168.1.101</username>
-    <time>1739652169.6381</time>
-    <description>/firewall_rules_edit.php made changes</description>
+    <description>/api/firewall/alias/addItem/ made changes</description>
+    <time>1739652271.1352</time>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
@@ -1425,6 +1425,18 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
             <counters>0</counters>
             <updatefreq/>
             <content>192.168.1.4</content>
+            <categories/>
+            <description/>
+          </alias>
+          <alias uuid="8bd11384-115c-4eed-b178-4604748023b9">
+            <enabled>1</enabled>
+            <name>internal_space</name>
+            <type>network</type>
+            <proto/>
+            <interface/>
+            <counters>0</counters>
+            <updatefreq/>
+            <content>192.168.0.0/20</content>
             <categories/>
             <description/>
           </alias>
