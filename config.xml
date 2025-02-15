@@ -284,7 +284,7 @@
     <dns1gw>WAN_GW</dns1gw>
     <dns2gw>WAN_GW</dns2gw>
     <dns3gw>WAN_DHCP6</dns3gw>
-    <dns4gw>none</dns4gw>
+    <dns4gw>WAN_DHCP6</dns4gw>
     <dns5gw>none</dns5gw>
     <dns6gw>none</dns6gw>
     <dns7gw>none</dns7gw>
@@ -1083,7 +1083,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
   </widgets>
   <revision>
     <username>alexg@192.168.1.101</username>
-    <time>1739641413.5207</time>
+    <time>1739641428.549</time>
     <description>/system_general.php made changes</description>
   </revision>
   <OPNsense>
