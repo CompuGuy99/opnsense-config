@@ -1085,8 +1085,8 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
   </widgets>
   <revision>
     <username>alexg@192.168.1.101</username>
-    <description>/api/unbound/settings/delHostOverride/d24b04b3-f6f3-4370-81cb-a3594a062613 made changes</description>
-    <time>1739645449.6144</time>
+    <description>/api/unbound/settings/addHostAlias/ made changes</description>
+    <time>1739645471.5154</time>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
@@ -1772,6 +1772,13 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
           <enabled>1</enabled>
           <host>ff6705ce-c70b-4527-a98d-397e99d33a77</host>
           <hostname>prowlarr</hostname>
+          <domain>int.compuguy.dev</domain>
+          <description/>
+        </alias>
+        <alias uuid="d74bce2d-660e-44a7-b4a2-ae51a4d5e2c6">
+          <enabled>1</enabled>
+          <host>ff6705ce-c70b-4527-a98d-397e99d33a77</host>
+          <hostname>radarr</hostname>
           <domain>int.compuguy.dev</domain>
           <description/>
         </alias>
