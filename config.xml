@@ -1206,7 +1206,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
       <interface>opt4</interface>
       <ipprotocol>inet6</ipprotocol>
       <statetype>keep state</statetype>
-      <descr>Default allow Proxy IPv6 to Services</descr>
+      <descr>Default allow Proxy IPv6 to any</descr>
       <direction>in</direction>
       <log>1</log>
       <quick>1</quick>
@@ -1214,11 +1214,11 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
         <network>opt4</network>
       </source>
       <destination>
-        <address>fd00:1701:4747::/48</address>
+        <any>1</any>
       </destination>
       <updated>
         <username>alexg@192.168.1.101</username>
-        <time>1739651055.2489</time>
+        <time>1739652130.7722</time>
         <description>/firewall_rules_edit.php made changes</description>
       </updated>
       <created>
@@ -1266,7 +1266,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
   </widgets>
   <revision>
     <username>alexg@192.168.1.101</username>
-    <time>1739651055.3211</time>
+    <time>1739652130.8409</time>
     <description>/firewall_rules_edit.php made changes</description>
   </revision>
   <OPNsense>
