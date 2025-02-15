@@ -1085,8 +1085,8 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
   </widgets>
   <revision>
     <username>alexg@192.168.1.101</username>
-    <description>/api/unbound/settings/addHostAlias/ made changes</description>
-    <time>1739647048.0875</time>
+    <description>/api/unbound/settings/delHostOverride/47a31855-dd5e-40b9-b95d-b6880d86b167 made changes</description>
+    <time>1739647054.5874</time>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
@@ -1730,16 +1730,6 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
           <enabled>1</enabled>
           <hostname>mxserver</hostname>
           <domain>compuguy.dev</domain>
-          <rr>A</rr>
-          <mxprio/>
-          <mx/>
-          <server>192.168.1.4</server>
-          <description/>
-        </host>
-        <host uuid="47a31855-dd5e-40b9-b95d-b6880d86b167">
-          <enabled>1</enabled>
-          <hostname>lidarr</hostname>
-          <domain>int.compuguy.dev</domain>
           <rr>A</rr>
           <mxprio/>
           <mx/>
