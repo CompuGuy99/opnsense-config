@@ -1320,6 +1320,33 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
         <description>/firewall_rules_edit.php made changes</description>
       </created>
     </rule>
+    <rule uuid="61444caa-3607-4cfe-a73c-9360a3a2f1ef">
+      <type>pass</type>
+      <interface>opt4</interface>
+      <ipprotocol>inet</ipprotocol>
+      <statetype>keep state</statetype>
+      <descr>Allow Internal Access to Proxy management plane</descr>
+      <direction>out</direction>
+      <quick>1</quick>
+      <protocol>tcp/udp</protocol>
+      <source>
+        <address>internal_space</address>
+      </source>
+      <destination>
+        <network>opt4</network>
+        <port>81</port>
+      </destination>
+      <updated>
+        <username>alexg@192.168.1.101</username>
+        <time>1739655678.6499</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </updated>
+      <created>
+        <username>alexg@192.168.1.101</username>
+        <time>1739655678.6499</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </created>
+    </rule>
   </filter>
   <rrd>
     <enable/>
@@ -1333,7 +1360,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
   </widgets>
   <revision>
     <username>alexg@192.168.1.101</username>
-    <time>1739654712.5587</time>
+    <time>1739655678.7207</time>
     <description>/firewall_rules_edit.php made changes</description>
   </revision>
   <OPNsense>
