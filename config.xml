@@ -1085,8 +1085,8 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
   </widgets>
   <revision>
     <username>alexg@192.168.1.101</username>
-    <description>/api/unbound/settings/addHostAlias/ made changes</description>
-    <time>1739647267.0981</time>
+    <description>/api/unbound/settings/delHostOverride/2bb6dadc-5dd8-43c1-a1ba-5386ca517c34 made changes</description>
+    <time>1739647302.6581</time>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
@@ -1636,16 +1636,6 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
       </forwarding>
       <dots/>
       <hosts>
-        <host uuid="2bb6dadc-5dd8-43c1-a1ba-5386ca517c34">
-          <enabled>1</enabled>
-          <hostname>torrent</hostname>
-          <domain>compuguy.dev</domain>
-          <rr>A</rr>
-          <mxprio/>
-          <mx/>
-          <server>192.168.1.4</server>
-          <description/>
-        </host>
         <host uuid="ff6705ce-c70b-4527-a98d-397e99d33a77">
           <enabled>1</enabled>
           <hostname>proxy</hostname>
