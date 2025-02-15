@@ -1085,8 +1085,8 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
   </widgets>
   <revision>
     <username>alexg@192.168.1.101</username>
-    <description>/api/unbound/settings/delHostOverride/0d04a603-347f-4fed-acbf-7209a380e9eb made changes</description>
-    <time>1739647175.1843</time>
+    <description>/api/unbound/settings/delHostOverride/8e68b6a4-5373-4086-b14e-113f7397ab47 made changes</description>
+    <time>1739647178.1708</time>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
@@ -1655,16 +1655,6 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
           <mx/>
           <server>192.168.1.4</server>
           <description>tdarr client</description>
-        </host>
-        <host uuid="8e68b6a4-5373-4086-b14e-113f7397ab47">
-          <enabled>1</enabled>
-          <hostname>deluge</hostname>
-          <domain>compuguy.dev</domain>
-          <rr>A</rr>
-          <mxprio/>
-          <mx/>
-          <server>192.168.1.4</server>
-          <description/>
         </host>
         <host uuid="987fd4a6-997d-407c-9742-efa10744473f">
           <enabled>1</enabled>
