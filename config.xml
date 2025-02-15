@@ -279,7 +279,6 @@
     <language>en_US</language>
     <dnsserver>1.1.1.1</dnsserver>
     <dnsserver>1.0.0.1</dnsserver>
-    <prefer_ipv4>1</prefer_ipv4>
     <dns1gw>WAN_GW</dns1gw>
     <dns2gw>WAN_GW</dns2gw>
     <dns3gw>none</dns3gw>
@@ -1082,7 +1081,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
   </widgets>
   <revision>
     <username>alexg@192.168.1.101</username>
-    <time>1739641321.6048</time>
+    <time>1739641347.1975</time>
     <description>/system_general.php made changes</description>
   </revision>
   <OPNsense>
