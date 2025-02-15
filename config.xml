@@ -856,7 +856,8 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
       <target>proxy</target>
       <local-port>80</local-port>
       <source>
-        <any>1</any>
+        <address>internal_space</address>
+        <not>1</not>
       </source>
       <destination>
         <network>wanip</network>
@@ -864,7 +865,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
       </destination>
       <updated>
         <username>alexg@192.168.1.101</username>
-        <time>1739660635.6753</time>
+        <time>1739661394.8078</time>
         <description>/firewall_nat_edit.php made changes</description>
       </updated>
       <created>
@@ -1037,7 +1038,8 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
     <rule uuid="c56a6e9a-4c76-40d5-947c-314a9eb10974">
       <associated-rule-id>nat_67b0f1c96a8bc4.84850855</associated-rule-id>
       <source>
-        <any>1</any>
+        <address>internal_space</address>
+        <not>1</not>
       </source>
       <interface>wan</interface>
       <statetype>keep state</statetype>
@@ -1358,8 +1360,8 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
   </widgets>
   <revision>
     <username>alexg@192.168.1.101</username>
-    <time>1739660647.2302</time>
-    <description>/firewall_nat.php made changes</description>
+    <time>1739661394.8769</time>
+    <description>/firewall_nat_edit.php made changes</description>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
