@@ -422,8 +422,12 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
       <subnet>24</subnet>
     </opt3>
     <opt4>
-      <descr>PublicProxy</descr>
       <if>vlan0.47</if>
+      <descr>PublicProxy</descr>
+      <enable>1</enable>
+      <spoofmac/>
+      <ipaddr>192.168.7.1</ipaddr>
+      <subnet>24</subnet>
     </opt4>
   </interfaces>
   <dhcpd>
@@ -1195,8 +1199,8 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
   </widgets>
   <revision>
     <username>alexg@192.168.1.101</username>
-    <time>1739649982.6551</time>
-    <description>/interfaces_assign.php made changes</description>
+    <time>1739650005.2022</time>
+    <description>/interfaces.php made changes</description>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
