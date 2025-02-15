@@ -845,7 +845,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
     </rule>
     <rule>
       <protocol>tcp</protocol>
-      <interface>opt4,wan</interface>
+      <interface>wan</interface>
       <category/>
       <ipprotocol>inet</ipprotocol>
       <descr/>
@@ -864,7 +864,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
       </destination>
       <updated>
         <username>alexg@192.168.1.101</username>
-        <time>1739656813.1277</time>
+        <time>1739660635.6753</time>
         <description>/firewall_nat_edit.php made changes</description>
       </updated>
       <created>
@@ -1039,7 +1039,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
       <source>
         <any>1</any>
       </source>
-      <interface>opt4,wan</interface>
+      <interface>wan</interface>
       <statetype>keep state</statetype>
       <protocol>tcp</protocol>
       <ipprotocol>inet</ipprotocol>
@@ -1054,8 +1054,6 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
         <time>1739649481.4364</time>
         <description>/firewall_nat_edit.php made changes</description>
       </created>
-      <floating>1</floating>
-      <quick>yes</quick>
     </rule>
     <rule uuid="dd1a8622-c59a-4a9e-8779-a87478f0785a">
       <associated-rule-id>nat_67b0f1e1d7f237.78707600</associated-rule-id>
@@ -1362,8 +1360,8 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
   </widgets>
   <revision>
     <username>alexg@192.168.1.101</username>
-    <time>1739657160.5356</time>
-    <description>/firewall_rules.php made changes</description>
+    <time>1739660635.7466</time>
+    <description>/firewall_nat_edit.php made changes</description>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
