@@ -372,6 +372,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
       <adv_dhcp6_config_file_override/>
       <adv_dhcp6_config_file_override_path/>
       <blockpriv>1</blockpriv>
+      <gateway>WAN_GW</gateway>
     </wan>
     <lan>
       <if>ix0</if>
@@ -1362,7 +1363,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
   </widgets>
   <revision>
     <username>alexg@192.168.1.101</username>
-    <time>1739662647.4198</time>
+    <time>1739662647.5255</time>
     <description>/wizard.php made changes</description>
   </revision>
   <OPNsense>
@@ -2301,10 +2302,4 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
     <serial>1</serial>
     <caref>66cbd6edeb6bf</caref>
   </ca>
-  <wizardtemp>
-    <system>
-      <hostname>route</hostname>
-      <domain>int.compuguy.dev</domain>
-    </system>
-  </wizardtemp>
 </opnsense>
