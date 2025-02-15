@@ -611,6 +611,14 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
       <winsserver/>
       <dnsserver/>
       <ntpserver/>
+      <staticmap>
+        <mac>bc:24:11:cf:e7:88</mac>
+        <ipaddr>192.168.7.2</ipaddr>
+        <hostname>publicproxy</hostname>
+        <winsserver/>
+        <dnsserver/>
+        <ntpserver/>
+      </staticmap>
     </opt4>
   </dhcpd>
   <snmpd>
@@ -1298,8 +1306,8 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
   </widgets>
   <revision>
     <username>alexg@192.168.1.101</username>
-    <time>1739653048.3372</time>
-    <description>/firewall_rules.php made changes</description>
+    <time>1739653145.1785</time>
+    <description>/services_dhcp_edit.php made changes</description>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
