@@ -1085,8 +1085,8 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
   </widgets>
   <revision>
     <username>alexg@192.168.1.101</username>
-    <time>1739642974.3085</time>
-    <description>/interfaces.php made changes</description>
+    <time>1739643080.7477</time>
+    <description>/services_dhcpv6.php made changes</description>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
@@ -1881,7 +1881,26 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
   <wireless>
     <clone/>
   </wireless>
-  <dhcpdv6/>
+  <dhcpdv6>
+    <opt1>
+      <ddnsdomainalgorithm>hmac-md5</ddnsdomainalgorithm>
+      <enable>1</enable>
+      <range>
+        <from>fd00:1701:4747:4::f000</from>
+        <to>fd00:1701:4747:4::ffff</to>
+      </range>
+      <prefixrange>
+        <from/>
+        <to/>
+        <prefixlength>48</prefixlength>
+      </prefixrange>
+      <dnsserver/>
+      <ntpserver/>
+      <numberoptions>
+        <item/>
+      </numberoptions>
+    </opt1>
+  </dhcpdv6>
   <cert uuid="502fd502-c950-4ec0-bcc3-d469de4ff99a">
     <refid>66beaef53a083</refid>
     <descr>Web GUI TLS certificate</descr>
