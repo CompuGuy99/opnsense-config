@@ -1319,6 +1319,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
         <time>1739654712.4857</time>
         <description>/firewall_rules_edit.php made changes</description>
       </created>
+      <log>1</log>
     </rule>
     <rule uuid="61444caa-3607-4cfe-a73c-9360a3a2f1ef">
       <type>pass</type>
@@ -1360,8 +1361,8 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
   </widgets>
   <revision>
     <username>alexg@192.168.1.101</username>
-    <time>1739655678.7207</time>
-    <description>/firewall_rules_edit.php made changes</description>
+    <time>1739655865.3886</time>
+    <description>/firewall_rules.php made changes</description>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
