@@ -887,7 +887,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
       <target>proxy</target>
       <local-port>443</local-port>
       <source>
-        <address>internal_space</address>
+        <any>1</any>
         <not>1</not>
       </source>
       <destination>
@@ -896,7 +896,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
       </destination>
       <updated>
         <username>alexg@192.168.1.101</username>
-        <time>1739661411.4636</time>
+        <time>1739662197.9476</time>
         <description>/firewall_nat_edit.php made changes</description>
       </updated>
       <created>
@@ -1063,7 +1063,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
     <rule uuid="dd1a8622-c59a-4a9e-8779-a87478f0785a">
       <associated-rule-id>nat_67b0f1e1d7f237.78707600</associated-rule-id>
       <source>
-        <address>internal_space</address>
+        <any>1</any>
         <not>1</not>
       </source>
       <interface>wan</interface>
@@ -1081,7 +1081,6 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
         <time>1739649505.8845</time>
         <description>/firewall_nat_edit.php made changes</description>
       </created>
-      <log>1</log>
     </rule>
     <rule uuid="e2b00d3d-11f7-4209-94fd-7c6f69200e3c">
       <type>pass</type>
@@ -1363,7 +1362,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
   </widgets>
   <revision>
     <username>alexg@192.168.1.101</username>
-    <time>1739662189.347</time>
+    <time>1739662198.0164</time>
     <description>/firewall_nat_edit.php made changes</description>
   </revision>
   <OPNsense>
