@@ -1366,8 +1366,8 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
   </widgets>
   <revision>
     <username>alexg@192.168.1.101</username>
-    <time>1739661723.9025</time>
-    <description>/firewall_rules.php made changes</description>
+    <description>/api/diagnostics/lvtemplate/addItem/ made changes</description>
+    <time>1739661768.6084</time>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
@@ -1460,6 +1460,11 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
             <name>Incoming</name>
             <or>0</or>
             <filters>interface_name~WAN,dir~in</filters>
+          </template>
+          <template uuid="392b6525-ec3e-4f9a-a9ed-9eb056ed2648">
+            <name>Blocked internal type traffic</name>
+            <or>0</or>
+            <filters>interface_name!=WAN,action=block</filters>
           </template>
         </templates>
       </Lvtemplate>
