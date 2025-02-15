@@ -421,6 +421,10 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
       <ipaddr>192.168.8.1</ipaddr>
       <subnet>24</subnet>
     </opt3>
+    <opt4>
+      <descr>PublicProxy</descr>
+      <if>vlan0.47</if>
+    </opt4>
   </interfaces>
   <dhcpd>
     <lan>
@@ -1191,7 +1195,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
   </widgets>
   <revision>
     <username>alexg@192.168.1.101</username>
-    <time>1739649961.4787</time>
+    <time>1739649982.6551</time>
     <description>/interfaces_assign.php made changes</description>
   </revision>
   <OPNsense>
