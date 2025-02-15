@@ -1232,18 +1232,19 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
       <interface>opt4</interface>
       <ipprotocol>inet</ipprotocol>
       <statetype>keep state</statetype>
-      <descr>Allow Proxy to Services</descr>
+      <descr>Allow Proxy to Any</descr>
       <direction>in</direction>
+      <log>1</log>
       <quick>1</quick>
       <source>
         <network>opt4</network>
       </source>
       <destination>
-        <address>192.168.0.0/20</address>
+        <any>1</any>
       </destination>
       <updated>
         <username>alexg@192.168.1.101</username>
-        <time>1739650629.4157</time>
+        <time>1739652169.5695</time>
         <description>/firewall_rules_edit.php made changes</description>
       </updated>
       <created>
@@ -1251,7 +1252,6 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
         <time>1739650535.7783</time>
         <description>/firewall_rules_edit.php made changes</description>
       </created>
-      <log>1</log>
     </rule>
   </filter>
   <rrd>
@@ -1266,7 +1266,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
   </widgets>
   <revision>
     <username>alexg@192.168.1.101</username>
-    <time>1739652130.8409</time>
+    <time>1739652169.6381</time>
     <description>/firewall_rules_edit.php made changes</description>
   </revision>
   <OPNsense>
