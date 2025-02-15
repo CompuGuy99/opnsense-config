@@ -1362,8 +1362,8 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
   </widgets>
   <revision>
     <username>alexg@192.168.1.101</username>
-    <time>1739662365.3058</time>
-    <description>Firewall: NAT: Port Forward, toggle NAT rule</description>
+    <time>1739662367.1273</time>
+    <description>/firewall_nat.php made changes</description>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
