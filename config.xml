@@ -871,6 +871,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
         <time>1739649505.8845</time>
         <description>/firewall_nat_edit.php made changes</description>
       </created>
+      <disabled>1</disabled>
     </rule>
   </nat>
   <filter>
@@ -1175,6 +1176,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
         <time>1739649505.8845</time>
         <description>/firewall_nat_edit.php made changes</description>
       </created>
+      <disabled>1</disabled>
     </rule>
   </filter>
   <rrd>
@@ -1189,7 +1191,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
   </widgets>
   <revision>
     <username>alexg@192.168.1.101</username>
-    <time>1739649633.1643</time>
+    <time>1739649634.5109</time>
     <description>Firewall: NAT: Port Forward, toggle NAT rule</description>
   </revision>
   <OPNsense>
