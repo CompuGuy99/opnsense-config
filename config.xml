@@ -1083,8 +1083,8 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
   </widgets>
   <revision>
     <username>alexg@192.168.1.101</username>
-    <description>/api/trust/cert/add/ made changes</description>
-    <time>1739641553.1258</time>
+    <description>/api/unbound/settings/addHostOverride/ made changes</description>
+    <time>1739641838.8968</time>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
@@ -1752,6 +1752,16 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
           <mxprio/>
           <mx/>
           <server>192.168.1.4</server>
+          <description/>
+        </host>
+        <host uuid="e33c6912-8ab2-4d61-a042-f9afded913be">
+          <enabled>1</enabled>
+          <hostname>proxmox</hostname>
+          <domain>compuguy.dev</domain>
+          <rr>A</rr>
+          <mxprio/>
+          <mx/>
+          <server>192.168.1.5</server>
           <description/>
         </host>
       </hosts>
