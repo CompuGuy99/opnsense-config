@@ -1206,8 +1206,9 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
       <interface>opt4</interface>
       <ipprotocol>inet</ipprotocol>
       <statetype>keep state</statetype>
+      <descr>Allow Local SSH Connections</descr>
       <direction>out</direction>
-      <category>Allow local SSH connections</category>
+      <category>SSH Connections</category>
       <quick>1</quick>
       <protocol>tcp/udp</protocol>
       <source>
@@ -1219,7 +1220,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
       </destination>
       <updated>
         <username>alexg@192.168.1.101</username>
-        <time>1739652675.5399</time>
+        <time>1739652700.287</time>
         <description>/firewall_rules_edit.php made changes</description>
       </updated>
       <created>
@@ -1241,7 +1242,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
   </widgets>
   <revision>
     <username>alexg@192.168.1.101</username>
-    <time>1739652675.6098</time>
+    <time>1739652700.3577</time>
     <description>/firewall_rules_edit.php made changes</description>
   </revision>
   <OPNsense>
@@ -1419,8 +1420,8 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
       </Alias>
       <Category version="1.0.0">
         <categories>
-          <category uuid="d553fffb-e0a1-45bb-86ee-7f7557a0f435">
-            <name>Allow local SSH connections</name>
+          <category uuid="3694f7ec-501b-463b-af3d-7f73bba6bafb">
+            <name>SSH Connections</name>
             <auto>1</auto>
             <color/>
           </category>
