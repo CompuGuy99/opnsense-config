@@ -324,9 +324,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
       <if>em0</if>
       <descr>WAN</descr>
       <enable>1</enable>
-      <spoofmac/>
       <ipaddr>dhcp</ipaddr>
-      <dhcphostname/>
       <alias-address/>
       <alias-subnet>32</alias-subnet>
       <dhcprejectfrom/>
@@ -373,6 +371,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
       <adv_dhcp6_config_advanced/>
       <adv_dhcp6_config_file_override/>
       <adv_dhcp6_config_file_override_path/>
+      <blockpriv>1</blockpriv>
     </wan>
     <lan>
       <if>ix0</if>
@@ -1363,7 +1362,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
   </widgets>
   <revision>
     <username>alexg@192.168.1.101</username>
-    <time>1739662627.0058</time>
+    <time>1739662642.2907</time>
     <description>/wizard.php made changes</description>
   </revision>
   <OPNsense>
