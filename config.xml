@@ -1085,8 +1085,8 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
   </widgets>
   <revision>
     <username>alexg@192.168.1.101</username>
-    <description>/api/firewall/alias/addItem/ made changes</description>
-    <time>1739649410.8038</time>
+    <description>/api/firewall/alias/set made changes</description>
+    <time>1739649413.4065</time>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
