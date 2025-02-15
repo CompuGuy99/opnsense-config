@@ -1227,11 +1227,10 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
       </source>
       <destination>
         <any>1</any>
-        <not>1</not>
       </destination>
       <updated>
         <username>alexg@192.168.1.101</username>
-        <time>1739661986.2058</time>
+        <time>1739661994.0345</time>
         <description>/firewall_rules_edit.php made changes</description>
       </updated>
       <created>
@@ -1365,7 +1364,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
   </widgets>
   <revision>
     <username>alexg@192.168.1.101</username>
-    <time>1739661986.2775</time>
+    <time>1739661994.1049</time>
     <description>/firewall_rules_edit.php made changes</description>
   </revision>
   <OPNsense>
