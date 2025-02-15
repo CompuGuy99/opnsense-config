@@ -1210,35 +1210,6 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
         <description>/firewall_rules_edit.php made changes</description>
       </created>
     </rule>
-    <rule uuid="f6b85dae-6989-42de-8f3a-4e8cd008b07a">
-      <type>pass</type>
-      <interface>opt4</interface>
-      <ipprotocol>inet</ipprotocol>
-      <statetype>keep state</statetype>
-      <descr>Allow Local SSH Connections</descr>
-      <direction>out</direction>
-      <category>SSH Connections</category>
-      <quick>1</quick>
-      <protocol>tcp/udp</protocol>
-      <source>
-        <address>internal_space</address>
-      </source>
-      <destination>
-        <network>opt4</network>
-        <port>22</port>
-      </destination>
-      <updated>
-        <username>alexg@192.168.1.101</username>
-        <time>1739652700.287</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </updated>
-      <created>
-        <username>alexg@192.168.1.101</username>
-        <time>1739652675.5399</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </created>
-      <log>1</log>
-    </rule>
     <rule uuid="df7488b1-befd-4d97-b61b-e1259ccc4181">
       <type>pass</type>
       <interface>opt4</interface>
@@ -1293,6 +1264,35 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
       </created>
       <log>1</log>
     </rule>
+    <rule uuid="f6b85dae-6989-42de-8f3a-4e8cd008b07a">
+      <type>pass</type>
+      <interface>opt4</interface>
+      <ipprotocol>inet</ipprotocol>
+      <statetype>keep state</statetype>
+      <descr>Allow Local SSH Connections</descr>
+      <direction>out</direction>
+      <category>SSH Connections</category>
+      <quick>1</quick>
+      <protocol>tcp/udp</protocol>
+      <source>
+        <address>internal_space</address>
+      </source>
+      <destination>
+        <network>opt4</network>
+        <port>22</port>
+      </destination>
+      <updated>
+        <username>alexg@192.168.1.101</username>
+        <time>1739652700.287</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </updated>
+      <created>
+        <username>alexg@192.168.1.101</username>
+        <time>1739652675.5399</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </created>
+      <log>1</log>
+    </rule>
     <rule uuid="92b65b12-8154-413e-9d7f-fb0230b1b0c0">
       <type>pass</type>
       <interface>opt4</interface>
@@ -1332,8 +1332,8 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
   </widgets>
   <revision>
     <username>alexg@192.168.1.101</username>
-    <time>1739653865.317</time>
-    <description>/firewall_rules_edit.php made changes</description>
+    <time>1739653888.4813</time>
+    <description>/firewall_rules.php made changes</description>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
