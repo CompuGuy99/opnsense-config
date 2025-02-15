@@ -1244,8 +1244,9 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
       <interface>opt4</interface>
       <ipprotocol>inet</ipprotocol>
       <statetype>keep state</statetype>
-      <descr>Do not allow connections from DMZ to internal space</descr>
+      <descr>Allow to external networks</descr>
       <direction>in</direction>
+      <log>1</log>
       <quick>1</quick>
       <source>
         <network>opt4</network>
@@ -1256,7 +1257,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
       </destination>
       <updated>
         <username>alexg@192.168.1.101</username>
-        <time>1739652755.781</time>
+        <time>1739653429.8105</time>
         <description>/firewall_rules_edit.php made changes</description>
       </updated>
       <created>
@@ -1264,7 +1265,6 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
         <time>1739652755.781</time>
         <description>/firewall_rules_edit.php made changes</description>
       </created>
-      <log>1</log>
     </rule>
     <rule uuid="64602dfe-467b-4996-90e6-ddf3af7d24cf">
       <type>pass</type>
@@ -1306,8 +1306,8 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
   </widgets>
   <revision>
     <username>alexg@192.168.1.101</username>
-    <description>/api/firewall/alias/set made changes</description>
-    <time>1739653387.1707</time>
+    <time>1739653429.8827</time>
+    <description>/firewall_rules_edit.php made changes</description>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
