@@ -1306,8 +1306,8 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
   </widgets>
   <revision>
     <username>alexg@192.168.1.101</username>
-    <time>1739653145.1785</time>
-    <description>/services_dhcp_edit.php made changes</description>
+    <description>/api/firewall/alias/setItem/8bd11384-115c-4eed-b178-4604748023b9 made changes</description>
+    <time>1739653385.7513</time>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
@@ -1476,7 +1476,9 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
             <interface/>
             <counters>0</counters>
             <updatefreq/>
-            <content>192.168.0.0/20</content>
+            <content>192.168.8.0/24
+192.168.1.0/24
+192.168.4.0/24</content>
             <categories/>
             <description/>
           </alias>
