@@ -1027,6 +1027,50 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
       </created>
       <disabled>1</disabled>
     </rule>
+    <rule uuid="c56a6e9a-4c76-40d5-947c-314a9eb10974">
+      <associated-rule-id>nat_67b0f1c96a8bc4.84850855</associated-rule-id>
+      <source>
+        <any>1</any>
+      </source>
+      <interface>wan</interface>
+      <statetype>keep state</statetype>
+      <protocol>tcp</protocol>
+      <ipprotocol>inet</ipprotocol>
+      <destination>
+        <address>proxy</address>
+        <port>80</port>
+      </destination>
+      <descr/>
+      <category/>
+      <created>
+        <username>alexg@192.168.1.101</username>
+        <time>1739649481.4364</time>
+        <description>/firewall_nat_edit.php made changes</description>
+      </created>
+      <disabled>1</disabled>
+    </rule>
+    <rule uuid="dd1a8622-c59a-4a9e-8779-a87478f0785a">
+      <associated-rule-id>nat_67b0f1e1d7f237.78707600</associated-rule-id>
+      <source>
+        <any>1</any>
+      </source>
+      <interface>wan</interface>
+      <statetype>keep state</statetype>
+      <protocol>tcp</protocol>
+      <ipprotocol>inet</ipprotocol>
+      <destination>
+        <address>proxy</address>
+        <port>443</port>
+      </destination>
+      <descr/>
+      <category/>
+      <created>
+        <username>alexg@192.168.1.101</username>
+        <time>1739649505.8845</time>
+        <description>/firewall_nat_edit.php made changes</description>
+      </created>
+      <disabled>1</disabled>
+    </rule>
     <rule uuid="e2b00d3d-11f7-4209-94fd-7c6f69200e3c">
       <type>pass</type>
       <ipprotocol>inet</ipprotocol>
@@ -1157,49 +1201,29 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
         <description>/firewall_rules_edit.php made changes</description>
       </created>
     </rule>
-    <rule>
-      <associated-rule-id>nat_67b0f1c96a8bc4.84850855</associated-rule-id>
+    <rule uuid="eef0b903-db5b-4651-b7e2-f540a0ff9031">
+      <type>pass</type>
+      <interface>opt4</interface>
+      <ipprotocol>inet</ipprotocol>
+      <statetype>keep state</statetype>
+      <direction>in</direction>
+      <quick>1</quick>
       <source>
         <any>1</any>
       </source>
-      <interface>wan</interface>
-      <statetype>keep state</statetype>
-      <protocol>tcp</protocol>
-      <ipprotocol>inet</ipprotocol>
       <destination>
-        <address>proxy</address>
-        <port>80</port>
+        <address>192.168.0.0/20</address>
       </destination>
-      <descr/>
-      <category/>
+      <updated>
+        <username>alexg@192.168.1.101</username>
+        <time>1739650535.7783</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </updated>
       <created>
         <username>alexg@192.168.1.101</username>
-        <time>1739649481.4364</time>
-        <description>/firewall_nat_edit.php made changes</description>
+        <time>1739650535.7783</time>
+        <description>/firewall_rules_edit.php made changes</description>
       </created>
-      <disabled>1</disabled>
-    </rule>
-    <rule>
-      <associated-rule-id>nat_67b0f1e1d7f237.78707600</associated-rule-id>
-      <source>
-        <any>1</any>
-      </source>
-      <interface>wan</interface>
-      <statetype>keep state</statetype>
-      <protocol>tcp</protocol>
-      <ipprotocol>inet</ipprotocol>
-      <destination>
-        <address>proxy</address>
-        <port>443</port>
-      </destination>
-      <descr/>
-      <category/>
-      <created>
-        <username>alexg@192.168.1.101</username>
-        <time>1739649505.8845</time>
-        <description>/firewall_nat_edit.php made changes</description>
-      </created>
-      <disabled>1</disabled>
     </rule>
   </filter>
   <rrd>
@@ -1214,8 +1238,8 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
   </widgets>
   <revision>
     <username>alexg@192.168.1.101</username>
-    <time>1739650407.5786</time>
-    <description>/interfaces.php made changes</description>
+    <time>1739650535.8464</time>
+    <description>/firewall_rules_edit.php made changes</description>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
