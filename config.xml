@@ -1230,6 +1230,32 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
       </created>
       <log>1</log>
     </rule>
+    <rule uuid="df7488b1-befd-4d97-b61b-e1259ccc4181">
+      <type>pass</type>
+      <interface>opt4</interface>
+      <ipprotocol>inet</ipprotocol>
+      <statetype>keep state</statetype>
+      <descr>Do not allow connections from DMZ to internal space</descr>
+      <direction>in</direction>
+      <quick>1</quick>
+      <source>
+        <network>opt4</network>
+      </source>
+      <destination>
+        <address>internal_space</address>
+        <not>1</not>
+      </destination>
+      <updated>
+        <username>alexg@192.168.1.101</username>
+        <time>1739652755.781</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </updated>
+      <created>
+        <username>alexg@192.168.1.101</username>
+        <time>1739652755.781</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </created>
+    </rule>
   </filter>
   <rrd>
     <enable/>
@@ -1243,8 +1269,8 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
   </widgets>
   <revision>
     <username>alexg@192.168.1.101</username>
-    <time>1739652709.5892</time>
-    <description>/firewall_rules.php made changes</description>
+    <time>1739652755.8487</time>
+    <description>/firewall_rules_edit.php made changes</description>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
