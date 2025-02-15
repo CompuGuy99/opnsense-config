@@ -377,6 +377,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
       <enable>1</enable>
       <lock>1</lock>
       <spoofmac/>
+      <gateway_interface>1</gateway_interface>
       <ipaddr>192.168.1.1</ipaddr>
       <subnet>24</subnet>
     </lan>
@@ -1081,8 +1082,8 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
   </widgets>
   <revision>
     <username>alexg@192.168.4.39</username>
-    <description>/api/unbound/settings/addHostOverride/ made changes</description>
-    <time>1739516903.3467</time>
+    <time>1739582680.3221</time>
+    <description>/interfaces.php made changes</description>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
