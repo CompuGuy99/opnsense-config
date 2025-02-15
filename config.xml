@@ -1206,6 +1206,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
       <interface>opt4</interface>
       <ipprotocol>inet</ipprotocol>
       <statetype>keep state</statetype>
+      <descr>Allow Proxy to Services</descr>
       <direction>in</direction>
       <quick>1</quick>
       <source>
@@ -1216,7 +1217,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
       </destination>
       <updated>
         <username>alexg@192.168.1.101</username>
-        <time>1739650535.7783</time>
+        <time>1739650562.9957</time>
         <description>/firewall_rules_edit.php made changes</description>
       </updated>
       <created>
@@ -1238,7 +1239,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
   </widgets>
   <revision>
     <username>alexg@192.168.1.101</username>
-    <time>1739650535.8464</time>
+    <time>1739650563.0644</time>
     <description>/firewall_rules_edit.php made changes</description>
   </revision>
   <OPNsense>
