@@ -277,10 +277,10 @@
       <reboot/>
     </firmware>
     <language>en_US</language>
-    <dnsserver>1.1.1.1</dnsserver>
     <dnsserver>1.0.0.1</dnsserver>
     <dnsserver>2606:4700:4700::1111</dnsserver>
     <dnsserver>2606:4700:4700::1001</dnsserver>
+    <dnsserver>1.1.1.1</dnsserver>
     <dns1gw>WAN_GW</dns1gw>
     <dns2gw>WAN_GW</dns2gw>
     <dns3gw>WAN_DHCP6</dns3gw>
@@ -1363,7 +1363,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
   </widgets>
   <revision>
     <username>alexg@192.168.1.101</username>
-    <time>1739662616.5824</time>
+    <time>1739662622.2626</time>
     <description>/wizard.php made changes</description>
   </revision>
   <OPNsense>
@@ -1877,7 +1877,6 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
         <port>53</port>
         <stats>1</stats>
         <active_interface>opt2,lan,opt3,opt4,opt1</active_interface>
-        <dnssec>0</dnssec>
         <dns64>1</dns64>
         <dns64prefix/>
         <noarecords>0</noarecords>
@@ -1897,7 +1896,6 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
         <hideversion/>
         <prefetch/>
         <prefetchkey/>
-        <dnssecstripped/>
         <aggressivensec>1</aggressivensec>
         <serveexpired/>
         <serveexpiredreplyttl/>
@@ -2304,4 +2302,10 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
     <serial>1</serial>
     <caref>66cbd6edeb6bf</caref>
   </ca>
+  <wizardtemp>
+    <system>
+      <hostname>route</hostname>
+      <domain>int.compuguy.dev</domain>
+    </system>
+  </wizardtemp>
 </opnsense>
