@@ -415,7 +415,6 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
       <enable>1</enable>
       <lock>1</lock>
       <spoofmac/>
-      <gateway_interface>1</gateway_interface>
       <ipaddr>192.168.8.1</ipaddr>
       <subnet>24</subnet>
     </opt3>
@@ -1083,8 +1082,8 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
   </widgets>
   <revision>
     <username>alexg@192.168.4.39</username>
-    <time>1739583133.7489</time>
-    <description>/interfaces_bridge.php made changes</description>
+    <time>1739595287.681</time>
+    <description>/interfaces.php made changes</description>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
