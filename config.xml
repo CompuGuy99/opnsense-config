@@ -279,9 +279,11 @@
     <language>en_US</language>
     <dnsserver>1.1.1.1</dnsserver>
     <dnsserver>1.0.0.1</dnsserver>
+    <dnsserver>2606:4700:4700::1111</dnsserver>
+    <dnsserver>2606:4700:4700::1001</dnsserver>
     <dns1gw>WAN_GW</dns1gw>
     <dns2gw>WAN_GW</dns2gw>
-    <dns3gw>none</dns3gw>
+    <dns3gw>WAN_DHCP6</dns3gw>
     <dns4gw>none</dns4gw>
     <dns5gw>none</dns5gw>
     <dns6gw>none</dns6gw>
@@ -1081,7 +1083,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
   </widgets>
   <revision>
     <username>alexg@192.168.1.101</username>
-    <time>1739641347.1975</time>
+    <time>1739641413.5207</time>
     <description>/system_general.php made changes</description>
   </revision>
   <OPNsense>
