@@ -1201,6 +1201,32 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
         <description>/firewall_rules_edit.php made changes</description>
       </created>
     </rule>
+    <rule uuid="2a3bde2c-62c2-444a-b15e-c77060578c21">
+      <type>pass</type>
+      <interface>opt4</interface>
+      <ipprotocol>inet6</ipprotocol>
+      <statetype>keep state</statetype>
+      <descr>Default allow Proxy IPv6 to any rule</descr>
+      <direction>in</direction>
+      <log>1</log>
+      <quick>1</quick>
+      <source>
+        <network>opt4</network>
+      </source>
+      <destination>
+        <any>1</any>
+      </destination>
+      <updated>
+        <username>alexg@192.168.1.101</username>
+        <time>1739650608.4679</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </updated>
+      <created>
+        <username>alexg@192.168.1.101</username>
+        <time>1739650608.4679</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </created>
+    </rule>
     <rule uuid="eef0b903-db5b-4651-b7e2-f540a0ff9031">
       <type>pass</type>
       <interface>opt4</interface>
@@ -1239,7 +1265,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
   </widgets>
   <revision>
     <username>alexg@192.168.1.101</username>
-    <time>1739650563.0644</time>
+    <time>1739650608.5379</time>
     <description>/firewall_rules_edit.php made changes</description>
   </revision>
   <OPNsense>
