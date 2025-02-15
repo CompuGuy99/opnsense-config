@@ -1010,7 +1010,6 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
         <time>1738553817.3637</time>
         <description>/firewall_nat_edit.php made changes</description>
       </created>
-      <disabled>1</disabled>
     </rule>
     <rule uuid="137a62a4-e7eb-4b30-8d21-33c4b257f2cf">
       <associated-rule-id>nat_67a03a03aa96f0.38194236</associated-rule-id>
@@ -1362,8 +1361,8 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
   </widgets>
   <revision>
     <username>alexg@192.168.1.101</username>
-    <time>1739656839.6913</time>
-    <description>/firewall_nat.php made changes</description>
+    <time>1739656950.4982</time>
+    <description>/firewall_rules.php made changes</description>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
