@@ -1201,6 +1201,33 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
         <description>/firewall_rules_edit.php made changes</description>
       </created>
     </rule>
+    <rule uuid="f6b85dae-6989-42de-8f3a-4e8cd008b07a">
+      <type>pass</type>
+      <interface>opt4</interface>
+      <ipprotocol>inet</ipprotocol>
+      <statetype>keep state</statetype>
+      <direction>out</direction>
+      <category>Allow local SSH connections</category>
+      <quick>1</quick>
+      <protocol>tcp/udp</protocol>
+      <source>
+        <address>internal_space</address>
+      </source>
+      <destination>
+        <network>opt4</network>
+        <port>22</port>
+      </destination>
+      <updated>
+        <username>alexg@192.168.1.101</username>
+        <time>1739652675.5399</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </updated>
+      <created>
+        <username>alexg@192.168.1.101</username>
+        <time>1739652675.5399</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </created>
+    </rule>
   </filter>
   <rrd>
     <enable/>
@@ -1214,8 +1241,8 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
   </widgets>
   <revision>
     <username>alexg@192.168.1.101</username>
-    <time>1739652341.8962</time>
-    <description>/firewall_rules.php made changes</description>
+    <time>1739652675.6098</time>
+    <description>/firewall_rules_edit.php made changes</description>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
@@ -1391,7 +1418,13 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
         </aliases>
       </Alias>
       <Category version="1.0.0">
-        <categories/>
+        <categories>
+          <category uuid="d553fffb-e0a1-45bb-86ee-7f7557a0f435">
+            <name>Allow local SSH connections</name>
+            <auto>1</auto>
+            <color/>
+          </category>
+        </categories>
       </Category>
       <Filter version="1.0.4">
         <rules/>
