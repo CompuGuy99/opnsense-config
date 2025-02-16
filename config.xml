@@ -915,16 +915,17 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
       <statetype>keep state</statetype>
       <direction>any</direction>
       <floating>yes</floating>
+      <log>1</log>
       <quick>1</quick>
       <source>
-        <any>1</any>
+        <network>lan</network>
       </source>
       <destination>
-        <any>1</any>
+        <network>opt3</network>
       </destination>
       <updated>
         <username>alexg@192.168.1.101</username>
-        <time>1739664723.1706</time>
+        <time>1739664859.1658</time>
         <description>/firewall_rules_edit.php made changes</description>
       </updated>
       <created>
@@ -932,7 +933,6 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
         <time>1739664723.1706</time>
         <description>/firewall_rules_edit.php made changes</description>
       </created>
-      <log>1</log>
     </rule>
     <rule uuid="58ae067c-0dda-4a13-89a3-9582c5864773">
       <associated-rule-id>nat_673bf1f41271c2.41888316</associated-rule-id>
@@ -1285,8 +1285,8 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
   </widgets>
   <revision>
     <username>alexg@192.168.1.101</username>
-    <time>1739664804.1822</time>
-    <description>/firewall_rules.php made changes</description>
+    <time>1739664859.2323</time>
+    <description>/firewall_rules_edit.php made changes</description>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
@@ -1469,13 +1469,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
         </aliases>
       </Alias>
       <Category version="1.0.0">
-        <categories>
-          <category uuid="3694f7ec-501b-463b-af3d-7f73bba6bafb">
-            <name>SSH Connections</name>
-            <auto>1</auto>
-            <color/>
-          </category>
-        </categories>
+        <categories/>
       </Category>
       <Filter version="1.0.4">
         <rules/>
