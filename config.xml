@@ -325,7 +325,9 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
       <if>em0</if>
       <descr>WAN</descr>
       <enable>1</enable>
+      <spoofmac/>
       <ipaddr>dhcp</ipaddr>
+      <dhcphostname/>
       <alias-address/>
       <alias-subnet>32</alias-subnet>
       <dhcprejectfrom/>
@@ -372,8 +374,6 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
       <adv_dhcp6_config_advanced/>
       <adv_dhcp6_config_file_override/>
       <adv_dhcp6_config_file_override_path/>
-      <blockpriv>1</blockpriv>
-      <gateway>WAN_GW</gateway>
     </wan>
     <lan>
       <if>ix0</if>
@@ -1259,8 +1259,8 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
   </widgets>
   <revision>
     <username>alexg@192.168.1.101</username>
-    <description>/api/routing/settings/setGateway/024b8f73-12af-4f60-9032-0d0057b02a8a made changes</description>
-    <time>1739665646.3282</time>
+    <time>1739666599.4375</time>
+    <description>/interfaces.php made changes</description>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
