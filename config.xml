@@ -1233,11 +1233,12 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
         <network>opt4</network>
       </source>
       <destination>
-        <any>1</any>
+        <address>internal_space</address>
+        <not>1</not>
       </destination>
       <updated>
         <username>alexg@192.168.1.101</username>
-        <time>1739661994.0345</time>
+        <time>1739690285.4521</time>
         <description>/firewall_rules_edit.php made changes</description>
       </updated>
       <created>
@@ -1285,8 +1286,8 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
   </widgets>
   <revision>
     <username>alexg@192.168.1.101</username>
-    <time>1739688331.4321</time>
-    <description>/firewall_rules.php made changes</description>
+    <time>1739690285.5181</time>
+    <description>/firewall_rules_edit.php made changes</description>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
