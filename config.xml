@@ -1226,6 +1226,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
       <interface>opt4</interface>
       <ipprotocol>inet</ipprotocol>
       <statetype>keep state</statetype>
+      <descr>Allow DMZ to Any non-reserved IP</descr>
       <direction>in</direction>
       <log>1</log>
       <quick>1</quick>
@@ -1238,7 +1239,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
       </destination>
       <updated>
         <username>alexg@192.168.1.101</username>
-        <time>1739690285.4521</time>
+        <time>1739690415.3605</time>
         <description>/firewall_rules_edit.php made changes</description>
       </updated>
       <created>
@@ -1286,7 +1287,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
   </widgets>
   <revision>
     <username>alexg@192.168.1.101</username>
-    <time>1739690359.7999</time>
+    <time>1739690415.4275</time>
     <description>/firewall_rules_edit.php made changes</description>
   </revision>
   <OPNsense>
