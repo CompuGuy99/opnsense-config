@@ -1370,8 +1370,8 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
   </widgets>
   <revision>
     <username>alexg@192.168.1.101</username>
-    <time>1739664147.5593</time>
-    <description>/interfaces_bridge_edit.php made changes</description>
+    <description>/api/unbound/settings/set made changes</description>
+    <time>1739664219.4643</time>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
@@ -1884,7 +1884,8 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
         <port>53</port>
         <stats>1</stats>
         <active_interface>opt2,lan,opt3,opt4,opt1</active_interface>
-        <dns64>1</dns64>
+        <dnssec>0</dnssec>
+        <dns64>0</dns64>
         <dns64prefix/>
         <noarecords>0</noarecords>
         <regdhcp>1</regdhcp>
@@ -1903,6 +1904,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
         <hideversion/>
         <prefetch/>
         <prefetchkey/>
+        <dnssecstripped/>
         <aggressivensec>1</aggressivensec>
         <serveexpired/>
         <serveexpiredreplyttl/>
