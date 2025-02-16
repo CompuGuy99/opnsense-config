@@ -1258,7 +1258,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
       <quick>1</quick>
       <protocol>tcp/udp</protocol>
       <source>
-        <network>opt4</network>
+        <address>proxy</address>
       </source>
       <destination>
         <address>compunas</address>
@@ -1266,7 +1266,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
       </destination>
       <updated>
         <username>alexg@192.168.1.101</username>
-        <time>1739690438.5722</time>
+        <time>1739690479.2009</time>
         <description>/firewall_rules_edit.php made changes</description>
       </updated>
       <created>
@@ -1288,7 +1288,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
   </widgets>
   <revision>
     <username>alexg@192.168.1.101</username>
-    <time>1739690438.6392</time>
+    <time>1739690479.2673</time>
     <description>/firewall_rules_edit.php made changes</description>
   </revision>
   <OPNsense>
