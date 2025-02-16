@@ -422,6 +422,8 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
       <spoofmac/>
       <ipaddr>192.168.8.1</ipaddr>
       <subnet>24</subnet>
+      <dhcp6usev4iface>1</dhcp6usev4iface>
+      <ipaddrv6>slaac</ipaddrv6>
     </opt3>
     <opt4>
       <if>vlan0.47</if>
@@ -1259,7 +1261,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
   </widgets>
   <revision>
     <username>alexg@192.168.1.101</username>
-    <time>1739676460.6633</time>
+    <time>1739678825.6626</time>
     <description>/interfaces.php made changes</description>
   </revision>
   <OPNsense>
