@@ -1370,8 +1370,8 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
   </widgets>
   <revision>
     <username>alexg@192.168.1.101</username>
-    <description>/api/unbound/settings/set made changes</description>
-    <time>1739664219.4643</time>
+    <description>/api/routing/settings/setGateway/WAN_DHCP6 made changes</description>
+    <time>1739664293.2653</time>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
@@ -1853,6 +1853,30 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
         <monitor/>
         <force_down>0</force_down>
         <priority>255</priority>
+        <weight>1</weight>
+        <latencylow/>
+        <latencyhigh/>
+        <losslow/>
+        <losshigh/>
+        <interval/>
+        <time_period/>
+        <loss_interval/>
+        <data_length/>
+      </gateway_item>
+      <gateway_item uuid="024b8f73-12af-4f60-9032-0d0057b02a8a">
+        <disabled>0</disabled>
+        <name>WAN_DHCP6</name>
+        <descr>Interface WAN_DHCP6 Gateway</descr>
+        <interface>wan</interface>
+        <ipprotocol>inet6</ipprotocol>
+        <gateway/>
+        <defaultgw>1</defaultgw>
+        <fargw>0</fargw>
+        <monitor_disable>1</monitor_disable>
+        <monitor_noroute>0</monitor_noroute>
+        <monitor/>
+        <force_down>0</force_down>
+        <priority>254</priority>
         <weight>1</weight>
         <latencylow/>
         <latencyhigh/>
