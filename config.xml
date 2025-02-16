@@ -420,7 +420,6 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
       <enable>1</enable>
       <lock>1</lock>
       <spoofmac/>
-      <promisc>1</promisc>
       <ipaddr>192.168.8.1</ipaddr>
       <subnet>24</subnet>
     </opt3>
@@ -1260,7 +1259,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
   </widgets>
   <revision>
     <username>alexg@192.168.1.101</username>
-    <time>1739676424.8718</time>
+    <time>1739676460.6633</time>
     <description>/interfaces.php made changes</description>
   </revision>
   <OPNsense>
