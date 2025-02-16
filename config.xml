@@ -1259,8 +1259,8 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
   </widgets>
   <revision>
     <username>alexg@192.168.1.101</username>
-    <time>1739665392.4951</time>
-    <description>/firewall_rules.php made changes</description>
+    <description>/api/routing/settings/setGateway/024b8f73-12af-4f60-9032-0d0057b02a8a made changes</description>
+    <time>1739665646.3282</time>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
@@ -1753,7 +1753,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
         <interface>wan</interface>
         <ipprotocol>inet6</ipprotocol>
         <gateway/>
-        <defaultgw>1</defaultgw>
+        <defaultgw>0</defaultgw>
         <fargw>0</fargw>
         <monitor_disable>1</monitor_disable>
         <monitor_noroute>0</monitor_noroute>
