@@ -1247,32 +1247,6 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
         <description>/firewall_rules_edit.php made changes</description>
       </created>
     </rule>
-    <rule uuid="78a1fde9-4611-43cf-99a5-344df5ae36a0">
-      <type>block</type>
-      <interface>opt4</interface>
-      <ipprotocol>inet</ipprotocol>
-      <statetype>keep state</statetype>
-      <descr>Deny DMZ to Trusted space Initiate Connections</descr>
-      <direction>in</direction>
-      <quick>1</quick>
-      <source>
-        <network>opt4</network>
-      </source>
-      <destination>
-        <address>internal_space</address>
-      </destination>
-      <updated>
-        <username>alexg@192.168.1.101</username>
-        <time>1739688329.1973</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </updated>
-      <created>
-        <username>alexg@192.168.1.101</username>
-        <time>1739688329.1973</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </created>
-      <log>1</log>
-    </rule>
   </filter>
   <rrd>
     <enable/>
@@ -1286,8 +1260,8 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
   </widgets>
   <revision>
     <username>alexg@192.168.1.101</username>
-    <time>1739690285.5181</time>
-    <description>/firewall_rules_edit.php made changes</description>
+    <time>1739690302.7056</time>
+    <description>/firewall_rules.php made changes</description>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
