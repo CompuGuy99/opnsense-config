@@ -1272,33 +1272,6 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
         <description>/firewall_rules_edit.php made changes</description>
       </created>
     </rule>
-    <rule uuid="64602dfe-467b-4996-90e6-ddf3af7d24cf">
-      <type>pass</type>
-      <interface>opt4</interface>
-      <ipprotocol>inet</ipprotocol>
-      <statetype>keep state</statetype>
-      <direction>in</direction>
-      <quick>1</quick>
-      <protocol>tcp/udp</protocol>
-      <source>
-        <network>opt4</network>
-      </source>
-      <destination>
-        <any>1</any>
-        <port>53</port>
-      </destination>
-      <updated>
-        <username>alexg@192.168.1.101</username>
-        <time>1739653036.9213</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </updated>
-      <created>
-        <username>alexg@192.168.1.101</username>
-        <time>1739653036.9213</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </created>
-      <log>1</log>
-    </rule>
   </filter>
   <rrd>
     <enable/>
@@ -1312,7 +1285,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
   </widgets>
   <revision>
     <username>alexg@192.168.1.101</username>
-    <time>1739664791.0457</time>
+    <time>1739664804.1822</time>
     <description>/firewall_rules.php made changes</description>
   </revision>
   <OPNsense>
