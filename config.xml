@@ -1370,8 +1370,8 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
   </widgets>
   <revision>
     <username>alexg@192.168.1.101</username>
-    <description>/api/routing/settings/setGateway/ed07b33a-99e2-43a6-93a3-74370aa10d16 made changes</description>
-    <time>1739664315.9148</time>
+    <description>/api/routing/settings/setGateway/024b8f73-12af-4f60-9032-0d0057b02a8a made changes</description>
+    <time>1739664330.0174</time>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
@@ -1876,7 +1876,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
         <monitor_noroute>0</monitor_noroute>
         <monitor/>
         <force_down>0</force_down>
-        <priority>254</priority>
+        <priority>255</priority>
         <weight>1</weight>
         <latencylow/>
         <latencyhigh/>
