@@ -1370,8 +1370,8 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
   </widgets>
   <revision>
     <username>alexg@192.168.1.101</username>
-    <description>/api/routing/settings/setGateway/WAN_DHCP6 made changes</description>
-    <time>1739664293.2653</time>
+    <description>/api/routing/settings/setGateway/ed07b33a-99e2-43a6-93a3-74370aa10d16 made changes</description>
+    <time>1739664315.9148</time>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
@@ -1852,7 +1852,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
         <monitor_noroute>0</monitor_noroute>
         <monitor/>
         <force_down>0</force_down>
-        <priority>255</priority>
+        <priority>253</priority>
         <weight>1</weight>
         <latencylow/>
         <latencyhigh/>
