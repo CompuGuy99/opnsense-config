@@ -1253,6 +1253,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
       <interface>opt4</interface>
       <ipprotocol>inet</ipprotocol>
       <statetype>keep state</statetype>
+      <descr>Allow NGINX Proxy to internally connect Jellyfin</descr>
       <direction>in</direction>
       <quick>1</quick>
       <protocol>tcp/udp</protocol>
@@ -1265,7 +1266,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
       </destination>
       <updated>
         <username>alexg@192.168.1.101</username>
-        <time>1739690359.7345</time>
+        <time>1739690438.5722</time>
         <description>/firewall_rules_edit.php made changes</description>
       </updated>
       <created>
@@ -1287,7 +1288,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
   </widgets>
   <revision>
     <username>alexg@192.168.1.101</username>
-    <time>1739690415.4275</time>
+    <time>1739690438.6392</time>
     <description>/firewall_rules_edit.php made changes</description>
   </revision>
   <OPNsense>
