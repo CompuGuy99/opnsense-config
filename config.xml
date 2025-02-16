@@ -1299,91 +1299,6 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
       </created>
       <log>1</log>
     </rule>
-    <rule uuid="f6b85dae-6989-42de-8f3a-4e8cd008b07a">
-      <type>pass</type>
-      <interface>opt4</interface>
-      <ipprotocol>inet</ipprotocol>
-      <statetype>keep state</statetype>
-      <descr>Allow Local SSH Connections</descr>
-      <direction>out</direction>
-      <category>SSH Connections</category>
-      <quick>1</quick>
-      <protocol>tcp/udp</protocol>
-      <source>
-        <address>internal_space</address>
-      </source>
-      <destination>
-        <network>opt4</network>
-        <port>22</port>
-      </destination>
-      <updated>
-        <username>alexg@192.168.1.101</username>
-        <time>1739652700.287</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </updated>
-      <created>
-        <username>alexg@192.168.1.101</username>
-        <time>1739652675.5399</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </created>
-      <log>1</log>
-    </rule>
-    <rule uuid="5d56482e-ccb7-434c-a786-647c1815fa1b">
-      <type>pass</type>
-      <interface>opt4</interface>
-      <ipprotocol>inet</ipprotocol>
-      <statetype>keep state</statetype>
-      <descr>Allow Portainer Agent</descr>
-      <direction>in</direction>
-      <quick>1</quick>
-      <protocol>tcp/udp</protocol>
-      <source>
-        <address>internal_space</address>
-      </source>
-      <destination>
-        <network>opt4</network>
-        <port>9001</port>
-      </destination>
-      <updated>
-        <username>alexg@192.168.1.101</username>
-        <time>1739654712.4857</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </updated>
-      <created>
-        <username>alexg@192.168.1.101</username>
-        <time>1739654712.4857</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </created>
-      <log>1</log>
-    </rule>
-    <rule uuid="61444caa-3607-4cfe-a73c-9360a3a2f1ef">
-      <type>pass</type>
-      <interface>opt4</interface>
-      <ipprotocol>inet</ipprotocol>
-      <statetype>keep state</statetype>
-      <descr>Allow Internal Access to Proxy management plane</descr>
-      <direction>out</direction>
-      <quick>1</quick>
-      <protocol>tcp/udp</protocol>
-      <source>
-        <address>internal_space</address>
-      </source>
-      <destination>
-        <network>opt4</network>
-        <port>81</port>
-      </destination>
-      <updated>
-        <username>alexg@192.168.1.101</username>
-        <time>1739655678.6499</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </updated>
-      <created>
-        <username>alexg@192.168.1.101</username>
-        <time>1739655678.6499</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </created>
-      <log>1</log>
-    </rule>
   </filter>
   <rrd>
     <enable/>
@@ -1397,7 +1312,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
   </widgets>
   <revision>
     <username>alexg@192.168.1.101</username>
-    <time>1739664768.9643</time>
+    <time>1739664791.0457</time>
     <description>/firewall_rules.php made changes</description>
   </revision>
   <OPNsense>
