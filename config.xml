@@ -912,10 +912,12 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
     </rule>
     <rule uuid="ee3d7a5a-acda-49e1-a71a-a6a4956f1278">
       <type>pass</type>
+      <interface>lan,opt3,opt4</interface>
       <ipprotocol>inet</ipprotocol>
       <statetype>keep state</statetype>
-      <direction>in</direction>
+      <direction>any</direction>
       <floating>yes</floating>
+      <log>1</log>
       <quick>1</quick>
       <protocol>tcp/udp</protocol>
       <source>
@@ -927,7 +929,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
       </destination>
       <updated>
         <username>alexg@192.168.1.101</username>
-        <time>1739760613.6264</time>
+        <time>1739760689.9654</time>
         <description>/firewall_rules_edit.php made changes</description>
       </updated>
       <created>
@@ -935,7 +937,6 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
         <time>1739760613.6264</time>
         <description>/firewall_rules_edit.php made changes</description>
       </created>
-      <log>1</log>
     </rule>
     <rule uuid="58ae067c-0dda-4a13-89a3-9582c5864773">
       <associated-rule-id>nat_673bf1f41271c2.41888316</associated-rule-id>
@@ -1288,8 +1289,8 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
   </widgets>
   <revision>
     <username>alexg@192.168.1.101</username>
-    <time>1739760620.3719</time>
-    <description>/firewall_rules.php made changes</description>
+    <time>1739760690.0309</time>
+    <description>/firewall_rules_edit.php made changes</description>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
