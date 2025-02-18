@@ -1326,8 +1326,8 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
   </widgets>
   <revision>
     <username>alexg@192.168.1.101</username>
-    <time>1739853200.2543</time>
-    <description>/services_dhcp_edit.php made changes</description>
+    <description>/api/firewall/alias/addItem/ made changes</description>
+    <time>1739855336.9271</time>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
@@ -1505,6 +1505,18 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
             <content>192.168.8.0/24
 192.168.1.0/24
 192.168.4.0/24</content>
+            <categories/>
+            <description/>
+          </alias>
+          <alias uuid="c3825fc4-9ddc-4f9f-8b98-776f6a719754">
+            <enabled>1</enabled>
+            <name>dockernet</name>
+            <type>network</type>
+            <proto/>
+            <interface/>
+            <counters>0</counters>
+            <updatefreq/>
+            <content>172.17.0.0/12</content>
             <categories/>
             <description/>
           </alias>
