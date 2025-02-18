@@ -950,14 +950,13 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
       <quick>1</quick>
       <source>
         <address>dockernet</address>
-        <not>1</not>
       </source>
       <destination>
         <any>1</any>
       </destination>
       <updated>
         <username>alexg@192.168.1.101</username>
-        <time>1739855772.2045</time>
+        <time>1739855780.9555</time>
         <description>/firewall_rules_edit.php made changes</description>
       </updated>
       <created>
@@ -1354,7 +1353,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
   </widgets>
   <revision>
     <username>alexg@192.168.1.101</username>
-    <time>1739855772.2762</time>
+    <time>1739855781.0275</time>
     <description>/firewall_rules_edit.php made changes</description>
   </revision>
   <OPNsense>
