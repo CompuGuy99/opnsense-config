@@ -946,9 +946,10 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
       <descr>Default allow dockernet out to any</descr>
       <direction>in</direction>
       <floating>yes</floating>
+      <log>1</log>
       <quick>1</quick>
       <source>
-        <address>bogons</address>
+        <address>dockernet</address>
         <not>1</not>
       </source>
       <destination>
@@ -956,7 +957,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
       </destination>
       <updated>
         <username>alexg@192.168.1.101</username>
-        <time>1739855388.2909</time>
+        <time>1739855772.2045</time>
         <description>/firewall_rules_edit.php made changes</description>
       </updated>
       <created>
@@ -964,7 +965,6 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
         <time>1739855388.2909</time>
         <description>/firewall_rules_edit.php made changes</description>
       </created>
-      <log>1</log>
     </rule>
     <rule uuid="58ae067c-0dda-4a13-89a3-9582c5864773">
       <associated-rule-id>nat_673bf1f41271c2.41888316</associated-rule-id>
@@ -1354,8 +1354,8 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
   </widgets>
   <revision>
     <username>alexg@192.168.1.101</username>
-    <description>/api/firewall/alias/set made changes</description>
-    <time>1739855638.6465</time>
+    <time>1739855772.2762</time>
+    <description>/firewall_rules_edit.php made changes</description>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
