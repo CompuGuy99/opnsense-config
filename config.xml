@@ -767,37 +767,6 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
       <tag/>
       <tagged/>
       <poolopts/>
-      <associated-rule-id>nat_67a039d958cb77.29374071</associated-rule-id>
-      <target>proxy</target>
-      <local-port>80</local-port>
-      <source>
-        <any>1</any>
-      </source>
-      <destination>
-        <address>proxy</address>
-        <port>80</port>
-      </destination>
-      <updated>
-        <username>alexg@192.168.4.39</username>
-        <time>1738553817.3638</time>
-        <description>/firewall_nat_edit.php made changes</description>
-      </updated>
-      <created>
-        <username>alexg@192.168.4.39</username>
-        <time>1738553817.3638</time>
-        <description>/firewall_nat_edit.php made changes</description>
-      </created>
-      <disabled>1</disabled>
-    </rule>
-    <rule>
-      <protocol>tcp</protocol>
-      <interface>wan</interface>
-      <category/>
-      <ipprotocol>inet</ipprotocol>
-      <descr/>
-      <tag/>
-      <tagged/>
-      <poolopts/>
       <associated-rule-id>nat_67b0f1c96a8bc4.84850855</associated-rule-id>
       <target>proxy</target>
       <local-port>80</local-port>
@@ -1019,29 +988,6 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
         <time>1735505673.5114</time>
         <description>/firewall_nat_edit.php made changes</description>
       </created>
-    </rule>
-    <rule uuid="c72c7177-5a18-4df0-8492-17f188018a59">
-      <associated-rule-id>nat_67a039d958cb77.29374071</associated-rule-id>
-      <source>
-        <any>1</any>
-      </source>
-      <interface>wan</interface>
-      <statetype>keep state</statetype>
-      <protocol>tcp</protocol>
-      <ipprotocol>inet</ipprotocol>
-      <destination>
-        <address>proxy</address>
-        <port>80</port>
-      </destination>
-      <descr/>
-      <category/>
-      <created>
-        <username>alexg@192.168.4.39</username>
-        <time>1738553817.3637</time>
-        <description>/firewall_nat_edit.php made changes</description>
-      </created>
-      <log>1</log>
-      <disabled>1</disabled>
     </rule>
     <rule uuid="c56a6e9a-4c76-40d5-947c-314a9eb10974">
       <associated-rule-id>nat_67b0f1c96a8bc4.84850855</associated-rule-id>
@@ -1300,7 +1246,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
   </widgets>
   <revision>
     <username>alexg@192.168.1.101</username>
-    <time>1739856068.5373</time>
+    <time>1739856075.5935</time>
     <description>/firewall_nat.php made changes</description>
   </revision>
   <OPNsense>
