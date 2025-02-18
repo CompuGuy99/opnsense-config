@@ -192,7 +192,7 @@
     </item>
   </sysctl>
   <system>
-    <optimization>normal</optimization>
+    <optimization>conservative</optimization>
     <hostname>route</hostname>
     <domain>int.compuguy.dev</domain>
     <group>
@@ -1318,8 +1318,8 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
   </widgets>
   <revision>
     <username>alexg@192.168.1.101</username>
-    <time>1739849489.8239</time>
-    <description>/firewall_rules_edit.php made changes</description>
+    <time>1739849807.0797</time>
+    <description>/system_advanced_firewall.php made changes</description>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
