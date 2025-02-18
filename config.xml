@@ -1233,6 +1233,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
       <direction>in</direction>
       <log>1</log>
       <quick>1</quick>
+      <protocol>tcp/udp</protocol>
       <source>
         <network>opt3</network>
       </source>
@@ -1241,7 +1242,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
       </destination>
       <updated>
         <username>alexg@192.168.1.101</username>
-        <time>1726888278.9666</time>
+        <time>1739849475.8841</time>
         <description>/firewall_rules_edit.php made changes</description>
       </updated>
       <created>
@@ -1315,9 +1316,9 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
     <column_count>2</column_count>
   </widgets>
   <revision>
-    <username>alexg@192.168.4.39</username>
-    <time>1739837755.2223</time>
-    <description>/firewall_rules.php made changes</description>
+    <username>alexg@192.168.1.101</username>
+    <time>1739849475.9504</time>
+    <description>/firewall_rules_edit.php made changes</description>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
