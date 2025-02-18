@@ -569,7 +569,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
         <mac>00:25:90:fa:ed:c9</mac>
         <cid>Compunas</cid>
         <ipaddr>192.168.8.3</ipaddr>
-        <hostname>nashost</hostname>
+        <hostname>compunas</hostname>
         <winsserver/>
         <dnsserver/>
         <ntpserver/>
@@ -1326,7 +1326,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
   </widgets>
   <revision>
     <username>alexg@192.168.1.101</username>
-    <time>1739853191.3999</time>
+    <time>1739853200.2543</time>
     <description>/services_dhcp_edit.php made changes</description>
   </revision>
   <OPNsense>
