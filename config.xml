@@ -1115,7 +1115,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
       <type>pass</type>
       <interface>lan</interface>
       <ipprotocol>inet</ipprotocol>
-      <statetype>keep state</statetype>
+      <statetype>sloppy state</statetype>
       <descr>Default allow LAN to any rule</descr>
       <direction>in</direction>
       <log>1</log>
@@ -1127,8 +1127,8 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
         <any>1</any>
       </destination>
       <updated>
-        <username>alexg@192.168.1.101</username>
-        <time>1739663457.331</time>
+        <username>alexg@192.168.4.39</username>
+        <time>1739837626.888</time>
         <description>/firewall_rules_edit.php made changes</description>
       </updated>
     </rule>
@@ -1288,9 +1288,9 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
     <column_count>2</column_count>
   </widgets>
   <revision>
-    <username>alexg@192.168.1.101</username>
-    <time>1739771527.174</time>
-    <description>/services_dhcp_edit.php made changes</description>
+    <username>alexg@192.168.4.39</username>
+    <time>1739837626.9555</time>
+    <description>/firewall_rules_edit.php made changes</description>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
