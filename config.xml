@@ -1260,6 +1260,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
       <direction>in</direction>
       <log>1</log>
       <quick>1</quick>
+      <protocol>tcp/udp</protocol>
       <source>
         <network>opt3</network>
       </source>
@@ -1268,7 +1269,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
       </destination>
       <updated>
         <username>alexg@192.168.1.101</username>
-        <time>1726888256.0243</time>
+        <time>1739849489.7558</time>
         <description>/firewall_rules_edit.php made changes</description>
       </updated>
       <created>
@@ -1317,7 +1318,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
   </widgets>
   <revision>
     <username>alexg@192.168.1.101</username>
-    <time>1739849475.9504</time>
+    <time>1739849489.8239</time>
     <description>/firewall_rules_edit.php made changes</description>
   </revision>
   <OPNsense>
