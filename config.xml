@@ -1134,16 +1134,24 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
     </rule>
     <rule uuid="5a658e67-1ba7-4e1b-bb88-878d740f5df0">
       <type>pass</type>
-      <ipprotocol>inet6</ipprotocol>
-      <descr>Default allow LAN IPv6 to any rule</descr>
       <interface>lan</interface>
+      <ipprotocol>inet6</ipprotocol>
+      <statetype>sloppy state</statetype>
+      <descr>Default allow LAN IPv6 to any rule</descr>
+      <direction>in</direction>
+      <log>1</log>
+      <quick>1</quick>
       <source>
         <network>lan</network>
       </source>
       <destination>
-        <any/>
+        <any>1</any>
       </destination>
-      <log>1</log>
+      <updated>
+        <username>alexg@192.168.1.101</username>
+        <time>1739850102.0983</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </updated>
     </rule>
     <rule uuid="506a48ef-d0f0-4fc4-b3d2-dd177e8c0586">
       <type>pass</type>
@@ -1318,8 +1326,8 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
   </widgets>
   <revision>
     <username>alexg@192.168.1.101</username>
-    <time>1739849807.0797</time>
-    <description>/system_advanced_firewall.php made changes</description>
+    <time>1739850102.1678</time>
+    <description>/firewall_rules_edit.php made changes</description>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
