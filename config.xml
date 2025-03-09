@@ -1246,8 +1246,8 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
   </widgets>
   <revision>
     <username>alexg@192.168.1.101</username>
-    <time>1739856077.2603</time>
-    <description>/firewall_nat.php made changes</description>
+    <description>/api/unbound/settings/addHostAlias/ made changes</description>
+    <time>1741553206.6777</time>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
@@ -1975,6 +1975,13 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
           <hostname>uptime</hostname>
           <domain>int.compuguy.dev</domain>
           <description/>
+        </alias>
+        <alias uuid="0d552f77-8ead-45ea-9fcb-e28779578d79">
+          <enabled>1</enabled>
+          <host>ff6705ce-c70b-4527-a98d-397e99d33a77</host>
+          <hostname>arm</hostname>
+          <domain>int.compuguy.dev</domain>
+          <description>Automatic Ripping Machine GUI</description>
         </alias>
       </aliases>
     </unboundplus>
