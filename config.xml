@@ -910,18 +910,19 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
       <statetype>keep state</statetype>
       <direction>in</direction>
       <floating>yes</floating>
+      <log>1</log>
       <quick>1</quick>
       <protocol>tcp</protocol>
       <source>
         <address>proxy</address>
       </source>
       <destination>
-        <address>192.168.1.23</address>
+        <address>CompuFileHost</address>
         <port>11000</port>
       </destination>
       <updated>
         <username>alexg@192.168.1.101</username>
-        <time>1741581102.927</time>
+        <time>1741581169.3226</time>
         <description>/firewall_rules_edit.php made changes</description>
       </updated>
       <created>
@@ -929,7 +930,6 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
         <time>1741581102.927</time>
         <description>/firewall_rules_edit.php made changes</description>
       </created>
-      <log>1</log>
     </rule>
     <rule uuid="58ae067c-0dda-4a13-89a3-9582c5864773">
       <associated-rule-id>nat_673bf1f41271c2.41888316</associated-rule-id>
@@ -1274,8 +1274,8 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
   </widgets>
   <revision>
     <username>alexg@192.168.1.101</username>
-    <description>/api/firewall/alias/set made changes</description>
-    <time>1741581146.0463</time>
+    <time>1741581169.4164</time>
+    <description>/firewall_rules_edit.php made changes</description>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
