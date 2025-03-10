@@ -1274,8 +1274,8 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
   </widgets>
   <revision>
     <username>alexg@192.168.1.101</username>
-    <time>1741581111.3751</time>
-    <description>/firewall_rules.php made changes</description>
+    <description>/api/firewall/alias/addItem/ made changes</description>
+    <time>1741581144.026</time>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
@@ -1466,6 +1466,18 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
             <counters>0</counters>
             <updatefreq/>
             <content>172.17.0.0/12</content>
+            <categories/>
+            <description/>
+          </alias>
+          <alias uuid="8d373530-b089-4668-8f5e-79326071812b">
+            <enabled>1</enabled>
+            <name>CompuFileHost</name>
+            <type>host</type>
+            <proto/>
+            <interface/>
+            <counters>0</counters>
+            <updatefreq/>
+            <content>192.168.1.23</content>
             <categories/>
             <description/>
           </alias>
