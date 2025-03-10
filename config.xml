@@ -917,12 +917,12 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
         <address>proxy</address>
       </source>
       <destination>
-        <address>CompuFileHost</address>
+        <address>compunas</address>
         <port>11000</port>
       </destination>
       <updated>
         <username>alexg@192.168.1.101</username>
-        <time>1741581190.3261</time>
+        <time>1741581854.9077</time>
         <description>/firewall_rules_edit.php made changes</description>
       </updated>
       <created>
@@ -1274,7 +1274,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
   </widgets>
   <revision>
     <username>alexg@192.168.1.101</username>
-    <time>1741581190.3978</time>
+    <time>1741581854.9773</time>
     <description>/firewall_rules_edit.php made changes</description>
   </revision>
   <OPNsense>
