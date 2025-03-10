@@ -908,7 +908,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
       <interface>lan,opt4</interface>
       <ipprotocol>inet</ipprotocol>
       <statetype>keep state</statetype>
-      <direction>in</direction>
+      <direction>any</direction>
       <floating>yes</floating>
       <log>1</log>
       <quick>1</quick>
@@ -922,7 +922,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
       </destination>
       <updated>
         <username>alexg@192.168.1.101</username>
-        <time>1741581169.3226</time>
+        <time>1741581190.3261</time>
         <description>/firewall_rules_edit.php made changes</description>
       </updated>
       <created>
@@ -1274,7 +1274,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
   </widgets>
   <revision>
     <username>alexg@192.168.1.101</username>
-    <time>1741581169.4164</time>
+    <time>1741581190.3978</time>
     <description>/firewall_rules_edit.php made changes</description>
   </revision>
   <OPNsense>
