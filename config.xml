@@ -886,6 +886,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
       <floating>yes</floating>
       <log>1</log>
       <quick>1</quick>
+      <protocol>tcp/udp</protocol>
       <source>
         <address>dockernet</address>
       </source>
@@ -894,7 +895,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
       </destination>
       <updated>
         <username>alexg@192.168.1.101</username>
-        <time>1739855780.9555</time>
+        <time>1742353170.0247</time>
         <description>/firewall_rules_edit.php made changes</description>
       </updated>
       <created>
@@ -1303,8 +1304,8 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
   </widgets>
   <revision>
     <username>alexg@192.168.1.101</username>
-    <description>/api/firewall/alias/set made changes</description>
-    <time>1742352825.0856</time>
+    <time>1742353170.0966</time>
+    <description>/firewall_rules_edit.php made changes</description>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
