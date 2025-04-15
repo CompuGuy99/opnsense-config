@@ -369,7 +369,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
       <enable>1</enable>
       <lock>1</lock>
       <spoofmac/>
-      <media>10Gbase-T</media>
+      <media>autoselect</media>
       <mediaopt/>
       <ipaddr>192.168.1.1</ipaddr>
       <subnet>24</subnet>
@@ -1321,7 +1321,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
   </widgets>
   <revision>
     <username>alexg@192.168.1.101</username>
-    <time>1744760734.337</time>
+    <time>1744760755.6258</time>
     <description>/interfaces.php made changes</description>
   </revision>
   <OPNsense>
