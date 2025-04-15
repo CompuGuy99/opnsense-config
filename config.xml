@@ -1,231 +1,247 @@
 <?xml version="1.0"?>
 <opnsense>
   <theme>cicada</theme>
-  <sysctl>
-    <item>
-      <descr>Increase UFS read-ahead speeds to match the state of hard drives and NCQ.</descr>
+  <sysctl version="1.0.0">
+    <item uuid="344ab4dc-c8e3-4760-8d15-3a7bd1fb74a2">
       <tunable>vfs.read_max</tunable>
       <value>default</value>
+      <descr>Increase UFS read-ahead speeds to match the state of hard drives and NCQ.</descr>
     </item>
-    <item>
-      <descr>Set the ephemeral port range to be lower.</descr>
+    <item uuid="fa7c80ef-2860-4e87-bc26-a2189e1a2174">
       <tunable>net.inet.ip.portrange.first</tunable>
       <value>default</value>
+      <descr>Set the ephemeral port range to be lower.</descr>
     </item>
-    <item>
-      <descr>Drop packets to closed TCP ports without returning a RST</descr>
+    <item uuid="275989a3-ab9f-4a2b-b0c8-51a2ad8c72aa">
       <tunable>net.inet.tcp.blackhole</tunable>
       <value>default</value>
+      <descr>Drop packets to closed TCP ports without returning a RST</descr>
     </item>
-    <item>
-      <descr>Do not send ICMP port unreachable messages for closed UDP ports</descr>
+    <item uuid="12ba03c4-fa7c-46e5-9f99-ef20a0a562ef">
       <tunable>net.inet.udp.blackhole</tunable>
       <value>default</value>
+      <descr>Do not send ICMP port unreachable messages for closed UDP ports</descr>
     </item>
-    <item>
-      <descr>Randomize the ID field in IP packets</descr>
+    <item uuid="ae9c5ee5-0119-4b20-bea5-a3ec8644a4c5">
       <tunable>net.inet.ip.random_id</tunable>
       <value>default</value>
+      <descr>Randomize the ID field in IP packets</descr>
     </item>
-    <item>
-      <descr>
-        Source routing is another way for an attacker to try to reach non-routable addresses behind your box.
-        It can also be used to probe for information about your internal networks. These functions come enabled
-        as part of the standard FreeBSD core system.
-      </descr>
+    <item uuid="c90decf4-a5ab-4d27-8738-514e291d6af4">
       <tunable>net.inet.ip.sourceroute</tunable>
       <value>default</value>
-    </item>
-    <item>
       <descr>
         Source routing is another way for an attacker to try to reach non-routable addresses behind your box.
         It can also be used to probe for information about your internal networks. These functions come enabled
         as part of the standard FreeBSD core system.
       </descr>
+    </item>
+    <item uuid="7aef8821-e176-46cf-9b81-898cc82479bd">
       <tunable>net.inet.ip.accept_sourceroute</tunable>
       <value>default</value>
+      <descr>
+        Source routing is another way for an attacker to try to reach non-routable addresses behind your box.
+        It can also be used to probe for information about your internal networks. These functions come enabled
+        as part of the standard FreeBSD core system.
+      </descr>
     </item>
-    <item>
+    <item uuid="db6bca7a-225b-434b-87d2-f73d609fe09d">
+      <tunable>net.inet.icmp.log_redirect</tunable>
+      <value>default</value>
       <descr>
         This option turns off the logging of redirect packets because there is no limit and this could fill
         up your logs consuming your whole hard drive.
       </descr>
-      <tunable>net.inet.icmp.log_redirect</tunable>
-      <value>default</value>
     </item>
-    <item>
-      <descr>Drop SYN-FIN packets (breaks RFC1379, but nobody uses it anyway)</descr>
+    <item uuid="b7e15ebe-b652-4adf-a339-6ef70b1dfee1">
       <tunable>net.inet.tcp.drop_synfin</tunable>
       <value>default</value>
+      <descr>Drop SYN-FIN packets (breaks RFC1379, but nobody uses it anyway)</descr>
     </item>
-    <item>
-      <descr>Enable sending IPv6 redirects</descr>
+    <item uuid="40d7786d-c9d5-41d7-bf94-aeddd4cba541">
       <tunable>net.inet6.ip6.redirect</tunable>
       <value>default</value>
+      <descr>Enable sending IPv6 redirects</descr>
     </item>
-    <item>
-      <descr>Enable privacy settings for IPv6 (RFC 4941)</descr>
+    <item uuid="deb61895-24c3-4e9a-b4f5-719ebbda3006">
       <tunable>net.inet6.ip6.use_tempaddr</tunable>
       <value>default</value>
+      <descr>Enable privacy settings for IPv6 (RFC 4941)</descr>
     </item>
-    <item>
-      <descr>Prefer privacy addresses and use them over the normal addresses</descr>
+    <item uuid="8120d939-8dfb-4554-9252-a10a531af048">
       <tunable>net.inet6.ip6.prefer_tempaddr</tunable>
       <value>default</value>
+      <descr>Prefer privacy addresses and use them over the normal addresses</descr>
     </item>
-    <item>
-      <descr>Generate SYN cookies for outbound SYN-ACK packets</descr>
+    <item uuid="58c2d8ce-af68-4510-b05e-6195b0f03227">
       <tunable>net.inet.tcp.syncookies</tunable>
       <value>default</value>
+      <descr>Generate SYN cookies for outbound SYN-ACK packets</descr>
     </item>
-    <item>
-      <descr>Maximum incoming/outgoing TCP datagram size (receive)</descr>
+    <item uuid="adae77b2-aafb-4f27-9152-5aefea73403d">
       <tunable>net.inet.tcp.recvspace</tunable>
       <value>default</value>
+      <descr>Maximum incoming/outgoing TCP datagram size (receive)</descr>
     </item>
-    <item>
-      <descr>Maximum incoming/outgoing TCP datagram size (send)</descr>
+    <item uuid="e6e0412b-4ab9-4aa3-aba3-8b27348aed2b">
       <tunable>net.inet.tcp.sendspace</tunable>
       <value>default</value>
+      <descr>Maximum incoming/outgoing TCP datagram size (send)</descr>
     </item>
-    <item>
-      <descr>Do not delay ACK to try and piggyback it onto a data packet</descr>
+    <item uuid="dbce4b87-ef85-433f-a10a-9e545a48ab27">
       <tunable>net.inet.tcp.delayed_ack</tunable>
       <value>default</value>
+      <descr>Do not delay ACK to try and piggyback it onto a data packet</descr>
     </item>
-    <item>
-      <descr>Maximum outgoing UDP datagram size</descr>
+    <item uuid="e205404b-09e5-4728-a94a-810fa2246df8">
       <tunable>net.inet.udp.maxdgram</tunable>
       <value>default</value>
+      <descr>Maximum outgoing UDP datagram size</descr>
     </item>
-    <item>
-      <descr>Handling of non-IP packets which are not passed to pfil (see if_bridge(4))</descr>
+    <item uuid="a0e7d808-0b11-44bc-b062-b2ad66d6dd93">
       <tunable>net.link.bridge.pfil_onlyip</tunable>
       <value>default</value>
+      <descr>Handling of non-IP packets which are not passed to pfil (see if_bridge(4))</descr>
     </item>
-    <item>
-      <descr>Set to 1 to additionally filter on the physical interface for locally destined packets</descr>
+    <item uuid="01350fa1-e20f-471c-95f1-8631cba36001">
       <tunable>net.link.bridge.pfil_local_phys</tunable>
       <value>default</value>
+      <descr>Set to 1 to additionally filter on the physical interface for locally destined packets</descr>
     </item>
-    <item>
-      <descr>Set to 0 to disable filtering on the incoming and outgoing member interfaces.</descr>
+    <item uuid="6a336684-ca66-4027-9766-7578e0987749">
       <tunable>net.link.bridge.pfil_member</tunable>
       <value>default</value>
+      <descr>Set to 0 to disable filtering on the incoming and outgoing member interfaces.</descr>
     </item>
-    <item>
-      <descr>Set to 1 to enable filtering on the bridge interface</descr>
+    <item uuid="727cae70-31d2-4a88-b84b-9cb03caf2a65">
       <tunable>net.link.bridge.pfil_bridge</tunable>
       <value>default</value>
+      <descr>Set to 1 to enable filtering on the bridge interface</descr>
     </item>
-    <item>
-      <descr>Allow unprivileged access to tap(4) device nodes</descr>
+    <item uuid="3a7ab048-f271-4142-b904-1f71fcf65afa">
       <tunable>net.link.tap.user_open</tunable>
       <value>default</value>
+      <descr>Allow unprivileged access to tap(4) device nodes</descr>
     </item>
-    <item>
-      <descr>Randomize PID's (see src/sys/kern/kern_fork.c: sysctl_kern_randompid())</descr>
+    <item uuid="60ee4cb8-77b4-45c0-9c33-c5f96c96a0f0">
       <tunable>kern.randompid</tunable>
       <value>default</value>
+      <descr>Randomize PID's (see src/sys/kern/kern_fork.c: sysctl_kern_randompid())</descr>
     </item>
-    <item>
-      <descr>Disable CTRL+ALT+Delete reboot from keyboard.</descr>
+    <item uuid="2305550d-e8c9-4481-8c70-908738160205">
       <tunable>hw.syscons.kbd_reboot</tunable>
       <value>default</value>
+      <descr>Disable CTRL+ALT+Delete reboot from keyboard.</descr>
     </item>
-    <item>
-      <descr>Enable TCP extended debugging</descr>
+    <item uuid="6f5be69b-e7b5-40ab-b676-64b6c32ed79f">
       <tunable>net.inet.tcp.log_debug</tunable>
       <value>default</value>
+      <descr>Enable TCP extended debugging</descr>
     </item>
-    <item>
-      <descr>Set ICMP Limits</descr>
+    <item uuid="2d067631-3f0d-4c03-9bba-91b864175920">
       <tunable>net.inet.icmp.icmplim</tunable>
       <value>default</value>
+      <descr>Set ICMP Limits</descr>
     </item>
-    <item>
-      <descr>TCP Offload Engine</descr>
+    <item uuid="69981583-0ba4-4dbb-a7c3-a56e6aa1e4c1">
       <tunable>net.inet.tcp.tso</tunable>
       <value>default</value>
+      <descr>TCP Offload Engine</descr>
     </item>
-    <item>
-      <descr>UDP Checksums</descr>
+    <item uuid="85b213cd-d9d6-4e97-89f7-67a672675a1a">
       <tunable>net.inet.udp.checksum</tunable>
       <value>default</value>
+      <descr>UDP Checksums</descr>
     </item>
-    <item>
-      <descr>Maximum socket buffer size</descr>
+    <item uuid="e1732cab-783c-44eb-bad8-fa379855cb76">
       <tunable>kern.ipc.maxsockbuf</tunable>
       <value>default</value>
+      <descr>Maximum socket buffer size</descr>
     </item>
-    <item>
-      <descr>Page Table Isolation (Meltdown mitigation, requires reboot.)</descr>
+    <item uuid="0ff5ac29-4681-4aeb-bed4-f6e4a33d68e7">
       <tunable>vm.pmap.pti</tunable>
       <value>default</value>
+      <descr>Page Table Isolation (Meltdown mitigation, requires reboot.)</descr>
     </item>
-    <item>
-      <descr>Disable Indirect Branch Restricted Speculation (Spectre V2 mitigation)</descr>
+    <item uuid="58d22932-4d26-4dd9-aa35-d341e431c85b">
       <tunable>hw.ibrs_disable</tunable>
       <value>default</value>
+      <descr>Disable Indirect Branch Restricted Speculation (Spectre V2 mitigation)</descr>
     </item>
-    <item>
-      <descr>Hide processes running as other groups</descr>
+    <item uuid="90acc88e-9102-4e4f-be15-9663481abba2">
       <tunable>security.bsd.see_other_gids</tunable>
       <value>default</value>
+      <descr>Hide processes running as other groups</descr>
     </item>
-    <item>
-      <descr>Hide processes running as other users</descr>
+    <item uuid="c845f4ec-3092-47e4-b14a-b0337b2230bf">
       <tunable>security.bsd.see_other_uids</tunable>
       <value>default</value>
+      <descr>Hide processes running as other users</descr>
     </item>
-    <item>
+    <item uuid="7abc53e8-e2b0-4d1a-8fb6-ddb9a9cc400c">
+      <tunable>net.inet.ip.redirect</tunable>
+      <value>default</value>
       <descr>Enable/disable sending of ICMP redirects in response to IP packets for which a better,
         and for the sender directly reachable, route and next hop is known.
       </descr>
-      <tunable>net.inet.ip.redirect</tunable>
-      <value>default</value>
     </item>
-    <item>
-      <descr>Maximum outgoing UDP datagram size</descr>
+    <item uuid="6808f51a-3d90-4f44-9b92-0ef9c14da135">
       <tunable>net.local.dgram.maxdgram</tunable>
       <value>default</value>
+      <descr>Maximum outgoing UDP datagram size</descr>
     </item>
   </sysctl>
   <system>
     <optimization>conservative</optimization>
     <hostname>route</hostname>
     <domain>int.compuguy.dev</domain>
-    <group>
-      <name>admins</name>
-      <description>System Administrators</description>
-      <scope>system</scope>
+    <group uuid="a5bf5385-348b-4845-9f13-b8347bf5209a">
       <gid>1999</gid>
-      <member>0</member>
-      <member>2000</member>
-      <priv>page-all</priv>
-    </group>
-    <user>
-      <name>root</name>
-      <descr>System Administrator</descr>
+      <name>admins</name>
       <scope>system</scope>
-      <groupname>admins</groupname>
-      <password>$2y$11$4XfwkrOFftsWbk1N2NeO1eN0NbXP6I05k5ZqAdPfHAhZbFaQ1Ppnq</password>
+      <description>System Administrators</description>
+      <priv>page-all</priv>
+      <member>0,2000</member>
+    </group>
+    <user uuid="3ca46ba4-862c-41b3-8024-d5b4945ba0c4">
       <uid>0</uid>
-    </user>
-    <user>
-      <password>$2y$11$HT5QSwYZOoFLgQBKVUVyMeWpRQNHzCSshYEh.fDsbM6YPG6LvaMha</password>
-      <scope>user</scope>
-      <name>alexg</name>
-      <descr>Alex Guymon</descr>
+      <name>root</name>
+      <disabled>0</disabled>
+      <scope>system</scope>
       <expires/>
       <authorizedkeys/>
       <otp_seed/>
-      <email>alex@compuguy.dev</email>
-      <shell>/bin/sh</shell>
+      <shell/>
+      <password>$2y$11$4XfwkrOFftsWbk1N2NeO1eN0NbXP6I05k5ZqAdPfHAhZbFaQ1Ppnq</password>
+      <landing_page/>
+      <comment/>
+      <email/>
+      <apikeys/>
+      <priv/>
+      <language/>
+      <descr>System Administrator</descr>
+      <dashboard/>
+    </user>
+    <user uuid="61db0586-1fb2-4608-b133-39cd0e7dfac0">
       <uid>2000</uid>
+      <name>alexg</name>
+      <disabled>0</disabled>
+      <scope>user</scope>
+      <expires/>
+      <authorizedkeys/>
+      <otp_seed/>
+      <shell>/bin/sh</shell>
+      <password>$2y$11$HT5QSwYZOoFLgQBKVUVyMeWpRQNHzCSshYEh.fDsbM6YPG6LvaMha</password>
+      <landing_page/>
+      <comment/>
+      <email>alex@compuguy.dev</email>
       <apikeys>
         
       </apikeys>
+      <priv/>
+      <language/>
+      <descr>Alex Guymon</descr>
+      <dashboard/>
     </user>
     <nextuid>2001</nextuid>
     <nextgid>2000</nextgid>
@@ -353,9 +369,10 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
       <enable>1</enable>
       <lock>1</lock>
       <spoofmac/>
+      <media>10Gbase-T</media>
+      <mediaopt/>
       <ipaddr>192.168.1.1</ipaddr>
       <subnet>24</subnet>
-      <dhcp6usev4iface>1</dhcp6usev4iface>
       <ipaddrv6>slaac</ipaddrv6>
     </lan>
     <lo0>
@@ -1304,8 +1321,8 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
   </widgets>
   <revision>
     <username>alexg@192.168.1.101</username>
-    <time>1742353170.0966</time>
-    <description>/firewall_rules_edit.php made changes</description>
+    <time>1744760734.337</time>
+    <description>/interfaces.php made changes</description>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
@@ -1591,7 +1608,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
           <http_port>8000</http_port>
         </general>
       </ctrl_agent>
-      <dhcp4 version="1.0.2">
+      <dhcp4 version="1.0.3">
         <general>
           <enabled>0</enabled>
           <interfaces/>
@@ -2128,13 +2145,14 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
       </general>
     </trust>
   </OPNsense>
-  <hasync version="1.0.1">
+  <hasync version="1.0.2">
     <disablepreempt>0</disablepreempt>
     <disconnectppps>0</disconnectppps>
     <pfsyncinterface/>
     <pfsyncpeerip/>
     <pfsyncversion>1400</pfsyncversion>
     <synchronizetoip/>
+    <verifypeer>0</verifypeer>
     <username/>
     <password/>
     <syncitems/>
