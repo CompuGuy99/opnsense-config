@@ -282,7 +282,6 @@
       <keysig/>
       <rekeylimit/>
       <enabled>enabled</enabled>
-      <passwordauth>1</passwordauth>
     </ssh>
     <rrdbackup>-1</rrdbackup>
     <netflowbackup>-1</netflowbackup>
@@ -1323,8 +1322,8 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
   </widgets>
   <revision>
     <username>alexg@192.168.1.101</username>
-    <description>/api/auth/user/set/61db0586-1fb2-4608-b133-39cd0e7dfac0 made changes</description>
-    <time>1744761946.579</time>
+    <time>1744761962.0542</time>
+    <description>/system_advanced_admin.php made changes</description>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
