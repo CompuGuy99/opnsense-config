@@ -1166,6 +1166,32 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
         <description>/firewall_rules_edit.php made changes</description>
       </created>
     </rule>
+    <rule uuid="b49eef26-9a21-48ef-b6ef-32a2bdcd3fcd">
+      <type>pass</type>
+      <interface>opt2</interface>
+      <ipprotocol>inet6</ipprotocol>
+      <statetype>sloppy state</statetype>
+      <descr>Default allow LAN IPv6 to any rule</descr>
+      <direction>in</direction>
+      <log>1</log>
+      <quick>1</quick>
+      <source>
+        <network>opt2</network>
+      </source>
+      <destination>
+        <any>1</any>
+      </destination>
+      <updated>
+        <username>alexg@192.168.1.101</username>
+        <time>1745184340.3235</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </updated>
+      <created>
+        <username>alexg@192.168.1.101</username>
+        <time>1745184340.3235</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </created>
+    </rule>
     <rule uuid="428d031d-d26a-4539-a7af-204ab59019dd">
       <type>pass</type>
       <interface>opt2</interface>
@@ -1341,7 +1367,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
   </widgets>
   <revision>
     <username>alexg@192.168.1.101</username>
-    <time>1745184321.6838</time>
+    <time>1745184340.391</time>
     <description>/firewall_rules_edit.php made changes</description>
   </revision>
   <OPNsense>
