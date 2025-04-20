@@ -409,7 +409,6 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
     <opt3>
       <if>ix1</if>
       <descr>NAS</descr>
-      <enable>1</enable>
       <lock>1</lock>
       <spoofmac/>
       <ipaddr>192.168.8.1</ipaddr>
@@ -1320,8 +1319,8 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
   </widgets>
   <revision>
     <username>alexg@192.168.1.101</username>
-    <description>/api/firewall/alias/set made changes</description>
-    <time>1745188285.0942</time>
+    <time>1745188295.7344</time>
+    <description>Interface NAS(opt3) is now disabled.</description>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
