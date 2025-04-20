@@ -1232,8 +1232,8 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
   </widgets>
   <revision>
     <username>alexg@192.168.1.101</username>
-    <description>/api/interfaces/lagg_settings/addItem/ made changes</description>
-    <time>1745188361.0135</time>
+    <description>/api/interfaces/lagg_settings/setItem/9c1dddf7-7308-4416-9f55-82f499cbda37 made changes</description>
+    <time>1745188407.9041</time>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
@@ -2117,7 +2117,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
       <lagghash/>
       <lacp_strict/>
       <mtu/>
-      <descr/>
+      <descr>LAGG for High Throughput Networking</descr>
     </lagg>
   </laggs>
   <virtualip version="1.0.0">
