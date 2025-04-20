@@ -406,15 +406,6 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
       <ipaddr>192.168.254.1</ipaddr>
       <subnet>24</subnet>
     </opt2>
-    <opt3>
-      <if>ix1</if>
-      <descr>NAS</descr>
-      <spoofmac/>
-      <ipaddr>192.168.8.1</ipaddr>
-      <subnet>24</subnet>
-      <dhcp6usev4iface>1</dhcp6usev4iface>
-      <ipaddrv6>slaac</ipaddrv6>
-    </opt3>
     <opt4>
       <if>vlan0.47</if>
       <descr>PublicProxy</descr>
@@ -569,29 +560,6 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
       </staticmap>
       <pool/>
     </opt1>
-    <opt3>
-      <enable>1</enable>
-      <ddnsdomainalgorithm>hmac-md5</ddnsdomainalgorithm>
-      <numberoptions>
-        <item/>
-      </numberoptions>
-      <range>
-        <from>192.168.8.32</from>
-        <to>192.168.8.250</to>
-      </range>
-      <winsserver/>
-      <dnsserver/>
-      <ntpserver/>
-      <staticmap>
-        <mac>00:25:90:fa:ed:c9</mac>
-        <cid>Compunas</cid>
-        <ipaddr>192.168.8.3</ipaddr>
-        <hostname>compunas</hostname>
-        <winsserver/>
-        <dnsserver/>
-        <ntpserver/>
-      </staticmap>
-    </opt3>
     <opt4>
       <enable>1</enable>
       <ddnsdomainalgorithm>hmac-md5</ddnsdomainalgorithm>
@@ -1224,60 +1192,6 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
         <description>/firewall_rules_edit.php made changes</description>
       </created>
     </rule>
-    <rule uuid="d0eea86d-dcee-4e37-8c12-3ebea831723c">
-      <type>pass</type>
-      <interface>opt3</interface>
-      <ipprotocol>inet</ipprotocol>
-      <statetype>keep state</statetype>
-      <descr>Default NAS Allow to any</descr>
-      <direction>in</direction>
-      <log>1</log>
-      <quick>1</quick>
-      <protocol>tcp/udp</protocol>
-      <source>
-        <network>opt3</network>
-      </source>
-      <destination>
-        <any>1</any>
-      </destination>
-      <updated>
-        <username>alexg@192.168.1.101</username>
-        <time>1739849475.8841</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </updated>
-      <created>
-        <username>root@192.168.1.100</username>
-        <time>1724125818.1006</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </created>
-    </rule>
-    <rule uuid="4873a1a8-376b-4cca-900e-761627d923cf">
-      <type>pass</type>
-      <interface>opt3</interface>
-      <ipprotocol>inet6</ipprotocol>
-      <statetype>keep state</statetype>
-      <descr>Default allow Nas IPv6 to any rule</descr>
-      <direction>in</direction>
-      <log>1</log>
-      <quick>1</quick>
-      <protocol>tcp/udp</protocol>
-      <source>
-        <network>opt3</network>
-      </source>
-      <destination>
-        <any>1</any>
-      </destination>
-      <updated>
-        <username>alexg@192.168.1.101</username>
-        <time>1739849489.7558</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </updated>
-      <created>
-        <username>alexg@192.168.1.101</username>
-        <time>1726888242.6797</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </created>
-    </rule>
     <rule uuid="df7488b1-befd-4d97-b61b-e1259ccc4181">
       <type>pass</type>
       <interface>opt4</interface>
@@ -1318,8 +1232,8 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
   </widgets>
   <revision>
     <username>alexg@192.168.1.101</username>
-    <time>1745188310.3348</time>
-    <description>Interface NAS(opt3) is now disabled.</description>
+    <time>1745188319.7429</time>
+    <description>/interfaces_assign.php made changes</description>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
