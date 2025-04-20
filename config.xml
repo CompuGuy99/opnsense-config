@@ -1232,8 +1232,8 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
   </widgets>
   <revision>
     <username>alexg@192.168.1.101</username>
-    <time>1745188319.7429</time>
-    <description>/interfaces_assign.php made changes</description>
+    <description>/api/interfaces/lagg_settings/addItem/ made changes</description>
+    <time>1745188361.0135</time>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
@@ -2107,7 +2107,18 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
     <gre/>
   </gres>
   <laggs version="1.0.0">
-    <lagg/>
+    <lagg uuid="9c1dddf7-7308-4416-9f55-82f499cbda37">
+      <laggif>lagg0</laggif>
+      <members>ix1</members>
+      <primary_member/>
+      <proto>lacp</proto>
+      <lacp_fast_timeout>0</lacp_fast_timeout>
+      <use_flowid/>
+      <lagghash/>
+      <lacp_strict/>
+      <mtu/>
+      <descr/>
+    </lagg>
   </laggs>
   <virtualip version="1.0.0">
     <vip/>
