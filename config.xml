@@ -452,14 +452,6 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
       <dnsserver/>
       <ntpserver/>
       <staticmap>
-        <mac>b8:27:eb:d7:2b:1f</mac>
-        <ipaddr>192.168.1.2</ipaddr>
-        <hostname>nut</hostname>
-        <winsserver/>
-        <dnsserver/>
-        <ntpserver/>
-      </staticmap>
-      <staticmap>
         <mac>00:25:90:fa:ed:c8</mac>
         <ipaddr>192.168.1.3</ipaddr>
         <hostname>compunas</hostname>
@@ -524,6 +516,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
         <dnsserver/>
         <ntpserver/>
       </staticmap>
+      <pool/>
     </lan>
     <opt2>
       <enable>1</enable>
@@ -1322,8 +1315,8 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
   </widgets>
   <revision>
     <username>alexg@192.168.1.101</username>
-    <time>1744761962.0542</time>
-    <description>/system_advanced_admin.php made changes</description>
+    <time>1745183792.9159</time>
+    <description>/services_dhcp.php made changes</description>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
