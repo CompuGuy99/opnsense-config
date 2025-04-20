@@ -531,6 +531,14 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
       <winsserver/>
       <dnsserver/>
       <ntpserver/>
+      <staticmap>
+        <mac>b8:27:eb:d7:2b:1f</mac>
+        <ipaddr>192.168.254.2</ipaddr>
+        <hostname>nut</hostname>
+        <winsserver/>
+        <dnsserver/>
+        <ntpserver/>
+      </staticmap>
     </opt2>
     <opt1>
       <enable>1</enable>
@@ -1312,8 +1320,8 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
   </widgets>
   <revision>
     <username>alexg@192.168.1.101</username>
-    <time>1745184571.6331</time>
-    <description>/firewall_rules.php made changes</description>
+    <time>1745186468.21</time>
+    <description>/services_dhcp_edit.php made changes</description>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
