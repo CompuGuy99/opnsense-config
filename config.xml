@@ -409,7 +409,6 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
     <opt3>
       <if>ix1</if>
       <descr>NAS</descr>
-      <lock>1</lock>
       <spoofmac/>
       <ipaddr>192.168.8.1</ipaddr>
       <subnet>24</subnet>
@@ -1319,7 +1318,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
   </widgets>
   <revision>
     <username>alexg@192.168.1.101</username>
-    <time>1745188295.7344</time>
+    <time>1745188310.3348</time>
     <description>Interface NAS(opt3) is now disabled.</description>
   </revision>
   <OPNsense>
