@@ -1218,33 +1218,6 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
         <description>/firewall_rules_edit.php made changes</description>
       </created>
     </rule>
-    <rule uuid="2969ec6b-1ce0-47dd-98a2-d6a1b0b07f4d">
-      <type>pass</type>
-      <interface>opt2</interface>
-      <ipprotocol>inet</ipprotocol>
-      <statetype>keep state</statetype>
-      <direction>in</direction>
-      <quick>1</quick>
-      <protocol>udp</protocol>
-      <source>
-        <network>opt2</network>
-      </source>
-      <destination>
-        <network>opt2ip</network>
-        <port>53</port>
-      </destination>
-      <updated>
-        <username>alexg@192.168.4.39</username>
-        <time>1739837749.4601</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </updated>
-      <created>
-        <username>alexg@192.168.4.39</username>
-        <time>1739837749.4601</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </created>
-      <log>1</log>
-    </rule>
     <rule uuid="e7105e7c-d412-41cd-b8b0-ca2059839ee9">
       <type>pass</type>
       <interface>opt2</interface>
@@ -1367,8 +1340,8 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
   </widgets>
   <revision>
     <username>alexg@192.168.1.101</username>
-    <time>1745184340.391</time>
-    <description>/firewall_rules_edit.php made changes</description>
+    <time>1745184568.5893</time>
+    <description>/firewall_rules.php made changes</description>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
