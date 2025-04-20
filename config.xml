@@ -1218,34 +1218,6 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
         <description>/firewall_rules_edit.php made changes</description>
       </created>
     </rule>
-    <rule uuid="e7105e7c-d412-41cd-b8b0-ca2059839ee9">
-      <type>pass</type>
-      <interface>opt2</interface>
-      <ipprotocol>inet</ipprotocol>
-      <statetype>keep state</statetype>
-      <descr>Allow to Time Server</descr>
-      <direction>in</direction>
-      <quick>1</quick>
-      <protocol>udp</protocol>
-      <source>
-        <network>opt2</network>
-      </source>
-      <destination>
-        <any>1</any>
-        <port>123</port>
-      </destination>
-      <updated>
-        <username>alexg@192.168.1.101</username>
-        <time>1742350925.9841</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </updated>
-      <created>
-        <username>alexg@192.168.1.101</username>
-        <time>1742350925.9841</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </created>
-      <log>1</log>
-    </rule>
     <rule uuid="d0eea86d-dcee-4e37-8c12-3ebea831723c">
       <type>pass</type>
       <interface>opt3</interface>
@@ -1340,7 +1312,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
   </widgets>
   <revision>
     <username>alexg@192.168.1.101</username>
-    <time>1745184568.5893</time>
+    <time>1745184571.6331</time>
     <description>/firewall_rules.php made changes</description>
   </revision>
   <OPNsense>
