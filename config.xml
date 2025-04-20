@@ -1320,8 +1320,8 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
   </widgets>
   <revision>
     <username>alexg@192.168.1.101</username>
-    <time>1745186620.1953</time>
-    <description>/services_router_advertisements.php made changes</description>
+    <description>/api/firewall/alias/setItem/4b11cdcb-1890-4134-9dec-a6b146c85795 made changes</description>
+    <time>1745188272.8955</time>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
@@ -1431,12 +1431,15 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
             <enabled>1</enabled>
             <name>syncthing</name>
             <type>host</type>
+            <path_expression/>
             <proto/>
             <interface/>
             <counters>0</counters>
             <updatefreq/>
-            <content>192.168.8.3
-192.168.1.3</content>
+            <content>192.168.1.3</content>
+            <password/>
+            <username/>
+            <authtype/>
             <categories/>
             <description/>
           </alias>
@@ -1444,11 +1447,15 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
             <enabled>1</enabled>
             <name>nswitch</name>
             <type>host</type>
+            <path_expression/>
             <proto/>
             <interface/>
             <counters>0</counters>
             <updatefreq/>
             <content>192.168.4.8</content>
+            <password/>
+            <username/>
+            <authtype/>
             <categories/>
             <description/>
           </alias>
@@ -1456,11 +1463,15 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
             <enabled>1</enabled>
             <name>proxy</name>
             <type>host</type>
+            <path_expression/>
             <proto/>
             <interface/>
             <counters>0</counters>
             <updatefreq/>
             <content>192.168.7.2</content>
+            <password/>
+            <username/>
+            <authtype/>
             <categories/>
             <description/>
           </alias>
@@ -1468,12 +1479,16 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
             <enabled>1</enabled>
             <name>compunas</name>
             <type>host</type>
+            <path_expression/>
             <proto/>
             <interface/>
             <counters>1</counters>
             <updatefreq/>
             <content>192.168.8.3
 192.168.1.3</content>
+            <password/>
+            <username/>
+            <authtype/>
             <categories/>
             <description/>
           </alias>
@@ -1481,11 +1496,15 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
             <enabled>1</enabled>
             <name>nginxproxy</name>
             <type>host</type>
+            <path_expression/>
             <proto/>
             <interface/>
             <counters>0</counters>
             <updatefreq/>
             <content>192.168.1.4</content>
+            <password/>
+            <username/>
+            <authtype/>
             <categories/>
             <description/>
           </alias>
@@ -1493,6 +1512,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
             <enabled>1</enabled>
             <name>internal_space</name>
             <type>network</type>
+            <path_expression/>
             <proto/>
             <interface/>
             <counters>0</counters>
@@ -1500,6 +1520,9 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
             <content>192.168.8.0/24
 192.168.1.0/24
 192.168.4.0/24</content>
+            <password/>
+            <username/>
+            <authtype/>
             <categories/>
             <description/>
           </alias>
@@ -1507,12 +1530,16 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
             <enabled>1</enabled>
             <name>dockernet</name>
             <type>network</type>
+            <path_expression/>
             <proto/>
             <interface/>
             <counters>0</counters>
             <updatefreq/>
             <content>172.17.0.0/12
 172.16.0.0/12</content>
+            <password/>
+            <username/>
+            <authtype/>
             <categories/>
             <description/>
           </alias>
@@ -1520,11 +1547,15 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
             <enabled>1</enabled>
             <name>CompuFileHost</name>
             <type>host</type>
+            <path_expression/>
             <proto/>
             <interface/>
             <counters>0</counters>
             <updatefreq/>
             <content>192.168.1.23</content>
+            <password/>
+            <username/>
+            <authtype/>
             <categories/>
             <description/>
           </alias>
