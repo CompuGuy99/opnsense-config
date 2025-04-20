@@ -1320,8 +1320,8 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
   </widgets>
   <revision>
     <username>alexg@192.168.1.101</username>
-    <description>/api/nut/settings/set made changes</description>
-    <time>1745186505.5978</time>
+    <time>1745186620.1953</time>
+    <description>/services_router_advertisements.php made changes</description>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
@@ -2210,6 +2210,13 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
       <numberoptions>
         <item/>
       </numberoptions>
+      <ramode>disabled</ramode>
+      <rapriority>medium</rapriority>
+      <ramininterval>200</ramininterval>
+      <ramaxinterval>600</ramaxinterval>
+      <radomainsearchlist/>
+      <radnsserver/>
+      <rasamednsasdhcp6>1</rasamednsasdhcp6>
     </opt1>
   </dhcpdv6>
   <cert uuid="502fd502-c950-4ec0-bcc3-d469de4ff99a">
