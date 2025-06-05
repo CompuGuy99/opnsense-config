@@ -421,7 +421,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
       <enable>1</enable>
       <ddnsdomainalgorithm>hmac-md5</ddnsdomainalgorithm>
       <ddnsupdate>1</ddnsupdate>
-      <tftp>192.168.8.3</tftp>
+      <tftp>192.168.1.3</tftp>
       <bootfilename>netboot.xyz.kpxe</bootfilename>
       <netboot>1</netboot>
       <nextserver>192.168.8.3</nextserver>
@@ -505,7 +505,6 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
         <dnsserver/>
         <ntpserver/>
       </staticmap>
-      <pool/>
     </lan>
     <opt2>
       <enable>1</enable>
@@ -1231,9 +1230,9 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
     <column_count>2</column_count>
   </widgets>
   <revision>
-    <username>alexg@192.168.1.101</username>
-    <description>/api/unbound/settings/addHostAlias/ made changes</description>
-    <time>1748808965.7691</time>
+    <username>alexg@192.168.4.39</username>
+    <time>1749088709.3316</time>
+    <description>/services_dhcp.php made changes</description>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
