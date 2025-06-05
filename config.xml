@@ -424,7 +424,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
       <tftp>192.168.1.3</tftp>
       <bootfilename>netboot.xyz.kpxe</bootfilename>
       <netboot>1</netboot>
-      <nextserver>192.168.8.3</nextserver>
+      <nextserver>192.168.1.3</nextserver>
       <filename>netboot.xyz.kpxe</filename>
       <filename32>netboot.xyz.efi</filename32>
       <filename64>netboot.xyz.efi</filename64>
@@ -1231,7 +1231,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
   </widgets>
   <revision>
     <username>alexg@192.168.4.39</username>
-    <time>1749088709.3316</time>
+    <time>1749088781.871</time>
     <description>/services_dhcp.php made changes</description>
   </revision>
   <OPNsense>
