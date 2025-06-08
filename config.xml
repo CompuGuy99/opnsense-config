@@ -1258,12 +1258,12 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
         <network>opt4</network>
       </source>
       <destination>
-        <address>internal_space,bogons</address>
+        <address>internal_space</address>
         <not>1</not>
       </destination>
       <updated>
         <username>alexg@192.168.1.101</username>
-        <time>1749423890.7166</time>
+        <time>1749423973.2956</time>
         <description>/firewall_rules_edit.php made changes</description>
       </updated>
       <created>
@@ -1285,7 +1285,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
   </widgets>
   <revision>
     <username>alexg@192.168.1.101</username>
-    <time>1749423890.7843</time>
+    <time>1749423973.3632</time>
     <description>/firewall_rules_edit.php made changes</description>
   </revision>
   <OPNsense>
