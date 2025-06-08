@@ -710,6 +710,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
         <time>1724625440.0203</time>
         <description>/firewall_nat_edit.php made changes</description>
       </created>
+      <disabled>1</disabled>
     </rule>
     <rule>
       <protocol>tcp</protocol>
@@ -1010,6 +1011,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
         <description>/firewall_nat_edit.php made changes</description>
       </created>
       <log>1</log>
+      <disabled>1</disabled>
     </rule>
     <rule uuid="34bc5b39-ac91-4b8e-bd64-1a0980ba6b8e">
       <associated-rule-id>nat_6771b7097cdbe5.82578008</associated-rule-id>
@@ -1283,8 +1285,8 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
   </widgets>
   <revision>
     <username>alexg@192.168.1.101</username>
-    <time>1749423121.8945</time>
-    <description>/firewall_nat.php made changes</description>
+    <time>1749423386.4115</time>
+    <description>Firewall: NAT: Port Forward, toggle NAT rule</description>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
