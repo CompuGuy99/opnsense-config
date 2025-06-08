@@ -1077,6 +1077,28 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
         <description>/firewall_nat_edit.php made changes</description>
       </created>
     </rule>
+    <rule uuid="5e2f7eef-2fa3-4c1f-ba3d-c3a3997cc398">
+      <type>pass</type>
+      <associated-rule-id>nat_684613cd752f99.25729294</associated-rule-id>
+      <source>
+        <any>1</any>
+      </source>
+      <interface>wan</interface>
+      <statetype>keep state</statetype>
+      <protocol>udp</protocol>
+      <ipprotocol>inet</ipprotocol>
+      <destination>
+        <address>syncthing</address>
+        <port>20979</port>
+      </destination>
+      <descr>Syncthing UDP</descr>
+      <category/>
+      <created>
+        <username>alexg@192.168.1.101</username>
+        <time>1749423053.48</time>
+        <description>/firewall_nat_edit.php made changes</description>
+      </created>
+    </rule>
     <rule uuid="e2b00d3d-11f7-4209-94fd-7c6f69200e3c">
       <type>pass</type>
       <interface>lan</interface>
@@ -1236,40 +1258,18 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
         <network>opt4</network>
       </source>
       <destination>
-        <address>bogons</address>
+        <address>internal_space,bogons</address>
         <not>1</not>
       </destination>
       <updated>
         <username>alexg@192.168.1.101</username>
-        <time>1739855830.6314</time>
+        <time>1749423890.7166</time>
         <description>/firewall_rules_edit.php made changes</description>
       </updated>
       <created>
         <username>alexg@192.168.1.101</username>
         <time>1739652755.781</time>
         <description>/firewall_rules_edit.php made changes</description>
-      </created>
-    </rule>
-    <rule>
-      <type>pass</type>
-      <associated-rule-id>nat_684613cd752f99.25729294</associated-rule-id>
-      <source>
-        <any>1</any>
-      </source>
-      <interface>wan</interface>
-      <statetype>keep state</statetype>
-      <protocol>udp</protocol>
-      <ipprotocol>inet</ipprotocol>
-      <destination>
-        <address>syncthing</address>
-        <port>20979</port>
-      </destination>
-      <descr>Syncthing UDP</descr>
-      <category/>
-      <created>
-        <username>alexg@192.168.1.101</username>
-        <time>1749423053.48</time>
-        <description>/firewall_nat_edit.php made changes</description>
       </created>
     </rule>
   </filter>
@@ -1285,8 +1285,8 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
   </widgets>
   <revision>
     <username>alexg@192.168.1.101</username>
-    <description>/api/firewall/alias/set made changes</description>
-    <time>1749423877.8021</time>
+    <time>1749423890.7843</time>
+    <description>/firewall_rules_edit.php made changes</description>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
