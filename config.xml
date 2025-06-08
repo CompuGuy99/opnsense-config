@@ -626,13 +626,13 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
       <interface>wan</interface>
       <category/>
       <ipprotocol>inet</ipprotocol>
-      <descr/>
+      <descr>Syncthing</descr>
       <tag/>
       <tagged/>
       <poolopts/>
       <associated-rule-id>nat_66cba796ae55c6.13152258</associated-rule-id>
       <target>syncthing</target>
-      <local-port>22000</local-port>
+      <local-port>20978</local-port>
       <source>
         <any>1</any>
       </source>
@@ -641,8 +641,8 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
         <port>22000</port>
       </destination>
       <updated>
-        <username>root@192.168.1.101</username>
-        <time>1724625595.6891</time>
+        <username>alexg@192.168.1.101</username>
+        <time>1749422967.2026</time>
         <description>/firewall_nat_edit.php made changes</description>
       </updated>
       <created>
@@ -949,9 +949,9 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
       <ipprotocol>inet</ipprotocol>
       <destination>
         <address>syncthing</address>
-        <port>22000</port>
+        <port>20978</port>
       </destination>
-      <descr/>
+      <descr>Syncthing</descr>
       <category/>
       <created>
         <username>root@192.168.1.101</username>
@@ -1230,9 +1230,9 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
     <column_count>2</column_count>
   </widgets>
   <revision>
-    <username>alexg@192.168.4.39</username>
-    <time>1749088781.871</time>
-    <description>/services_dhcp.php made changes</description>
+    <username>alexg@192.168.1.101</username>
+    <time>1749422967.2712</time>
+    <description>/firewall_nat_edit.php made changes</description>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
