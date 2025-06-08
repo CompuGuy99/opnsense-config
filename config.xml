@@ -948,6 +948,33 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
       </created>
       <disabled>1</disabled>
     </rule>
+    <rule uuid="55407afc-295c-4331-bba9-37d7b71542ef">
+      <type>pass</type>
+      <interface>lan,opt4</interface>
+      <ipprotocol>inet</ipprotocol>
+      <statetype>keep state</statetype>
+      <direction>any</direction>
+      <floating>yes</floating>
+      <quick>1</quick>
+      <protocol>tcp/udp</protocol>
+      <source>
+        <address>proxy</address>
+      </source>
+      <destination>
+        <address>compunas</address>
+        <port>30047</port>
+      </destination>
+      <updated>
+        <username>alexg@192.168.1.101</username>
+        <time>1749425162.8755</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </updated>
+      <created>
+        <username>alexg@192.168.1.101</username>
+        <time>1749425162.8755</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </created>
+    </rule>
     <rule uuid="58ae067c-0dda-4a13-89a3-9582c5864773">
       <associated-rule-id>nat_673bf1f41271c2.41888316</associated-rule-id>
       <source>
@@ -1285,7 +1312,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
   </widgets>
   <revision>
     <username>alexg@192.168.1.101</username>
-    <time>1749423973.3632</time>
+    <time>1749425162.9437</time>
     <description>/firewall_rules_edit.php made changes</description>
   </revision>
   <OPNsense>
