@@ -626,7 +626,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
       <interface>wan</interface>
       <category/>
       <ipprotocol>inet</ipprotocol>
-      <descr>Syncthing</descr>
+      <descr>Syncthing TCP</descr>
       <tag/>
       <tagged/>
       <poolopts/>
@@ -642,7 +642,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
       </destination>
       <updated>
         <username>alexg@192.168.1.101</username>
-        <time>1749423029.2197</time>
+        <time>1749423065.0333</time>
         <description>/firewall_nat_edit.php made changes</description>
       </updated>
       <created>
@@ -981,7 +981,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
         <address>syncthing</address>
         <port>20978</port>
       </destination>
-      <descr>Syncthing</descr>
+      <descr>Syncthing TCP</descr>
       <category/>
       <created>
         <username>root@192.168.1.101</username>
@@ -1283,7 +1283,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
   </widgets>
   <revision>
     <username>alexg@192.168.1.101</username>
-    <time>1749423053.554</time>
+    <time>1749423065.1035</time>
     <description>/firewall_nat_edit.php made changes</description>
   </revision>
   <OPNsense>
