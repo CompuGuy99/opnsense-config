@@ -622,7 +622,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
       </rule>
     </outbound>
     <rule>
-      <protocol>tcp/udp</protocol>
+      <protocol>tcp</protocol>
       <interface>wan</interface>
       <category/>
       <ipprotocol>inet</ipprotocol>
@@ -642,7 +642,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
       </destination>
       <updated>
         <username>alexg@192.168.1.101</username>
-        <time>1749422967.2026</time>
+        <time>1749423029.2197</time>
         <description>/firewall_nat_edit.php made changes</description>
       </updated>
       <created>
@@ -945,7 +945,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
       </source>
       <interface>wan</interface>
       <statetype>keep state</statetype>
-      <protocol>tcp/udp</protocol>
+      <protocol>tcp</protocol>
       <ipprotocol>inet</ipprotocol>
       <destination>
         <address>syncthing</address>
@@ -1231,7 +1231,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
   </widgets>
   <revision>
     <username>alexg@192.168.1.101</username>
-    <time>1749422967.2712</time>
+    <time>1749423029.2882</time>
     <description>/firewall_nat_edit.php made changes</description>
   </revision>
   <OPNsense>
