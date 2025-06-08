@@ -652,6 +652,36 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
       </created>
     </rule>
     <rule>
+      <protocol>udp</protocol>
+      <interface>wan</interface>
+      <category/>
+      <ipprotocol>inet</ipprotocol>
+      <descr>Syncthing UDP</descr>
+      <tag/>
+      <tagged/>
+      <poolopts/>
+      <associated-rule-id>nat_684613cd752f99.25729294</associated-rule-id>
+      <target>syncthing</target>
+      <local-port>20979</local-port>
+      <source>
+        <any>1</any>
+      </source>
+      <destination>
+        <network>wanip</network>
+        <port>22000</port>
+      </destination>
+      <updated>
+        <username>alexg@192.168.1.101</username>
+        <time>1749423053.48</time>
+        <description>/firewall_nat_edit.php made changes</description>
+      </updated>
+      <created>
+        <username>alexg@192.168.1.101</username>
+        <time>1749423053.48</time>
+        <description>/firewall_nat_edit.php made changes</description>
+      </created>
+    </rule>
+    <rule>
       <protocol>tcp/udp</protocol>
       <interface>wan</interface>
       <category/>
@@ -1218,6 +1248,28 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
         <description>/firewall_rules_edit.php made changes</description>
       </created>
     </rule>
+    <rule>
+      <type>pass</type>
+      <associated-rule-id>nat_684613cd752f99.25729294</associated-rule-id>
+      <source>
+        <any>1</any>
+      </source>
+      <interface>wan</interface>
+      <statetype>keep state</statetype>
+      <protocol>udp</protocol>
+      <ipprotocol>inet</ipprotocol>
+      <destination>
+        <address>syncthing</address>
+        <port>20979</port>
+      </destination>
+      <descr>Syncthing UDP</descr>
+      <category/>
+      <created>
+        <username>alexg@192.168.1.101</username>
+        <time>1749423053.48</time>
+        <description>/firewall_nat_edit.php made changes</description>
+      </created>
+    </rule>
   </filter>
   <rrd>
     <enable/>
@@ -1231,7 +1283,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
   </widgets>
   <revision>
     <username>alexg@192.168.1.101</username>
-    <time>1749423029.2882</time>
+    <time>1749423053.554</time>
     <description>/firewall_nat_edit.php made changes</description>
   </revision>
   <OPNsense>
