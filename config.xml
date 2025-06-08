@@ -976,6 +976,31 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
       </created>
       <log>1</log>
     </rule>
+    <rule uuid="cdf95fd7-c2d7-45ce-85e2-4060d41341ec">
+      <type>pass</type>
+      <interface>wan,opt1</interface>
+      <ipprotocol>inet</ipprotocol>
+      <statetype>keep state</statetype>
+      <direction>in</direction>
+      <floating>yes</floating>
+      <quick>1</quick>
+      <source>
+        <address>192.168.4.42</address>
+      </source>
+      <destination>
+        <any>1</any>
+      </destination>
+      <updated>
+        <username>alexg@192.168.1.101</username>
+        <time>1749427012.3186</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </updated>
+      <created>
+        <username>alexg@192.168.1.101</username>
+        <time>1749427012.3186</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </created>
+    </rule>
     <rule uuid="58ae067c-0dda-4a13-89a3-9582c5864773">
       <associated-rule-id>nat_673bf1f41271c2.41888316</associated-rule-id>
       <source>
@@ -1313,8 +1338,8 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
   </widgets>
   <revision>
     <username>alexg@192.168.1.101</username>
-    <time>1749425169.1315</time>
-    <description>/firewall_rules.php made changes</description>
+    <time>1749427012.3862</time>
+    <description>/firewall_rules_edit.php made changes</description>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
