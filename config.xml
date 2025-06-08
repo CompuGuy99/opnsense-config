@@ -977,7 +977,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
       <log>1</log>
     </rule>
     <rule uuid="cdf95fd7-c2d7-45ce-85e2-4060d41341ec">
-      <type>pass</type>
+      <type>block</type>
       <interface>wan,opt1</interface>
       <ipprotocol>inet</ipprotocol>
       <statetype>keep state</statetype>
@@ -985,14 +985,14 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
       <floating>yes</floating>
       <quick>1</quick>
       <source>
-        <address>192.168.4.42</address>
+        <address>192.168.4.42/32</address>
       </source>
       <destination>
         <any>1</any>
       </destination>
       <updated>
         <username>alexg@192.168.1.101</username>
-        <time>1749427012.3186</time>
+        <time>1749427039.4859</time>
         <description>/firewall_rules_edit.php made changes</description>
       </updated>
       <created>
@@ -1338,7 +1338,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
   </widgets>
   <revision>
     <username>alexg@192.168.1.101</username>
-    <time>1749427012.3862</time>
+    <time>1749427039.5534</time>
     <description>/firewall_rules_edit.php made changes</description>
   </revision>
   <OPNsense>
