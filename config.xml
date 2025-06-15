@@ -490,7 +490,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
         <ntpserver/>
       </staticmap>
       <staticmap>
-        <mac>40:b0:34:41:e7:de</mac>
+        <mac>e8:ea:6a:b1:d4:ec</mac>
         <ipaddr>192.168.1.10</ipaddr>
         <hostname>media</hostname>
         <winsserver/>
@@ -1339,8 +1339,8 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
   </widgets>
   <revision>
     <username>alexg@192.168.1.101</username>
-    <description>/api/unbound/settings/toggleHostAlias/a91095e2-0d30-4113-a828-84131374d91a made changes</description>
-    <time>1750018568.3341</time>
+    <time>1750023834.868</time>
+    <description>/services_dhcp_edit.php made changes</description>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
