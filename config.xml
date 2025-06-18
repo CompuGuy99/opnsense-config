@@ -241,7 +241,7 @@
       <priv/>
       <language/>
       <descr>Alex Guymon</descr>
-      <dashboard/>
+      <dashboard>eyJvcHRpb25zIjpbXSwid2lkZ2V0cyI6W3siaWQiOiJzeXN0ZW1pbmZvcm1hdGlvbiIsIm1pblciOjIsIngiOjAsInkiOjAsImgiOjUzMiwid2lkZ2V0IjpbXSwidyI6Mn0seyJpZCI6Im1lbW9yeSIsIm1pblciOjEsIngiOjIsInkiOjAsImgiOjExNSwid2lkZ2V0IjpbXSwidyI6bnVsbH0seyJpZCI6ImRpc2siLCJtaW5XIjoxLCJ4IjozLCJ5IjowLCJoIjoxMTUsIndpZGdldCI6W10sInciOm51bGx9LHsiaWQiOiJpbnRlcmZhY2VzdGF0aXN0aWNzIiwibWluVyI6MiwieCI6NCwieSI6MCwidyI6NCwic2l6ZVRvQ29udGVudCI6NjUwLCJoIjozMDIsIndpZGdldCI6W119LHsiaWQiOiJmaXJld2FsbCIsIm1pblciOjIsIngiOjgsInkiOjAsInciOjQsImgiOjMwMiwid2lkZ2V0IjpbXX0seyJpZCI6ImdhdGV3YXlzIiwibWluVyI6MiwieCI6MiwieSI6MTE1LCJzaXplVG9Db250ZW50Ijo2NTAsImgiOjMyNywid2lkZ2V0Ijp7ImdhdGV3YXlzIjpbImVkMDdiMzNhLTk5ZTItNDNhNi05M2EzLTc0MzcwYWExMGQxNiIsIkxBTl9TTEFBQyIsIjAyNGI4ZjczLTEyYWYtNGY2MC05MDMyLTBkMDA1N2IwMmE4YSJdfSwidyI6Mn0seyJpZCI6InNlcnZpY2VzIiwibWluVyI6MiwieCI6NCwieSI6MzAyLCJ3Ijo0LCJzaXplVG9Db250ZW50Ijo2NTAsImgiOjY1MCwid2lkZ2V0IjpbXX0seyJpZCI6InRyYWZmaWMiLCJtaW5XIjoyLCJ4Ijo4LCJ5IjozMDIsInciOjQsImgiOjQ3MSwid2lkZ2V0Ijp7ImludGVyZmFjZXMiOlsibGFuIiwib3B0NCIsIndhbiIsIm9wdDEiXX19LHsiaWQiOiJhbm5vdW5jZW1lbnRzIiwibWluVyI6MiwieCI6MiwieSI6NDQyLCJzaXplVG9Db250ZW50IjozNTAsImgiOjM1MCwid2lkZ2V0IjpbXSwidyI6Mn0seyJpZCI6ImNwdSIsIm1pblciOjIsIngiOjAsInkiOjUzMiwiaCI6MjA2LCJ3aWRnZXQiOnsiZ3JhcGhzIjpbInRvdGFsIl19LCJ3IjoyfV19</dashboard>
     </user>
     <nextuid>2001</nextuid>
     <nextgid>2000</nextgid>
@@ -1338,9 +1338,9 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
     <column_count>2</column_count>
   </widgets>
   <revision>
-    <username>alexg@192.168.1.101</username>
-    <time>1750023834.868</time>
-    <description>/services_dhcp_edit.php made changes</description>
+    <username>alexg@192.168.4.39</username>
+    <description>/api/core/dashboard/saveWidgets made changes</description>
+    <time>1750289557.436</time>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
