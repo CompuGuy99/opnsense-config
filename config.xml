@@ -1347,9 +1347,9 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
     <column_count>2</column_count>
   </widgets>
   <revision>
-    <username>alexg@192.168.1.101</username>
-    <description>/api/trust/cert/add/ made changes</description>
-    <time>1750906624.2473</time>
+    <username>alexg@192.168.4.39</username>
+    <description>/api/firewall/alias/addItem/ made changes</description>
+    <time>1750979222.0804</time>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
@@ -1579,6 +1579,22 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
             <counters>0</counters>
             <updatefreq/>
             <content>192.168.1.23</content>
+            <password/>
+            <username/>
+            <authtype/>
+            <categories/>
+            <description/>
+          </alias>
+          <alias uuid="336a624e-2650-41c4-b3fe-33bf61ff4dec">
+            <enabled>1</enabled>
+            <name>authentik</name>
+            <type>host</type>
+            <path_expression/>
+            <proto/>
+            <interface/>
+            <counters>0</counters>
+            <updatefreq/>
+            <content>192.168.1.2</content>
             <password/>
             <username/>
             <authtype/>
