@@ -441,6 +441,14 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
       <dnsserver/>
       <ntpserver/>
       <staticmap>
+        <mac>bc:24:11:f4:43:36</mac>
+        <ipaddr>192.168.1.2</ipaddr>
+        <hostname>auth</hostname>
+        <winsserver/>
+        <dnsserver/>
+        <ntpserver/>
+      </staticmap>
+      <staticmap>
         <mac>00:25:90:fa:ed:c8</mac>
         <ipaddr>192.168.1.3</ipaddr>
         <hostname>compunas</hostname>
@@ -1340,8 +1348,8 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
   </widgets>
   <revision>
     <username>alexg@192.168.1.101</username>
-    <time>1750898265.2658</time>
-    <description>/firewall_nat.php made changes</description>
+    <time>1750904133.8438</time>
+    <description>/services_dhcp_edit.php made changes</description>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
