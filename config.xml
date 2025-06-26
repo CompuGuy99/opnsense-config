@@ -717,7 +717,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
       <interface>wan</interface>
       <category/>
       <ipprotocol>inet</ipprotocol>
-      <descr/>
+      <descr>Plex Internet Connection</descr>
       <tag/>
       <tagged/>
       <poolopts/>
@@ -733,7 +733,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
       </destination>
       <updated>
         <username>alexg@192.168.1.101</username>
-        <time>1739333724.3114</time>
+        <time>1750898202.869</time>
         <description>/firewall_nat_edit.php made changes</description>
       </updated>
       <created>
@@ -1015,14 +1015,13 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
         <address>syncthing</address>
         <port>32400</port>
       </destination>
-      <descr/>
+      <descr>Plex Internet Connection</descr>
       <category/>
       <created>
         <username>alexg@192.168.1.101</username>
         <time>1731981812.0756</time>
         <description>/firewall_nat_edit.php made changes</description>
       </created>
-      <log>1</log>
     </rule>
     <rule uuid="4afcd541-9e71-4ee3-98ed-fa4550aecc91">
       <associated-rule-id>nat_66cba796ae55c6.13152258</associated-rule-id>
@@ -1343,8 +1342,8 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
   </widgets>
   <revision>
     <username>alexg@192.168.1.101</username>
-    <time>1750898149.4623</time>
-    <description>/firewall_rules.php made changes</description>
+    <time>1750898202.9395</time>
+    <description>/firewall_nat_edit.php made changes</description>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
