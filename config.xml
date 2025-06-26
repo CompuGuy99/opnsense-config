@@ -778,7 +778,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
       <interface>wan</interface>
       <category/>
       <ipprotocol>inet</ipprotocol>
-      <descr/>
+      <descr>Inbound HTTP to DMZ</descr>
       <tag/>
       <tagged/>
       <poolopts/>
@@ -794,7 +794,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
       </destination>
       <updated>
         <username>alexg@192.168.1.101</username>
-        <time>1739662210.6733</time>
+        <time>1750898240.9111</time>
         <description>/firewall_nat_edit.php made changes</description>
       </updated>
       <created>
@@ -1102,14 +1102,13 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
         <address>proxy</address>
         <port>80</port>
       </destination>
-      <descr/>
+      <descr>Inbound HTTP to DMZ</descr>
       <category/>
       <created>
         <username>alexg@192.168.1.101</username>
         <time>1739649481.4364</time>
         <description>/firewall_nat_edit.php made changes</description>
       </created>
-      <log>1</log>
     </rule>
     <rule uuid="dd1a8622-c59a-4a9e-8779-a87478f0785a">
       <associated-rule-id>nat_67b0f1e1d7f237.78707600</associated-rule-id>
@@ -1342,8 +1341,8 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
   </widgets>
   <revision>
     <username>alexg@192.168.1.101</username>
-    <time>1750898205.9383</time>
-    <description>/firewall_nat.php made changes</description>
+    <time>1750898240.9814</time>
+    <description>/firewall_nat_edit.php made changes</description>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
