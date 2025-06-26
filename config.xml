@@ -808,7 +808,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
       <interface>wan</interface>
       <category/>
       <ipprotocol>inet</ipprotocol>
-      <descr/>
+      <descr>Inbound HTTPS Only to DMZ</descr>
       <tag/>
       <tagged/>
       <poolopts/>
@@ -824,7 +824,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
       </destination>
       <updated>
         <username>alexg@192.168.1.101</username>
-        <time>1739662216.5529</time>
+        <time>1750898263.2987</time>
         <description>/firewall_nat_edit.php made changes</description>
       </updated>
       <created>
@@ -1123,14 +1123,13 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
         <address>proxy</address>
         <port>443</port>
       </destination>
-      <descr/>
+      <descr>Inbound HTTPS Only to DMZ</descr>
       <category/>
       <created>
         <username>alexg@192.168.1.101</username>
         <time>1739649505.8845</time>
         <description>/firewall_nat_edit.php made changes</description>
       </created>
-      <log>1</log>
     </rule>
     <rule uuid="5e2f7eef-2fa3-4c1f-ba3d-c3a3997cc398">
       <type>pass</type>
@@ -1341,7 +1340,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
   </widgets>
   <revision>
     <username>alexg@192.168.1.101</username>
-    <time>1750898240.9814</time>
+    <time>1750898263.368</time>
     <description>/firewall_nat_edit.php made changes</description>
   </revision>
   <OPNsense>
