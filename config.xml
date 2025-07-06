@@ -498,6 +498,14 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
         <ntpserver/>
       </staticmap>
       <staticmap>
+        <mac>bc:24:11:60:d2:65</mac>
+        <ipaddr>192.168.1.9</ipaddr>
+        <hostname>newfound</hostname>
+        <winsserver/>
+        <dnsserver/>
+        <ntpserver/>
+      </staticmap>
+      <staticmap>
         <mac>e8:ea:6a:b1:d4:ec</mac>
         <ipaddr>192.168.1.10</ipaddr>
         <hostname>media</hostname>
@@ -1375,9 +1383,9 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#xD;
     <column_count>2</column_count>
   </widgets>
   <revision>
-    <username>alexg@192.168.4.39</username>
-    <time>1750979251.5933</time>
-    <description>/firewall_rules_edit.php made changes</description>
+    <username>alexg@192.168.1.101</username>
+    <time>1751775842.0447</time>
+    <description>/services_dhcp_edit.php made changes</description>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
