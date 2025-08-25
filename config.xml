@@ -1385,7 +1385,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#13;
   <revision>
     <username>(system)</username>
     <description>/usr/local/opnsense/mvc/script/run_migrations.php made changes</description>
-    <time>1756164597.4199</time>
+    <time>1756165555.32</time>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
@@ -1744,9 +1744,10 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#13;
           <http_port>8000</http_port>
         </general>
       </ctrl_agent>
-      <dhcp4 version="1.0.3">
+      <dhcp4 version="1.0.4" persisted_at="1756165281.41">
         <general>
           <enabled>0</enabled>
+          <manual_config>0</manual_config>
           <interfaces/>
           <valid_lifetime>4000</valid_lifetime>
           <fwrules>1</fwrules>
@@ -2527,7 +2528,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#13;
     <serial>1</serial>
     <caref>66cbd6edeb6bf</caref>
   </ca>
-  <dnsmasq version="1.0.7">
+  <dnsmasq version="1.0.8" persisted_at="1756165554.01">
     <enable>0</enable>
     <regdhcp>0</regdhcp>
     <regdhcpstatic>0</regdhcpstatic>
@@ -2553,6 +2554,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#13;
       <no_interface/>
       <fqdn>1</fqdn>
       <domain/>
+      <local>1</local>
       <lease_max/>
       <authoritative>0</authoritative>
       <default_fw_rules>1</default_fw_rules>
