@@ -1329,9 +1329,9 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#13;
     <column_count>2</column_count>
   </widgets>
   <revision>
-    <username>alexg@192.168.4.39</username>
-    <description>/firewall_nat.php made changes</description>
-    <time>1757645594.05</time>
+    <username>(system)</username>
+    <description>/usr/local/opnsense/mvc/script/run_migrations.php made changes</description>
+    <time>1761096690.96</time>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
@@ -1346,7 +1346,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#13;
         <servers/>
       </server>
     </wireguard>
-    <IPsec version="1.0.4">
+    <IPsec version="1.0.5" persisted_at="1761096690.37">
       <general>
         <enabled/>
         <preferred_oldsa>0</preferred_oldsa>
@@ -1727,7 +1727,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#13;
         <ha_peers/>
       </dhcp6>
     </Kea>
-    <monit version="1.0.13">
+    <monit version="1.0.14" persisted_at="1761096689.42">
       <general>
         <enabled>0</enabled>
         <interval>120</interval>
@@ -1804,7 +1804,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#13;
         <type>custom</type>
         <pidfile/>
         <match/>
-        <path>/usr/local/opnsense/scripts/OPNsense/Monit/carp_status</path>
+        <path>/usr/local/opnsense/scripts/monit/carp_status.php</path>
         <timeout>300</timeout>
         <starttimeout>30</starttimeout>
         <address/>
@@ -1822,7 +1822,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#13;
         <type>custom</type>
         <pidfile/>
         <match/>
-        <path>/usr/local/opnsense/scripts/OPNsense/Monit/gateway_alert</path>
+        <path>/usr/local/opnsense/scripts/monit/gateway_alert.php</path>
         <timeout>300</timeout>
         <starttimeout>30</starttimeout>
         <address/>
