@@ -333,9 +333,11 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#13;
         <password/>
       </git>
     </backup>
-    <dnssearchdomain>compuguy.dev</dnssearchdomain>
+    <dnssearchdomain>compuguy.dev,int.compuguy.dev</dnssearchdomain>
     <disablereplyto>yes</disablereplyto>
     <prefer_ipv4>1</prefer_ipv4>
+    <dnsallowoverride>0</dnsallowoverride>
+    <dnsallowoverride_exclude/>
   </system>
   <interfaces>
     <wan>
@@ -1330,8 +1332,8 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#13;
   </widgets>
   <revision>
     <username>alexg@192.168.1.101</username>
-    <description>/diag_backup.php made changes</description>
-    <time>1762404216.49</time>
+    <description>/system_general.php made changes</description>
+    <time>1762404302.52</time>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
