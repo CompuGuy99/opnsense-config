@@ -318,7 +318,7 @@
     <serialspeed>115200</serialspeed>
     <primaryconsole>video</primaryconsole>
     <backup>
-      <git version="1.0.0" persisted_at="1756165571.89">
+      <git version="1.0.0" persisted_at="1762404216.49">
         <enabled>1</enabled>
         <url>ssh://github.com/CompuGuy99/opnsense-config.git</url>
         <branch>main</branch>
@@ -1329,9 +1329,9 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#13;
     <column_count>2</column_count>
   </widgets>
   <revision>
-    <username>(system)</username>
-    <description>/usr/local/opnsense/mvc/script/run_migrations.php made changes</description>
-    <time>1761096690.96</time>
+    <username>alexg@192.168.1.101</username>
+    <description>/diag_backup.php made changes</description>
+    <time>1762404216.49</time>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
