@@ -1331,9 +1331,9 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#13;
     <column_count>2</column_count>
   </widgets>
   <revision>
-    <username>alexg@192.168.1.101</username>
-    <description>/system_general.php made changes</description>
-    <time>1762404302.52</time>
+    <username>(system)</username>
+    <description>/usr/local/opnsense/mvc/script/run_migrations.php made changes</description>
+    <time>1762408005.81</time>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
@@ -1344,7 +1344,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#13;
       <general version="0.0.1">
         <enabled>0</enabled>
       </general>
-      <server version="1.0.0">
+      <server version="1.0.1" persisted_at="1762408005.21">
         <servers/>
       </server>
     </wireguard>
@@ -1638,7 +1638,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#13;
       <activeTimeout>1800</activeTimeout>
       <inactiveTimeout>15</inactiveTimeout>
     </Netflow>
-    <IDS version="1.1.0">
+    <IDS version="1.1.1" persisted_at="1762408005.30">
       <rules/>
       <policies/>
       <userDefinedRules/>
