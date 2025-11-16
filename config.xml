@@ -432,7 +432,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#13;
       <filename64>netboot.xyz.efi</filename64>
       <filename32arm>netboot.xyz-arm64.efi</filename32arm>
       <filename64arm>netboot.xyz-arm64.efi</filename64arm>
-      <filenameipxe>netboot.xyz.kpxe</filenameipxe>
+      <filenameipxe>netboot.xyz.efi</filenameipxe>
       <numberoptions>
         <item/>
       </numberoptions>
@@ -1334,7 +1334,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#13;
   <revision>
     <username>alexg@192.168.4.39</username>
     <description>/services_dhcp.php made changes</description>
-    <time>1763333809.31</time>
+    <time>1763334361.00</time>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
