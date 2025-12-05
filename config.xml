@@ -638,6 +638,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#13;
           <time>1735505592.5604</time>
           <description>/firewall_nat_out_edit.php made changes</description>
         </created>
+        <disabled>1</disabled>
       </rule>
     </outbound>
     <rule>
@@ -1332,9 +1333,9 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#13;
     <column_count>2</column_count>
   </widgets>
   <revision>
-    <username>(system)</username>
-    <description>/usr/local/opnsense/mvc/script/run_migrations.php made changes</description>
-    <time>1764901510.74</time>
+    <username>alexg@192.168.1.101</username>
+    <description>Firewall: NAT: Outbound, toggle NAT rule</description>
+    <time>1764901789.48</time>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
